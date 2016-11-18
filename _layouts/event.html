@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+
+<!-- Slider Start -->
+<section id="global-header" class="event-hero" style="background-image: url({{ site.url }}/{{ page.assets.cover}})"></section>
+
+<div class="post">
+  <!-- Wrapper Start -->
+  <section id="intro" style="border: 1px dotted #ddd;">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="block">
+            <h1>{{ page.title }}</h1>
+            <hr />
+            
+            <ul class="list-inline">
+              {% if page.event.eventbrite %}
+                <li><a href="https://www.eventbrite.it/e/{{page.event.eventbrite}}" class="btn btn-primary">Eventbrite</a></li>
+              {% endif %}
+              
+              {% if page.event.youtube %}
+                <li><a href="{{page.event.youtube}}" class="btn btn-primary">Youtube</a></li>
+              {% endif %}
+
+              {% if page.event.foto %}
+                <li><a href="{{page.event.foto}}" class="btn btn-primary">Foto</a></li>
+              {% endif %}
+
+              {% if page.event.slides %}
+                <li><a href="{{page.event.slides}}" class="btn btn-primary">Slides</a></li>
+              {% endif %}
+
+            </ul>
+
+            <p>{{ content }}</p>
+          </div>
+        </div><!-- .col-md-7 close -->
+      </div>
+
+      
+
+
+      {% if page.event.eventbrite %}
+      <div class="row">
+        <div class="col-sm-12">
+          <div style="width:100%; text-align:left;"><iframe src="//eventbrite.it/tickets-external?eid={{page.event.eventbrite}}&ref=etckt" frameborder="0" height="385" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank" href="http://www.eventbrite.it/">Con tecnologia Eventbrite</a></div></div>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  
+    {% include post-navigation.html %}
+  
+  </section>
+  
+</div>
+
+

@@ -1,0 +1,120 @@
+
+exclude:
+  - "/vendor/"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - "LICENSE.md"
+  - "*.gemspec"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
+
+
+# Site settings
+title: Fevr
+subtitle: "Frontenders Verona"
+# Base URL of site. It should always start with a slash,
+# and never end with a slash. Set it to a blank value if hosting at the
+# root of your server.
+# baseurl: "/" # the subpath of your site
+url: "http://fevr.it" # the base hostname & protocol for your site
+baseurl: ""
+cover: "/assets/cover.png"
+logo: "/assets/logo.png"
+
+# Build settings
+markdown: kramdown
+
+# Google analytics
+# ga_tracking_id: "UA-XXXX-1"
+
+
+# Category descriptions (for archive pages)
+descriptions:
+  - cat: eventi
+    desc: "I nostri eventi."
+
+sponsor:
+  - name: "Graffiti HUB"
+    img: "img/sponsor/graffitihub.png"
+    url: "https://www.facebook.com/GraffitiHub/"
+
+  - name: "Kaleidoscope Studio"
+    img: "img/sponsor/kaleidoscope.png"
+    url: "http://www.kaleidoscope.it/"
+
+  - name: "JetBrains"
+    img: "img/sponsor/jetbrains.png"
+    url: "https://www.facebook.com/GraffitiHub/"
+
+  - name: "O'Reilly"
+    img: "img/sponsor/oreilly.png"
+    url:
+
+  - name: "Plural Sight"
+    img: "img/sponsor/pluralsight.png"
+    url:
+
+  - name: "Avocode"
+    img: "img/sponsor/avocode.png"
+    url:
+
+
+social:
+  email: "fevr.gruppo@gmail.com"
+  facebook:
+    user: "frontendersverona"
+    url: "https://www.facebook.com/groups/frontendersverona/"
+  twitter:
+    user: "__fevr"
+    url: "https://twitter.com/__fevr"
+  slack:
+    url: "http://fevr.herokuapp.com/"
+  eventbrite:
+    url: "http://www.eventbrite.it/o/fevr-7297766259"
+
+team:
+  - name: "Matteo Guidotto"
+    role: "Project Manager"
+    img: "img/matteo.jpg"
+    social:
+      - name: Facebook
+        url: "https://www.facebook.com/matteoguidotto"
+        icon: fa-facebook
+
+      - name: Twitter
+        url: "https://twitter.com/j8matteo"
+        icon: fa-twitter
+
+      - name: SlideShare
+        url: "http://www.slideshare.net/matteoguidotto"
+        icon: fa-slideshare
+
+      - name: LinkedIn
+        url: "https://www.linkedin.com/in/matteoguidotto"
+        icon: fa-linkedin
+
+  - name: "Marco Solazzi"
+    role: "Senior Frontend Developer"
+    img: "img/marco.jpg"
+    social:
+      - name: Facebook
+        url: "https://www.facebook.com/dwightjack"
+        icon: fa-facebook
+
+      - name: Twitter
+        url: "https://twitter.com/dwightjack"
+        icon: fa-twitter
+
+      - name: Github
+        url: "https://github.com/dwightjack"
+        icon: fa-github
+
+      - name: LinkedIn
+        url: "https://www.linkedin.com/in/marcosolazzi"
+        icon: fa-linkedin
+
+

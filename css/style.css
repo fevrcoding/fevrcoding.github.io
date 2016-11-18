@@ -1,0 +1,213 @@
+/*
+ * This css file includes styles added in the jekyll port of this theme.
+ * To find the original style.css that ships with Airspace, read airspace.css
+ *
+ */
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.post-area {
+    padding: 40px;
+    width: 100%;
+    min-height: 150px;
+    background-color: white;
+    border-bottom: 1px dotted #ddd;
+}
+
+.post-area a:link, .post-area a:visited {
+    font-size: 30px;
+    color: #333;
+}
+
+.post-area a:hover {
+    color: #0D0017;
+}
+
+#slider{
+    padding: 250px 0;
+    text-align: center;
+}
+
+#slider::before{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#slider .block h1 {
+    font-weight: 600;
+    font-size: 55px;
+    letter-spacing: 0;
+    padding-bottom: 20px;
+}
+
+#slider .block p {
+    letter-spacing: 0;
+    font-weight: 400;
+}
+
+.yellow-btn, .blue-btn, .red-btn {
+    display: inline-block !important;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 13px 35px 13px 35px;
+    border-radius: 4px;
+    margin: 10px;
+    border: none;
+    color: #FFF !important;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.yellow-btn{
+    background: #ebad26;
+}
+.blue-btn{
+    background-color: #3276b1;
+    border-color: #285e8e;
+}
+.red-btn{
+    background: #e96656;
+}
+
+#eventi{
+    padding: 50px 0;
+}
+
+#about{
+    padding: 50px 0;
+    background: #ebad26;
+    color: #ffffff;
+}
+
+#about .section-title p{
+    color: #ffffff;
+}
+
+
+/*  -- Events section -- */
+
+#eventi .col-sm-3:nth-child(4n+1) {
+    clear: both;
+}
+
+
+/*  -- Team section -- */
+
+.team-box {
+    display: inline-block;
+    float: none !important;
+    margin-right: -4px;
+    vertical-align: top;
+    margin-bottom: 25px;
+}
+
+.red-border-bottom::before {
+    position: absolute;
+    margin: auto;
+    z-index: 1;
+    content: "";
+    width: 75%;
+    height: 2px;
+    background: #e96656;
+    bottom: -9px;
+    left: 12.5%;
+}
+
+.our-team .col-sm-3:nth-child(4n+1) {
+    clear: both;
+}
+
+
+.our-team .row > div:nth-child(4n+1) .red-border-bottom::before {
+    background: #e96656;
+}
+
+.our-team .row > div:nth-child(4n+2) .red-border-bottom::before {
+    background: #34d293;
+}
+
+.our-team .row > div:nth-child(4n+3) .red-border-bottom::before {
+    background: #3ab0e2;
+}
+
+.our-team .row > div:nth-child(4n+4) .red-border-bottom::before {
+    background: #ebad26;
+}
+
+.team-member {
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.team-member .profile-pic {
+    border-radius: 50%;
+    width: 174px;
+    height: 174px;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.team-member .member-details {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.team-member h3 {
+    text-transform: uppercase;
+    color: #404040;
+    font-weight: 700;
+    font-size: 17px;
+    position: relative;
+    margin-top: 15px;
+}
+
+.team-member .position {
+    font-size: 13px;
+    color: #404040;
+}
+
+/*  -- End Team section -- */
+
+#sponsor{
+    padding: 50px 0;
+}
+
+#intro{
+    padding: 50px 0;
+}
+
+#global-header.event-hero{
+    padding-top: 300px;
+}
+
+#intro .block img{
+    width: auto;
+    max-width: 100%;
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+.sponsor-item {
+    margin: 25px 0;
+    text-align: center;
+}
+
+footer .social{
+    margin-bottom: 20px;
+}

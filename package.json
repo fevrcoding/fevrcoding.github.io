@@ -1,0 +1,19 @@
+{
+  "name": "fevr-new",
+  "version": "1.0.0",
+  "description": "Fevr static website",
+  "main": "index.js",
+  "scripts": {
+    "serve": "bundle exec jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/kinometal/fevr-new.git"
+  },
+  "author": "Luca 'Kino' Maroni",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/kinometal/fevr-new#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

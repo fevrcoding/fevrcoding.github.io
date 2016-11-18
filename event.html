@@ -1,0 +1,28 @@
+---
+layout: page
+title: Eventi
+permalink: /eventi/
+---
+<!-- Slider Start -->
+<section id="global-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Scopri i nostri eventi.</h1>
+          <p>Scopri i nostri eventi.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% for post in site.posts %}
+<div class="post-area">
+  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+  {% if post.category == 'eventi' %}
+    <p class="post-date">{{ post.event.speaker }} - {{post.event.date | date: "%d/%m/%Y"}} - {{post.event.location}} </p>
+  {% else %}
+    <p class="post-date">{{ post.subtitle }} </p>
+  {% endif %}
+</div>
+{% endfor %}

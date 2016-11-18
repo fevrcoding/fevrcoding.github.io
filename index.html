@@ -1,0 +1,159 @@
+---
+layout: page
+title: FEVR - Eventi e formazione frontend javascript Verona
+permalink: /
+---
+
+<!-- Slider Start -->
+{% for post in site.categories['eventi'] limit:1 %}
+<section id="slider" style="background-image: url({{ site.url }}/{{ post.assets.cover}})">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="block">
+                    <h1 class="animated fadeInUp">{{post.title | upcase}}</h1>
+                    <div class="animated fadeInUp buttons">
+                        <p>
+                            {{ post.event.speaker }} - {{post.event.date | date: "%d/%m/%Y"}} - {{post.event.location}}
+                        </p>
+                        <p>
+                            <a href="{{ post.url | prepend: site.baseurl }}" class="btn yellow-btn">Dettagli</a>
+                        </p>
+                        <p>
+                            Seguici su:<br>
+                            <a href="{{site.social.facebook.url}}" target="_blank" class="btn blue-btn">Facebook</a>
+                            <a href="{{site.social.slack.url}}" target="_blank" class="btn red-btn">Slack</a>
+                            <a href="{{site.social.twitter.url}}" target="_blank" class="btn blue-btn">Twitter</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endfor %}
+
+
+<!-- Wrapper Start -->
+<section id="eventi">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="block">
+                    <div class="section-title">
+                        <h2>Eventi</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, modi? <br>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet autem ea eius expedita, impedit ipsum magnam nulla quos sint.
+                        </p>
+
+
+                        <ul class="row">
+                            {% for post in site.categories['eventi'] limit:8 %}
+                            <li class="col-sm-3">
+                                <a href="{{ post.url | prepend: site.baseurl }}">
+                                    <span class="img">
+                                        <img class="img-rounded img-responsive center-block" src="{{ site.url }}/{{ post.assets.img500}}" alt="{{post.title}}" style="min-height: 300px;">
+                                    </span>
+                                    <span class="title">{{post.title | upcase}}</span>
+                                    <span class="description">{{ post.event.speaker }} - {{post.event.date | date: "%d/%m/%Y"}} - {{post.event.location}}</span>
+                                </a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- .col-md-7 close -->
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="block">
+                    <div class="section-title">
+                        <h2>Chi siamo</h2>
+                        <p>
+                            FEVR promuove eventi e corsi sullo sviluppo frontend e delle interfacce digitali. <br>
+                            Puoi contattarci alla nostra mail, sulla community Facebook oppure sul nostro canale Slack.
+                        </p>
+                    </div>
+                    <div class="our-team">
+                        <div class="row">
+
+                            {% for member in site.team %}
+                            <div class="col-lg-3 col-sm-3 team-box">
+                                <div class="team-member">
+                                    <figure class="profile-pic">
+                                        <img class="img-responsive center-block img-circle" src="{{ site.baseurl }}/{{member.img}}" alt="{{member.name}}">
+                                    </figure>
+                                    <div class="member-details">
+                                        <h3 class="dark-text red-border-bottom">{{member.name | upcase}}</h3>
+                                        <div class="position">{{member.role}}</div>
+                                    </div>
+                                    <div class="social-icons">
+                                        <ul>
+                                            {% for social in member.social %}
+                                                <li><a href="{{social.url}}" target="_blank" title="{{member.name}} su {{social.name}}"><i class="fa white-text {{social.icon}}"></i></a></li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+
+                        </div>
+                    </div>
+
+                </div>
+            </div><!-- .col-md-7 close -->
+        </div>
+    </div>
+</section>
+
+<section id="feature">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-6">
+                <h2>I nostri eventi</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, placeat!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, placeat!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, placeat!</p>
+                <p>Da oltre 2 anni organizziamo un meetup mensile, raggiungendo oltre 50 professionisti del settore</p>
+                <p>Abbiamo inoltre collaborato con il <a href="http://www.grusp.org/it/">GrUSP</a> all'organizzazione del ReactJS Day 2016, svoltosi il 7/10/2016 a Verona con oltre 200 partecipanti.</p>
+                <a href="#" class="btn btn-view-works">Mostra gli eventi</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Service Start -->
+<section id="sponsor">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="section-title">
+                    <h2>Sponsor &amp; Friends</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, placeat!</p>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+
+            {% for sp in site.sponsor %}
+            <div class="col-sm-6 col-md-3">
+                <div class="sponsor-item">
+                    <a href="{{sp.url}}">
+                        <img src="{{ site.baseurl }}/{{sp.img}}" class="img-circle img-responsive center-block" alt="{{sp.name}}">
+                    </a>
+                    <!-- <h4>{{sp.name}}</h4> -->
+                </div>
+            </div>
+            {% endfor %}
+
+
+        </div>
+    </div>
+</section>

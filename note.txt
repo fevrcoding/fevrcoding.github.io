@@ -1,0 +1,26 @@
+24/11/2016 - Offline First Application											- Mattia Manzati										- Graffiti HUB
+27/10/2016 - Historiae Javascript												- Marco Solazzi											- Graffiti HUB
+07/10/2016 - ReactJS Day 2016													-														- Hotel San Marco 
+21/09/2016 - Frontend & Backend: an endless love								- Marco Albarelli e Nicola Bosco						- Graffiti HUB
+23/05/2016 - Responsive images in da house										- Andrea De Carolis										- Graffiti HUB
+13/04/2016 - Meteor: Full-stack Javascript for real-time apps					- Nicholas Valbusa										- Graffiti HUB
+15/03/2016 - About Flexbox, you can’t float anymore								- Davide di Pumpo, Giacomo Zanetti e Alessandro Muraro	- Graffiti HUB
+16/02/2016 - La vita dopo Angular 1.X											- Salvatore Laisa										- Graffiti HUB
+20/01/2016 - ES6: The future of Javascript										- Robert Casanova e Nicholas Ruggeri					- Graffiti HUB
+15/12/2015 - From frontend to backend: from Js to Nodejs						- Davide Zeffiro 										- Graffiti HUB
+26/11/2015 - Polymer from Components to App										- Maurizio Mangione										- Graffiti HUB
+30/10/2015 - ReactJS Day 2015 													-														- Hotel San Marco
+22/10/2015 - Manage the Flux of your web application: let's Redux 				- Francesco Strazzullo 									- Graffiti HUB
+23/09/2015 - Sound of Happiness - Designer VS Developer 						- Filippo Matteo Riggio e Cristiana Tappi 				- Startup Gym
+25/06/2015 - Microsoft Unplugged with Pietro Brambati 							- Pietro Brambati Microsoft Italia 						- The Fab
+20/05/2015 - REACT JS - Rethinking UI Development 								- Stefano Ceschi Berrini 								- Startup Gym
+23/04/2015 - Lean Frontend Development 											- Matteo Guidotto e Marco Solazzi 						- Graffiti HUB
+19/03/2015 - Build your first web app for the Internet of Things in 15 minutes	- Andrea Reginato 										- The Fab
+19/02/2015 - Another Build in the World: GULPJS of Google Web Starter Kit 		- Paolo Cargnin 										- The Fab
+22/01/2015 - Hybrid Apps Development with AngularJS, Ionic and Cordova 			- Matteo Ronchi 										- The Fab
+??/12/2014 - Easy Cross-Browser Testing with Selenium 							- ? 													- The Fab
+20/11/2014 - SASS gives superpowers to your CSS 								- Federico Bonomi 										- The Fab
+23/10/2014 - Automated Front-end Development with Grunt 						- Marco Solazzi 										- The Fab
+25/09/2014 - CSS3 Transforms Transitions and Animations 						- Alberto Quaglia 										- The Fab
+??/08/2014 - Workshop AngularJS 												- Marco Solazzi 										- Geekville
+
