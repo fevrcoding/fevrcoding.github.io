@@ -12,10 +12,18 @@ event:
   date: 2016-09-21 19:00:00
   location: Graffiti HUB
 
-  eventbrite:
-  youtube: 
+  eventbrite: 27480712551
+  youtube: 5pWpiAn2DMw
   foto:
   slides:
+    - author: Nicola
+      type: speakerdeck
+      url: 'https://speakerdeck.com/fevr/frontend-and-backend-an-endless-love'
+      id: 'fa6f6395014b41ff831b335a795065aa'
+    - author: Marco
+      type: slides
+      url: 'https://slides.com/marcoalbarelli/sf3_sdc_bevr'
+      id: 'marcoalbarelli/sf3_sdc_bevr'
 
 assets:
   cover: img/2016/09/settembre-hero.jpg

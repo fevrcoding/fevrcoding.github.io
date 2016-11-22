@@ -15,7 +15,7 @@ event:
   eventbrite:
   youtube: 
   foto:
-  slides:
+  slides: https://speakerdeck.com/fevr/historiae-javascript
 
 assets:
   cover: img/2016/10/ottobre-hero.png
