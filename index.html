@@ -42,7 +42,7 @@ permalink: /
                 <div class="block">
                     <div class="section-title">
                         <h2>Eventi</h2>
-                        <p>
+                        <p class="eventi-text">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, modi? <br>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet autem ea eius expedita, impedit ipsum magnam nulla quos sint.
                         </p>
@@ -50,13 +50,13 @@ permalink: /
 
                         <ul class="row">
                             {% for post in site.categories['eventi'] limit:8 %}
-                            <li class="col-sm-3">
-                                <a href="{{ post.url | prepend: site.baseurl }}">
-                                    <span class="img">
+                            <li class="col-sm-3 evento-item-wrapper">
+                                <a class="evento-item" href="{{ post.url | prepend: site.baseurl }}">
+                                    <span class="evento-img">
                                         <img class="img-rounded img-responsive center-block" src="{{ site.url }}/{{ post.assets.img500}}" alt="{{post.title}}">
                                     </span>
-                                    <span class="title">{{post.title | upcase}}</span>
-                                    <span class="description">{{ post.event.speaker }} - {{post.event.date | date: "%d/%m/%Y"}} - {{post.event.location}}</span>
+                                    <span class="evento-title line">{{post.title | upcase}}</span>
+                                    <span class="evento-description">{{ post.event.speaker }} - {{post.event.date | date: "%d/%m/%Y"}} - {{post.event.location}}</span>
                                 </a>
                             </li>
                             {% endfor %}
