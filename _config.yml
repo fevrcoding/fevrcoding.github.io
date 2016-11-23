@@ -48,19 +48,19 @@ sponsor:
 
   - name: "JetBrains"
     img: "img/sponsor/jetbrains.png"
-    url: "https://www.facebook.com/GraffitiHub/"
+    url: "https://www.jetbrains.com/"
 
   - name: "O'Reilly"
     img: "img/sponsor/oreilly.png"
-    url:
+    url: "http://www.oreilly.com/"
 
   - name: "Plural Sight"
     img: "img/sponsor/pluralsight.png"
-    url:
+    url: "https://www.pluralsight.com/"
 
   - name: "Avocode"
     img: "img/sponsor/avocode.png"
-    url:
+    url: "https://avocode.com/"
 
 
 social:

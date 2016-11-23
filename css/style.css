@@ -22,15 +22,61 @@
     min-height: 150px;
     background-color: white;
     border-bottom: 1px dotted #ddd;
+    display: block;
+    position: relative;
+    border-left: 0 solid red;
+    -webkit-transition: border-left-width .3s;
+    -moz-transition: border-left-width .3s;
+    -ms-transition: border-left-width .3s;
+    -o-transition: border-left-width .3s;
+    transition: border-left-width .3s;
 }
 
-.post-area a:link, .post-area a:visited {
-    font-size: 30px;
+.post-area:nth-child(4n+1){
+    border-left-color: #e96656;
+}
+
+.post-area:nth-child(4n+2){
+    border-left-color: #34d293;
+}
+
+.post-area:nth-child(4n+3){
+    border-left-color: #3ab0e2;
+}
+
+.post-area:nth-child(4n+4){
+    border-left-color: #ebad26;
+}
+
+.post-area:nth-child(4n+1) .post-title{
+    color: #e96656;
+}
+.post-area:nth-child(4n+2) .post-title{
+    color: #34d293;
+}
+.post-area:nth-child(4n+3) .post-title{
+    color: #3ab0e2;
+}
+.post-area:nth-child(4n+4) .post-title{
+    color: #ebad26;
+}
+
+.post-area:link, .post-area:visited {
     color: #333;
 }
 
-.post-area a:hover {
+.post-area:hover {
     color: #0D0017;
+    border-left-width: 15px;
+}
+
+
+.post-title{
+    font-size: 30px;
+    display: block;
+}
+.post-date{
+    display: block;
 }
 
 #slider{
@@ -53,6 +99,17 @@
     letter-spacing: 0;
     font-weight: 400;
 }
+
+#global-header .block{
+    padding-left: 0;
+}
+
+#feature h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 600;
+}
+
 
 .yellow-btn, .blue-btn, .red-btn {
     display: inline-block !important;
@@ -85,11 +142,11 @@
 #about{
     padding: 50px 0;
     background: #ebad26;
-    color: #ffffff;
+    color: #333;
 }
 
 #about .section-title p{
-    color: #ffffff;
+    color: #333;
 }
 
 
@@ -125,22 +182,6 @@
 
 #eventi .evento-item-wrapper:nth-child(4n+4) .line::before {
     background: #ebad26;
-}
-
-#eventi .evento-item{
-    position: relative;
-    top: 0;
-    -webkit-transition: top .3s;
-    -moz-transition: top .3s;
-    -ms-transition: top .3s;
-    -o-transition: top .3s;
-    transition: top .3s;
-
-}
-
-#eventi .evento-item:hover{
-    position: relative;
-    top: 15px;
 }
 
 #eventi .eventi-text{
@@ -279,9 +320,27 @@
 
 .sponsor-item {
     margin: 25px 0;
+    display: block;
     text-align: center;
+
 }
+
+
 
 footer .social{
     margin-bottom: 20px;
+}
+
+.slide-down-hover{
+    position: relative;
+    top: 0;
+    -webkit-transition: top .3s;
+    -moz-transition: top .3s;
+    -ms-transition: top .3s;
+    -o-transition: top .3s;
+    transition: top .3s;
+}
+
+.slide-down-hover:hover, .slide-down-hover:focus{
+    top: 15px;
 }

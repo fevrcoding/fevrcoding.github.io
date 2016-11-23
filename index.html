@@ -50,8 +50,8 @@ permalink: /
 
                         <ul class="row">
                             {% for post in site.categories['eventi'] limit:8 %}
-                            <li class="col-sm-3 evento-item-wrapper">
-                                <a class="evento-item" href="{{ post.url | prepend: site.baseurl }}">
+                            <li class="col-sm-3 col-xs-12 evento-item-wrapper">
+                                <a class="evento-item slide-down-hover" href="{{ post.url | prepend: site.baseurl }}">
                                     <span class="evento-img">
                                         <img class="img-rounded img-responsive center-block" src="{{ site.url }}/{{ post.assets.img500}}" alt="{{post.title}}">
                                     </span>
@@ -84,7 +84,7 @@ permalink: /
                         <div class="row">
 
                             {% for member in site.team %}
-                            <div class="col-lg-3 col-sm-3 team-box">
+                            <div class="col-lg-3 col-sm-3 col-xs-12 team-box">
                                 <div class="team-member">
                                     <figure class="profile-pic">
                                         <img class="img-responsive center-block img-circle" src="{{ site.baseurl }}/{{member.img}}" alt="{{member.name}}">
@@ -123,7 +123,7 @@ permalink: /
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, placeat!</p>
                 <p>Da oltre 2 anni organizziamo un meetup mensile, raggiungendo oltre 50 professionisti del settore</p>
                 <p>Abbiamo inoltre collaborato con il <a href="http://www.grusp.org/it/">GrUSP</a> all'organizzazione del ReactJS Day 2016, svoltosi il 7/10/2016 a Verona con oltre 200 partecipanti.</p>
-                <a href="#" class="btn btn-view-works">Mostra gli eventi</a>
+                <a href="{{ site.baseurl }}/eventi" class="btn btn-view-works">Mostra gli eventi</a>
             </div>
         </div>
     </div>
@@ -141,19 +141,14 @@ permalink: /
             </div>
         </div>
         <div class="row ">
-
             {% for sp in site.sponsor %}
             <div class="col-sm-6 col-md-3">
-                <div class="sponsor-item">
-                    <a href="{{sp.url}}">
-                        <img src="{{ site.baseurl }}/{{sp.img}}" class="img-circle img-responsive center-block" alt="{{sp.name}}">
-                    </a>
+                <a class="sponsor-item slide-down-hover" href="{{sp.url}}">
+                    <img src="{{ site.baseurl }}/{{sp.img}}" class="img-circle img-responsive center-block" alt="{{sp.name}}">
                     <!-- <h4>{{sp.name}}</h4> -->
-                </div>
+                </a>
             </div>
             {% endfor %}
-
-
         </div>
     </div>
 </section>

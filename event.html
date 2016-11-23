@@ -17,12 +17,12 @@ permalink: /eventi/
   </div>
 </section>
 {% for post in site.posts %}
-<div class="post-area">
-  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+<a href="{{ post.url | prepend: site.baseurl }}" class="post-area">
+  <span  class="post-title">{{ post.title }}</span>
   {% if post.category == 'eventi' %}
-    <p class="post-date">{{ post.event.speaker }} - {{post.event.date | date: "%d/%m/%Y"}} - {{post.event.location}} </p>
+    <span class="post-date">{{ post.event.speaker }} - {{post.event.date | date: "%d/%m/%Y"}} - {{post.event.location}} </span>
   {% else %}
-    <p class="post-date">{{ post.subtitle }} </p>
+    <span class="post-date">{{ post.subtitle }} </span>
   {% endif %}
-</div>
+</a>
 {% endfor %}
