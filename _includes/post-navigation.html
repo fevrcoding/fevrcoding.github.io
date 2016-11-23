@@ -1,11 +1,16 @@
 <div class="container">
   <div class="row">
-    <div class="col-xs-6 text-left">
+
+    <div class="col-xs-12">
+      <hr />
+    </div>
+
+    <div class="col-xs-12 col-sm-6 post-navigation text-left">
       {% if page.next.url %}
         <a class="prev" href="{{page.next.url}}">&laquo; {{page.next.title}}</a>
       {% endif %}
     </div>
-    <div class="col-xs-6 text-right">
+    <div class="col-xs-12 col-sm-6 post-navigation text-right">
       {% if page.previous.url %}
         <a class="next" href="{{page.previous.url}}">{{page.previous.title}} &raquo;</a>
       {% endif %}
