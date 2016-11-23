@@ -344,3 +344,33 @@ footer .social{
 .slide-down-hover:hover, .slide-down-hover:focus{
     top: 15px;
 }
+
+.social-list{
+    font-size: 18px;
+    text-align: center;
+}
+
+.social-list .social-list-element{
+    padding: 20px;
+}
+
+.social-list .social-list-element .social-link{
+    text-align: center;
+    color: #595959;
+}
+
+.social-list .social-list-element .social-link:hover{
+    color: #2a6496;
+}
+
+.social-list .social-list-element .social-icon{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+}
+.social-list .social-list-element .social-name{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 22px;
+}
