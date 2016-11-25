@@ -141,13 +141,14 @@
 
 #about{
     padding: 50px 0;
-    background: #ebad26;
+    background: #f5b83d;
     color: #333;
 }
 
 #about .section-title p{
     color: #333;
 }
+
 
 
 /*  -- Events section -- */
@@ -255,7 +256,7 @@
 }
 
 .our-team .row > div:nth-child(4n+4) .red-border-bottom::before {
-    background: #ebad26;
+    background: #e67e22;
 }
 
 .team-member {
@@ -268,11 +269,9 @@
 
 .team-member .profile-pic {
     border-radius: 50%;
-    width: 174px;
-    height: 174px;
     margin: auto;
     overflow: hidden;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .team-member .member-details {
@@ -283,7 +282,7 @@
 
 .team-member h3 {
     text-transform: uppercase;
-    color: #404040;
+    color: #2c3e50;
     font-weight: 700;
     font-size: 17px;
     position: relative;
@@ -292,7 +291,20 @@
 
 .team-member .position {
     font-size: 13px;
-    color: #404040;
+    color: #2c3e50;
+}
+
+.team-member .social-icons {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.team-member .social-icons a i{
+    color: #2c3e50;
+}
+
+.team-member .social-icons a:hover i{
+    color: #34495e;
 }
 
 /*  -- End Team section -- */

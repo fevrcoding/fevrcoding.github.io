@@ -117,4 +117,45 @@ team:
         url: "https://www.linkedin.com/in/marcosolazzi"
         icon: fa-linkedin
 
+  - name: "Matteo Ronchi"
+    role: "Senior Software Engineer"
+    img: "img/matteo-ronchi.jpg"
+    social:
+      - name: Facebook
+        url: "https://www.facebook.com/matteo.ronchi.979"
+        icon: fa-facebook
+
+      - name: Twitter
+        url: "https://twitter.com/cef62"
+        icon: fa-twitter
+
+      - name: Github
+        url: "https://github.com/cef62"
+        icon: fa-github
+
+      - name: LinkedIn
+        url: "https://www.linkedin.com/in/matteoronchi"
+        icon: fa-linkedin
+
+
+  - name: "Luca Maroni"
+    role: "Frontend Developer"
+    img: "img/luca-maroni.jpg"
+    social:
+      - name: Facebook
+        url: "https://www.facebook.com/lucakinomaroni"
+        icon: fa-facebook
+
+      - name: Twitter
+        url: "https://twitter.com/lucakinomaroni"
+        icon: fa-twitter
+
+      - name: Github
+        url: "https://github.com/kino90"
+        icon: fa-github
+
+      - name: LinkedIn
+        url: "https://www.linkedin.com/in/lucakinomaroni"
+        icon: fa-linkedin
+
 

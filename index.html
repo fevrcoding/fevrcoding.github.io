@@ -94,11 +94,11 @@ permalink: /
                                         <div class="position">{{member.role}}</div>
                                     </div>
                                     <div class="social-icons">
-                                        <ul>
+                                        <div class="row">
                                             {% for social in member.social %}
-                                                <li><a href="{{social.url}}" target="_blank" title="{{member.name}} su {{social.name}}"><i class="fa white-text {{social.icon}}"></i></a></li>
+                                                <div class="col-xs-2 col-xs-push-2"><a href="{{social.url}}" target="_blank" title="{{member.name}} su {{social.name}}"><i class="fa white-text {{social.icon}}"></i></a></div>
                                             {% endfor %}
-                                        </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
