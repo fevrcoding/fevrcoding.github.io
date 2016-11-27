@@ -25,18 +25,26 @@ layout: default
                 <li><a href="{{page.event.youtube}}" class="btn btn-danger">Youtube</a></li>
               {% endif %}
 
+              {% if page.event.videogallery %}
+              <li><a href="{{page.event.videogallery}}" class="btn btn-danger">Video</a></li>
+              {% endif %}
+
               {% if page.event.foto %}
                 <li><a href="{{page.event.foto}}" class="btn btn-primary">Foto</a></li>
               {% endif %}
 
               {% if page.event.slides %}
-                {% if page.event.slides.length == 1 %}
-                  <li><a href="{{page.event.slides}}" class="btn btn-success">Slides</a></li>
-                {% else%}
                   {% for slide in page.event.slides %}
-                    <li><a href="{{slide.url}}" class="btn btn-success">Slides {{slide.author}}</a></li>
+                    <li>
+                      <a href="{{slide.url}}" class="btn btn-success">
+                        {% if page.event.slides.size == 1 %}
+                          Slides
+                        {% else%}
+                          Slides {{slide.author}}
+                        {% endif %}
+                      </a>
+                    </li>
                   {% endfor %}
-                {% endif %}
               {% endif %}
 
             </ul>
