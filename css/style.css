@@ -317,6 +317,11 @@
     padding: 50px 0;
 }
 
+#intro .block ul{
+    color: #7B7B7B;
+    padding-top: 20px;
+}
+
 #global-header.event-hero{
     padding-top: 300px;
 }
