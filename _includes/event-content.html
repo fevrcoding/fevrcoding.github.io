@@ -1,0 +1,107 @@
+<div class="row post__wrapper">
+    <div class="col-sm-12">
+        <div class="block">
+            <h1>{{ page.title }}</h1>
+            <hr />
+
+            <ul class="list-inline">
+                {% if page.event.eventbrite %}
+                <li><a href="https://www.eventbrite.it/e/{{page.event.eventbrite}}" class="btn btn-warning">Eventbrite</a></li>
+                {% endif %}
+
+                {% if page.event.youtube %}
+                <li><a href="{{page.event.youtube}}" class="btn btn-danger">Video</a></li>
+                {% endif %}
+
+                {% if page.event.videogallery %}
+                <li><a href="{{page.event.videogallery}}" class="btn btn-danger">Video</a></li>
+                {% endif %}
+
+                {% if page.event.foto %}
+                <li><a href="{{page.event.foto}}" class="btn btn-primary">Foto</a></li>
+                {% endif %}
+
+                {% if page.event.slides %}
+                {% for slide in page.event.slides %}
+                <li>
+                    <a href="{{slide.url}}" class="btn btn-success">
+                        {% if page.event.slides.size == 1 %}
+                        Slides
+                        {% else%}
+                        Slides {{slide.author}}
+                        {% endif %}
+                    </a>
+                </li>
+                {% endfor %}
+                {% endif %}
+
+            </ul>
+
+            <p>{{ content }}</p>
+        </div>
+    </div>
+</div>
+
+<!-- Youtube embed -->
+{% if page.event.youtube %}
+<hr />
+
+<div class="row youtube__wrapper">
+    <div class="col-sm-6">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://www.youtube.com/embed/{{page.event.youtube}}" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+        </div>
+    </div>
+</div>
+{% endif %}
+<!-- end of Youtube embed -->
+
+
+{% if page.event.slides %}
+<hr />
+
+<div class="row slides__wrapper">
+    {% for slide in page.event.slides %}
+    <div class="col-sm-6">
+        <div class="embed-responsive embed-responsive-4by3">
+            {% if slide.type == 'slides' %}
+
+            <!-- Slides.com embed -->
+            <iframe src="//slides.com/{{slide.id}}/embed?style=light" scrolling="no" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" frameborder="0"></iframe>
+            <!-- end Slides.com embed -->
+
+            {% else if slide.type == 'speakerdeck' %}
+
+            <!-- SpeakerDeck embed -->
+            <iframe class="speakerdeck-iframe" src="http://speakerdeck.com/player/{{slide.id}}" style="border: 0px none; background: transparent none repeat scroll 0% 0%; margin: 0px; padding: 0px; border-radius: 5px;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" frameborder="0"></iframe>
+            <!-- end of SpeakerDeck embed -->
+
+            {% else %}
+
+            <!-- Button fallback -->
+            <a href="{{slide.url}}" class="btn btn-primary">Slides {{slide.author}}</a>
+            <!-- end of Button fallback -->
+
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+
+<!-- Eventbrite embed -->
+{% if page.event.eventbrite %}
+<hr />
+
+<div class="row eventbrite__wrapper">
+    <div class="col-sm-12">
+        <div style="width:100%; text-align:left;"><iframe src="//eventbrite.it/tickets-external?eid={{page.event.eventbrite}}&ref=etckt" frameborder="0" height="385" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank" href="http://www.eventbrite.it/">Con tecnologia Eventbrite</a></div></div>
+    </div>
+</div>
+{% endif %}
+<!-- end of Eventbrite embed -->
+
+<!-- Post Navigation -->
+{% include post-navigation.html %}
+<!-- end of Post Navigation -->

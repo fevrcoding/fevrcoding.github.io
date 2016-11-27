@@ -395,3 +395,12 @@ footer .social{
 .post-navigation{
     padding: 20px;
 }
+
+.post-sidebar__list{
+    padding-left: 20px;
+    color: #dddddd;
+}
+.post-sidebar__list-element{
+    list-style-type: disc;
+    padding: 5px 0;
+}
