@@ -12,10 +12,14 @@ event:
   date: 2016-10-27 19:00:00
   location: Graffiti HUB
 
-  eventbrite:
-  youtube: 
+  eventbrite: 28448104045
+  youtube: j5GrvQaSbjk
   foto:
-  slides: https://speakerdeck.com/fevr/historiae-javascript
+  slides:
+      - author: Marco
+        type: speakerdeck
+        url: 'https://speakerdeck.com/fevr/historiae-javascript'
+        id: '781047ee4d9c48fe8ed99fe8cc959152'
 
 assets:
   cover: img/2016/10/ottobre-hero.png
