@@ -12,11 +12,14 @@ event:
   date: 2016-03-15 19:00:00
   location: Graffiti HUB
 
-  eventbrite:
-  youtube: 
+  eventbrite: 20808562972
+  youtube: SFcSrY9p2_c
   foto: https://www.facebook.com/media/set/?set=oa.1057059581025882&type=3
   slides:
-
+          - author: Davide
+            type: speakerdeck
+            url: 'https://speakerdeck.com/fevr/about-flexbox-you-cant-float-anymore'
+            id: '83b40cf85a9f4211b0ca6094d700ddbc'
 assets:
   cover: img/2016/03/marzo-hero.jpg
   img500: img/2016/03/marzo.jpg
@@ -26,10 +29,15 @@ assets:
   img150: img/2016/03/marzo-150x150.jpg
 ---
 
-Presentazione-flexbox
+Durante il talk faremo un excursus su come abbiamo gestito i layout CSS ieri, come possiamo farlo oggi
+e su come potremo farlo domani.
+Scopriremo cos’è flex-box e come esso sia oggi un compagno valido per il nostro lavoro.
+Il tutto accompagnato da fantastiche gif di gattini.
+
+Relatori della serata i fondatori e coordinatori di Milano Frontend Meetup
 
 ## QUANDO
-Mercoledì 21 settembre 2016 dalle 19:00 alle 20:30
+Martedì 15 marzo 2016 dalle 19:00 alle 20:30
 
 ## DOVE
 Graffiti HUB – Via Legnago 126, 37121 Verona
