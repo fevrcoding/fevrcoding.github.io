@@ -52,7 +52,7 @@ nella Silicon Valley.
 
 
 ## QUANDO
-Mercoledì 21 settembre 2016 dalle 19:00 alle 20:30
+Mercoledì 13 aprile 2016 dalle 19:00 alle 20:30
 
 ## DOVE
 Graffiti HUB – Via Legnago 126, 37121 Verona
