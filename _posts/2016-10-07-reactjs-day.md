@@ -13,8 +13,9 @@ event:
   location: Hotel S. Marco
 
   eventbrite: 26067148543
-  youtube: 
-  foto:
+  youtube:
+  videogallery: https://vimeo.com/album/4199344
+  foto: https://www.facebook.com/media/set/?set=oa.1210520269013145&type=3
   slides:
 
 assets:
@@ -26,17 +27,19 @@ assets:
   img150: img/2016/10/reactjsday-150x150.png
 ---
 
+React is an open-source JavaScript library for creating user interfaces that aims to address challenges encountered
+in developing single-page applications.
+
+After a successful 2015 conference with over 200 atteendees, ReactJS Day is back!
+A full-day conference in english about the latest developments in the React world will take place on
+October 7, 2016 in the lovely city of Verona, Italy.
+
+Great speakers will talk about reactive/rx programming, performance, graphql vs falcor, immutable, universal,
+flow, jest/ava/tape/mocha testing, native android/win... and perhaps about javascript fatigue and semicolons ;-)
 
 
-React is an open-source JavaScript library for creating user interfaces that aims to address challenges encountered in developing single-page applications.
+## WHEN
+Friday 7 October 2016 from 9:00 to 18:00
 
-After a successful 2015 conference with over 200 atteendees, ReactJS Day is back! A full-day conference in english about the latest developments in the React world will take place on October 7, 2016 in the lovely city of Verona, Italy.
-
-Great speakers will talk about reactive/rx programming, performance, graphql vs falcor, immutable, universal, flow, jest/ava/tape/mocha testing, native android/win... and perhaps about javascript fatigue and semicolons ;-)
-
-
-## QUANDO
-Mercoledì 27 ottobre 2016 dalle 19:00 alle 20:30
-
-## DOVE
-Graffiti HUB – Via Legnago 126, 37121 Verona
+## WHERE
+Hotel S.Marco – Via Baldassarre Longhena, 42, 37138 Verona
