@@ -12,8 +12,8 @@ event:
   date: 2015-12-15 19:00:00
   location: Graffiti HUB
 
-  eventbrite:
-  youtube: 
+  eventbrite: 19674078699
+  youtube: roQnxpJKlRU
   foto: https://www.facebook.com/media/set/?set=oa.996771500388024&type=3
   slides:
 

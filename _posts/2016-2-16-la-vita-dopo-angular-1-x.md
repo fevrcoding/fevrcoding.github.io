@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "La vita dopo Angular 1.X"
+title: "La vita dopo Angular 1.x"
 subtitle: Salvatore Laisa – 15 Marzo 2016 – Graffiti HUB
 date: 2016-02-01 00:00:00
 author: fevr
@@ -12,8 +12,8 @@ event:
   date: 2016-02-16 19:00:00
   location: Graffiti HUB
 
-  eventbrite:
-  youtube: 
+  eventbrite: 20805906025
+  youtube: 2oyTJsZjUos
   foto: https://www.facebook.com/media/set/?set=oa.1037454759653031&type=3
   slides:
 

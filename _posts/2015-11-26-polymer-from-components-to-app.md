@@ -12,8 +12,8 @@ event:
   date: 2015-11-26 19:00:00
   location: Graffiti HUB
 
-  eventbrite:
-  youtube: 
+  eventbrite: 19376272954
+  youtube: 6lDmsz_xWzg
   foto: https://www.facebook.com/media/set/?set=oa.988387854559722&type=3
   slides:
 

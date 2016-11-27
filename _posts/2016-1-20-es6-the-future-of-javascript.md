@@ -12,8 +12,8 @@ event:
   date: 2016-01-20 19:00:00
   location: Graffiti HUB
 
-  eventbrite:
-  youtube: 
+  eventbrite: 20251911011
+  youtube: fRJj_4FOwSw
   foto: https://www.facebook.com/media/set/?set=oa.1019565318108642&type=3
   slides:
 
