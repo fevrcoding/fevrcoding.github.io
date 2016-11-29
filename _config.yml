@@ -14,23 +14,24 @@ keep_files:
 
 
 # Site settings
-title: Fevr
-subtitle: "Frontenders Verona"
+title: "FEVR"
+subtitle: "Eventi e formazione frontend javascript Verona"
 # Base URL of site. It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 # baseurl: "/" # the subpath of your site
-url: "https://fevrcoding.github.io/" # the base hostname & protocol for your site
+url: "https://fevrcoding.github.io" # the base hostname & protocol for your site
 baseurl: ""
-cover: "/assets/cover.png"
-logo: "/assets/logo.png"
 
 # Build settings
 markdown: kramdown
 
-# Google analytics
-# ga_tracking_id: "UA-XXXX-1"
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
 
+# Google analytics
+ga_tracking_id: "UA-3216603-10"
 
 # Category descriptions (for archive pages)
 descriptions:
