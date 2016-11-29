@@ -14,7 +14,7 @@ keep_files:
 
 
 # Site settings
-title: "FEVR - Frontenders Verona"
+title: "FEVR - Frontenders Verona - Eventi e formazione frontend javascript Verona"
 subtitle: "Eventi e formazione frontend javascript Verona"
 # Base URL of site. It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
@@ -29,6 +29,7 @@ markdown: kramdown
 gems:
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Google analytics
 ga_tracking_id: "UA-3216603-10"
