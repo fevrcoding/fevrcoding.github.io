@@ -14,7 +14,7 @@ keep_files:
 
 
 # Site settings
-title: "FEVR"
+title: "FEVR - Frontenders Verona"
 subtitle: "Eventi e formazione frontend javascript Verona"
 # Base URL of site. It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
