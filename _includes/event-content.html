@@ -48,9 +48,7 @@
 
 <div class="row youtube__wrapper">
     <div class="col-sm-6">
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe src="https://www.youtube.com/embed/{{page.event.youtube}}" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-        </div>
+        {% include youtube.html id=page.event.youtube %}
     </div>
 </div>
 {% endif %}
@@ -66,15 +64,11 @@
         <div class="embed-responsive embed-responsive-4by3">
             {% if slide.type == 'slides' %}
 
-            <!-- Slides.com embed -->
-            <iframe src="//slides.com/{{slide.id}}/embed?style=light" scrolling="no" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" frameborder="0"></iframe>
-            <!-- end Slides.com embed -->
+                {% include slides.html id=slide.id %}
 
             {% else if slide.type == 'speakerdeck' %}
 
-            <!-- SpeakerDeck embed -->
-            <iframe class="speakerdeck-iframe" src="http://speakerdeck.com/player/{{slide.id}}" style="border: 0px none; background: transparent none repeat scroll 0% 0%; margin: 0px; padding: 0px; border-radius: 5px;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" frameborder="0"></iframe>
-            <!-- end of SpeakerDeck embed -->
+                {% include speakerdeck.html id=slide.id %}
 
             {% else %}
 
@@ -96,7 +90,7 @@
 
 <div class="row eventbrite__wrapper">
     <div class="col-sm-12">
-        <div style="width:100%; text-align:left;"><iframe src="//eventbrite.it/tickets-external?eid={{page.event.eventbrite}}&ref=etckt" frameborder="0" height="385" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank" href="http://www.eventbrite.it/">Con tecnologia Eventbrite</a></div></div>
+        {% include eventbrite.html id=page.event.eventbrite %}
     </div>
 </div>
 {% endif %}
