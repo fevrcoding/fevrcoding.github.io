@@ -14,8 +14,12 @@ event:
 
   eventbrite: 29204153409
   youtube: 
-  foto:
+  foto: https://www.facebook.com/media/set/?set=oa.1277652835633221&type=1
   slides:
+    - author: Mattia
+      type: slides
+      url: 'https://slides.com/mattiamanzati/offline-first-application'
+      id: 'mattiamanzati/offline-first-application'
 
 assets:
   cover: img/2016/11/novembre-hero.jpg
