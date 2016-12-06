@@ -14,7 +14,7 @@
                 {% endif %}
 
                 {% if page.event.videogallery %}
-                <li><a href="{{page.event.videogallery}}" class="btn btn-danger">Video</a></li>
+                <li><a href="https://vimeo.com/album/{{page.event.videogallery}}" class="btn btn-danger">Video</a></li>
                 {% endif %}
 
                 {% if page.event.foto %}
@@ -54,6 +54,17 @@
 {% endif %}
 <!-- end of Youtube embed -->
 
+<!-- Vimeo Videogallery embed -->
+{% if page.event.videogallery %}
+<hr />
+
+<div class="row vimeo-videogallery__wrapper">
+    <div class="col-sm-12">
+        {% include vimeo-videogallery.html id=page.event.videogallery %}
+    </div>
+</div>
+{% endif %}
+<!-- end of Vimeo Videogallery embed -->
 
 {% if page.event.slides %}
 <hr />
