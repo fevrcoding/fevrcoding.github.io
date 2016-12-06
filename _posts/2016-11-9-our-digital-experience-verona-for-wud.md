@@ -1,14 +1,14 @@
 ---
 layout: event
 title: Our Digital Experience - Verona for WUD
-subtitle: Meetup - 9 Novembre 2016 – 311 Verona
+subtitle: Conferenza - 9 Novembre 2016 – 311 Verona
 date: 2016-10-01 00:00:00
 author: fevr
 category: eventi
 published: true
 
 event:
-  speaker: Meetup
+  speaker: Conferenza
   date: 2016-10-27 19:00:00
   location: 311 Verona
 
