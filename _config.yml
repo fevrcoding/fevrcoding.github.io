@@ -77,6 +77,10 @@ social:
     url: "http://fevr.herokuapp.com/"
   eventbrite:
     url: "http://www.eventbrite.it/o/fevr-7297766259"
+  youtube:
+    url: "https://www.youtube.com/channel/UCyBgo76Z93uqEXqK6GmxN5w"
+  speakerdeck:
+    url: "https://speakerdeck.com/fevr"
 
 team:
   - name: "Matteo Guidotto"
