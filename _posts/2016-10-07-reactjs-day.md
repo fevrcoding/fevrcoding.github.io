@@ -14,7 +14,7 @@ event:
 
   eventbrite: 26067148543
   youtube:
-  videogallery: https://vimeo.com/album/4199344
+  videogallery: 4199344
   foto: https://www.facebook.com/media/set/?set=oa.1210520269013145&type=3
   slides:
 
