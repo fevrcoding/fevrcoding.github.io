@@ -6,33 +6,33 @@
 
             <ul class="list-inline">
                 {% if page.event.eventbrite %}
-                <li><a href="https://www.eventbrite.it/e/{{page.event.eventbrite}}" class="btn btn-warning">Eventbrite</a></li>
+                <li><a href="https://www.eventbrite.it/e/{{page.event.eventbrite}}" class="btn btn-warning" target="_blank">Eventbrite</a></li>
                 {% endif %}
 
                 {% if page.event.youtube %}
-                <li><a href="{{page.event.youtube}}" class="btn btn-danger">Video</a></li>
+                <li><a href="{{page.event.youtube}}" class="btn btn-danger" target="_blank">Video</a></li>
                 {% endif %}
 
                 {% if page.event.videogallery %}
-                <li><a href="https://vimeo.com/album/{{page.event.videogallery}}" class="btn btn-danger">Video</a></li>
+                <li><a href="https://vimeo.com/album/{{page.event.videogallery}}" class="btn btn-danger" target="_blank">Video</a></li>
                 {% endif %}
 
                 {% if page.event.foto %}
-                <li><a href="{{page.event.foto}}" class="btn btn-primary">Foto</a></li>
+                <li><a href="{{page.event.foto}}" class="btn btn-primary" target="_blank">Foto</a></li>
                 {% endif %}
 
                 {% if page.event.slides %}
-                {% for slide in page.event.slides %}
-                <li>
-                    <a href="{{slide.url}}" class="btn btn-success">
-                        {% if page.event.slides.size == 1 %}
-                        Slides
-                        {% else%}
-                        Slides {{slide.author}}
-                        {% endif %}
-                    </a>
-                </li>
-                {% endfor %}
+                    {% for slide in page.event.slides %}
+                    <li>
+                        <a href="{{slide.url}}" class="btn btn-success" target="_blank">
+                            {% if page.event.slides.size == 1 %}
+                            Slides
+                            {% else%}
+                            Slides {{slide.author}}
+                            {% endif %}
+                        </a>
+                    </li>
+                    {% endfor %}
                 {% endif %}
 
             </ul>
@@ -84,7 +84,7 @@
             {% else %}
 
             <!-- Button fallback -->
-            <a href="{{slide.url}}" class="btn btn-primary">Slides {{slide.author}}</a>
+            <a href="{{slide.url}}" class="btn btn-primary" target="_blank">Slides {{slide.author}}</a>
             <!-- end of Button fallback -->
 
             {% endif %}
