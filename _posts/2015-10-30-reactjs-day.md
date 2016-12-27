@@ -19,12 +19,12 @@ event:
   slides:
 
 assets:
-  cover: img/2015/10/reactjsday-hero.png
-  img500: img/2015/10/reactjsday.png
-  img300: img/2015/10/reactjsday-300x300.png
-  img250: img/2015/10/reactjsday-250x250.png
-  img174: img/2015/10/reactjsday-174x174.png
-  img150: img/2015/10/reactjsday-150x150.png
+  cover: img/2015/10/reactjsday-hero.jpg
+  img500: img/2015/10/reactjsday.jpg
+  img300: img/2015/10/reactjsday-300x300.jpg
+  img250: img/2015/10/reactjsday-250x250.jpg
+  img174: img/2015/10/reactjsday-174x174.jpg
+  img150: img/2015/10/reactjsday-150x150.jpg
 ---
 
 React è una libreria JavaScript, creata da Facebook e Instagram (e utilizzata anche nei due social network),
