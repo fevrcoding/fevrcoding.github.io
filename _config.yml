@@ -31,14 +31,14 @@ twitter:
   username: "__fevr"
 
 social:
-  name: Fevr
+  name: "FEVR"
   links:
-    - https://twitter.com/__fevr
-    - https://www.facebook.com/groups/frontendersverona/
-    - http://www.eventbrite.it/o/fevr-7297766259
-    - https://www.youtube.com/channel/UCyBgo76Z93uqEXqK6GmxN5w
-    - https://speakerdeck.com/fevr
-    - https://github.com/fevrcoding
+    - "https://twitter.com/__fevr"
+    - "https://www.facebook.com/groups/frontendersverona/"
+    - "http://www.eventbrite.it/o/fevr-7297766259"
+    - "https://www.youtube.com/channel/UCyBgo76Z93uqEXqK6GmxN5w"
+    - "https://speakerdeck.com/fevr"
+    - "https://github.com/fevrcoding"
 
 # Build settings
 markdown: kramdown
