@@ -42,6 +42,29 @@
     </div>
 </div>
 
+<hr />
+
+<section class="share">
+    <ul class="list-inline">
+        <li>Condividi su: </li>
+        <li>
+            <a class="btn btn-info" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u={{ page.permalink }}">
+                <i class="fa fa-facebook"></i> Facebook
+            </a>
+        </li>
+        <li>
+            <a class="btn btn-info" href="http://twitter.com/intent/tweet?text={{ page.title }}&via=__fevr&url={{ page.permalink }}">
+                <i class="fa fa-twitter"></i> Twitter
+            </a>
+        </li>
+        <li>
+            <a class="btn btn-info" href="{{ page.permalink }}">
+                <i class="fa fa-link"></i> Permalink
+            </a>
+        </li>
+    </ul>
+</section>
+
 <!-- Youtube embed -->
 {% if page.event.youtube %}
 <hr />
