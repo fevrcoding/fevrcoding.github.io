@@ -2,6 +2,7 @@
 layout: event
 title: "Future of Javascript: Episode II"
 subtitle: Marco Munari - 15.12.2016 @ Graffiti HUB
+image: img/2016/12/dicembre.jpg
 date: 2016-12-01 00:00:00
 author: fevr
 category: eventi
