@@ -2,6 +2,7 @@
 layout: event
 title: Offline First Application
 subtitle: Mattia Manzati - 24.11.2016 @ Graffiti HUB
+image: img/2016/11/novembre.jpg
 date: 2016-11-01 00:00:00
 author: fevr
 category: eventi

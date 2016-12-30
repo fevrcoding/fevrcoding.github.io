@@ -2,6 +2,7 @@
 layout: event
 title: Historiae Javascript
 subtitle: Marco Solazzi – 27 Ottobre 2016 – Graffiti HUB
+image: img/2016/10/ottobre.jpg
 date: 2016-10-01 00:00:00
 author: fevr
 category: eventi

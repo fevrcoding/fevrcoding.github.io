@@ -2,6 +2,7 @@
 layout: event
 title: "Responsive images in da house"
 subtitle: Andrea De Carolis – 23 Giugno 2016 – Graffiti HUB
+image: img/2016/06/giugno.jpg
 date: 2016-06-01 00:00:00
 author: fevr
 category: eventi

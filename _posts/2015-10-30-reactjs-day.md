@@ -2,6 +2,7 @@
 layout: event
 title: ReactJS Day 2015
 subtitle: Conferenza – 30 Ottobre 2015 – Hotel S. Marco
+image: img/2015/10/reactjsday.jpg
 date: 2015-10-01 00:00:00
 author: fevr
 category: eventi

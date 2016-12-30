@@ -2,6 +2,7 @@
 layout: event
 title: "Another Build in the World: GULPJS of Google Web Starter Kit"
 subtitle: Paolo Cargnin – 19 Febbraio 2015 – The Fab
+image: img/2015/02/febbraio.jpg
 date: 2015-02-01 00:00:00
 author: fevr
 category: eventi

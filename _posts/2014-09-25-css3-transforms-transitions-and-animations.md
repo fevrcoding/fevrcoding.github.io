@@ -2,6 +2,7 @@
 layout: event
 title: "CSS3 Transforms Transitions and Animations"
 subtitle: Alberto Quaglia – 25 Settembre 2014 – The Fab
+image: img/2014/09/settembre.jpg
 date: 2014-09-01 00:00:00
 author: fevr
 category: eventi

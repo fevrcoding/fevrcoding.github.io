@@ -2,6 +2,7 @@
 layout: event
 title: "Meteor: Full-stack Javascript for real-time apps"
 subtitle: Nicholas Valbusa – 13 Aprile 2016 – Graffiti HUB
+image: img/2016/04/aprile.jpg
 date: 2016-04-01 00:00:00
 author: fevr
 category: eventi

@@ -2,6 +2,7 @@
 layout: event
 title: "Sound of Happiness – Designer VS Developer"
 subtitle: Filippo Matteo Riggio e Cristiana Tappi – 23 Settembre 2015 – Startup GYM
+image: img/2015/09/settembre.jpg
 date: 2015-09-01 00:00:00
 author: fevr
 category: eventi

@@ -2,6 +2,7 @@
 layout: event
 title: "SASS gives superpowers to your CSS"
 subtitle: Federico Bonomi – 20 Novembre 2014 – The Fab
+image: img/2014/11/novembre.jpg
 date: 2014-11-01 00:00:00
 author: fevr
 category: eventi

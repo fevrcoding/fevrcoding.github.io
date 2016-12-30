@@ -2,6 +2,7 @@
 layout: event
 title: "Lean Frontend Development"
 subtitle: Matteo Guidotto e Marco Solazzi – 23 Aprile 2015 – Graffiti HUB
+image: img/2015/04/aprile.jpg
 date: 2015-04-01 00:00:00
 author: fevr
 category: eventi
