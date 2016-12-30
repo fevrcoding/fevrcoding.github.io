@@ -16,12 +16,27 @@ keep_files:
 # Site settings
 title: "FEVR - Frontenders Verona - Eventi e formazione frontend javascript Verona"
 subtitle: "Eventi e formazione frontend javascript Verona"
+description: "Eventi e formazione frontend javascript Verona"
+logo: "/img/logo2016.png"
 # Base URL of site. It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 # baseurl: "/" # the subpath of your site
-url: "http://fevr.it" # the base hostname & protocol for your site
+url: "http://www.fevr.it" # the base hostname & protocol for your site
 baseurl: ""
+
+twitter:
+  username: "__fevr"
+
+social:
+  name: Fevr
+  links:
+    - https://twitter.com/__fevr
+    - https://www.facebook.com/groups/frontendersverona/
+    - http://www.eventbrite.it/o/fevr-7297766259
+    - https://www.youtube.com/channel/UCyBgo76Z93uqEXqK6GmxN5w
+    - https://speakerdeck.com/fevr
+    - https://github.com/fevrcoding
 
 # Build settings
 markdown: kramdown
