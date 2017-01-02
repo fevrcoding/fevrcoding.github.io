@@ -15,8 +15,12 @@ event:
 
   eventbrite: 29982737174
   youtube: 
-  foto:
+  foto: 'https://www.facebook.com/media/set/?set=oa.1297214020343769&type=1'
   slides:
+      - author: Marco
+        type: speakerdeck
+        url: 'https://speakerdeck.com/fevr/the-future-of-javascript-episode-2'
+        id: '713d4df07282462cbb96bf4620a3a7ec'
 
 assets:
   cover: img/2016/12/dicembre-hero.gif
