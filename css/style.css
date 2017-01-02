@@ -16,6 +16,11 @@
     text-align: center;
 }
 
+/* overrides default background on #global-header */
+#global-header:before {
+    background: linear-gradient(to left, #EBAD26, transparent 60%);
+}
+
 .post-area {
     padding: 40px;
     width: 100%;
