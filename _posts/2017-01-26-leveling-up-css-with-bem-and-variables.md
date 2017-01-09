@@ -1,15 +1,15 @@
 ---
 layout: event
 title: "Leveling Up CSS with BEM and Variables"
-subtitle: Alessandro Muraro e Giacomo Zanetti - 26.01.2017 @ Graffiti HUB
+subtitle: Alessandro Muraro e Giacomo Zinetti - 26.01.2017 @ Graffiti HUB
 image: img/2017/01/gennaio.jpg
 date: 2017-01-01 00:00:00
 author: fevr
 category: eventi
-published: false
+published: true
 
 event:
-  speaker: Alessandro Muraro e Giacomo Zanetti
+  speaker: Alessandro Muraro e Giacomo Zinetti
   date: 2017-01-26 19:00:00
   location: Graffiti HUB
 
@@ -29,7 +29,7 @@ assets:
 
 Scopriamo assieme agli amici di Milano Frontenders due aspetti dello sviluppo CSS interessanti: 
 Alessandro Muraro parlerà di object oriented CSS ed in particolare BEM, 
-Giacomo Zanetti invece ci introdurrà al mondo di CSS Variables
+Giacomo Zinetti invece ci introdurrà al mondo delle CSS Variables
 
 ## QUANDO
 Giovedì 26 gennaio 2017 dalle 19:00 alle 20:30
