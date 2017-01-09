@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/kinometal/fevr-new.git"
+    "url": "git+ssh://git@github.com:fevrcoding/fevrcoding.github.io.git"
   },
   "author": "Luca 'Kino' Maroni",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/kinometal/fevr-new#readme",
+  "homepage": "https://github.com/fevrcoding/fevrcoding.github.io",
   "devDependencies": {
     "gulp": "^3.9.1"
   }
