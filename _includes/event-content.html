@@ -48,17 +48,17 @@
     <ul class="list-inline">
         <li>Condividi su: </li>
         <li>
-            <a class="btn btn-info" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u={{ page.permalink }}">
+            <a class="btn btn-info" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}">
                 <i class="fa fa-facebook"></i> Facebook
             </a>
         </li>
         <li>
-            <a class="btn btn-info" href="http://twitter.com/intent/tweet?text={{ page.title }}&via=__fevr&url={{ page.permalink }}">
+            <a class="btn btn-info" href="http://twitter.com/intent/tweet?text={{ page.title }}&via=__fevr&url={{ site.url }}{{ page.url }}">
                 <i class="fa fa-twitter"></i> Twitter
             </a>
         </li>
         <li>
-            <a class="btn btn-info" href="{{ page.permalink }}">
+            <a class="btn btn-info" href="{{ site.url }}{{ page.url }}">
                 <i class="fa fa-link"></i> Permalink
             </a>
         </li>
