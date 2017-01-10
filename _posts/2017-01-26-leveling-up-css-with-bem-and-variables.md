@@ -13,7 +13,7 @@ event:
   date: 2017-01-26 19:00:00
   location: Graffiti HUB
 
-  eventbrite: 
+  eventbrite: 30982151449
   youtube: 
   foto: 
   slides:
