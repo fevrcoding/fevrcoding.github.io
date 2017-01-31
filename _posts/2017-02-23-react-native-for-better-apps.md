@@ -1,7 +1,7 @@
 ---
 layout: event
 title: "React Native for Better Apps"
-subtitle: Gian Marco Toso - 23.02.2017 @ BentoBox.pro
+subtitle: Gian Marco Toso - 23.02.2017 @ BENTOBOX.PRO
 image: img/2017/02/febbraio.jpg
 date: 2017-02-01 00:00:00
 author: fevr
@@ -11,7 +11,7 @@ published: false
 event:
   speaker: Gian Marco Toso
   date: 2017-02-23 19:00:00
-  location: BentoBox.pro
+  location: BENTOBOX.PRO
 
   eventbrite: 
   youtube: 
@@ -33,4 +33,4 @@ Lorem ipsum dolor sit amet...
 Giovedì 23 febbraio 2017 dalle 19:00 alle 20:30
 
 ## DOVE
-BentoBox.pro – Corso Milano, 127, 37138 Verona VR
+BENTOBOX.PRO – Corso Milano, 127, 37138 Verona VR
