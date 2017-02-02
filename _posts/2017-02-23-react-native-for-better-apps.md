@@ -27,7 +27,10 @@ assets:
   img150: img/2017/02/febbraio-150x150.jpg
 ---
 
-Lorem ipsum dolor sit amet...
+React Native rende possibile utilizzare gli stessi paradigmi di React per scrivere applicazioni mobile per iOS e Android con UI nativa. Con Gian Marco Toso parleremo di React Native e delle sue potenzialità, di come inizializzare un'applicazione e di quali tecniche utilizzare per strutturarla al meglio!
+
+## BIO
+**Gian Marco Toso** è un Ingegnere del Software con base a Torino. Si occupa principalmente di sviluppo frontend in JavaScript/React e sviluppo backend in PHP/Laravel o in TypeScript/NodeJS.
 
 ## QUANDO
 Giovedì 23 febbraio 2017 dalle 19:00 alle 20:30
