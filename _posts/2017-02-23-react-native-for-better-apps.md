@@ -13,7 +13,7 @@ event:
   date: 2017-02-23 19:00:00
   location: BENTOBOX.PRO
 
-  eventbrite: 
+  eventbrite: 31935348487
   youtube: 
   foto: 
   slides:
