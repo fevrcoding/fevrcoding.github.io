@@ -23,8 +23,8 @@ event:
         id: '781047ee4d9c48fe8ed99fe8cc959152'
 
 assets:
-  cover: img/2016/10/ottobre-hero.png
-  img500: img/2016/10/ottobre.jpg
+  cover: img/2016/10/ottobre-hero.jpg
+  img500: img/2016/10/ottobre-500x500.jpg
   img300: img/2016/10/ottobre-300x300.jpg
   img250: img/2016/10/ottobre-250x250.jpg
   img174: img/2016/10/ottobre-174x174.jpg

@@ -24,7 +24,7 @@ event:
 
 assets:
   cover: img/2016/12/dicembre-hero.gif
-  img500: img/2016/12/dicembre.jpg
+  img500: img/2016/12/dicembre-500x500.jpg
   img300: img/2016/12/dicembre-300x300.jpg
   img250: img/2016/12/dicembre-250x250.jpg
   img174: img/2016/12/dicembre-174x174.jpg

@@ -24,7 +24,7 @@ event:
 
 assets:
   cover: img/2016/01/gennaio-hero.jpg
-  img500: img/2016/01/gennaio.jpg
+  img500: img/2016/01/gennaio-500x500.jpg
   img300: img/2016/01/gennaio-300x300.jpg
   img250: img/2016/01/gennaio-250x250.jpg
   img174: img/2016/01/gennaio-174x174.jpg

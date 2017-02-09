@@ -20,7 +20,7 @@ event:
 
 assets:
   cover: img/2016/11/our-digital-experience-hero.jpg
-  img500: img/2016/11/our-digital-experience.jpg
+  img500: img/2016/11/our-digital-experience-500x500.jpg
   img300: img/2016/11/our-digital-experience-300x300.jpg
   img250: img/2016/11/our-digital-experience-250x250.jpg
   img174: img/2016/11/our-digital-experience-174x174.jpg

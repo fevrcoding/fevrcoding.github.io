@@ -24,7 +24,7 @@ event:
 
 assets:
   cover: img/2016/02/febbraio-hero.jpg
-  img500: img/2016/02/febbraio.jpg
+  img500: img/2016/02/febbraio-500x500.jpg
   img300: img/2016/02/febbraio-300x300.jpg
   img250: img/2016/02/febbraio-250x250.jpg
   img174: img/2016/02/febbraio-174x174.jpg

@@ -28,7 +28,7 @@ event:
 
 assets:
   cover: img/2016/09/settembre-hero.jpg
-  img500: img/2016/09/settembre.jpg
+  img500: img/2016/09/settembre-500x500.jpg
   img300: img/2016/09/settembre-300x300.jpg
   img250: img/2016/09/settembre-250x250.jpg
   img174: img/2016/09/settembre-174x174.jpg

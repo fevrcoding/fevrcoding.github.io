@@ -23,7 +23,7 @@ event:
             id: '83b40cf85a9f4211b0ca6094d700ddbc'
 assets:
   cover: img/2016/03/marzo-hero.jpg
-  img500: img/2016/03/marzo.jpg
+  img500: img/2016/03/marzo-500x500.jpg
   img300: img/2016/03/marzo-300x300.jpg
   img250: img/2016/03/marzo-250x250.jpg
   img174: img/2016/03/marzo-174x174.jpg
