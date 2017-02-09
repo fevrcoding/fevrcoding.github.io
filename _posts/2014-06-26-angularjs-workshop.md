@@ -24,7 +24,7 @@ event:
 
 assets:
   cover: img/2014/06/giugno-hero.jpg
-  img500: img/2014/06/giugno.jpg
+  img500: img/2014/06/giugno-500x500.jpg
   img300: img/2014/06/giugno-300x300.jpg
   img250: img/2014/06/giugno-250x250.jpg
   img174: img/2014/06/giugno-174x174.jpg

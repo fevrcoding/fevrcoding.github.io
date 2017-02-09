@@ -24,7 +24,7 @@ event:
 
 assets:
   cover: img/2014/11/novembre-hero.jpg
-  img500: img/2014/11/novembre.jpg
+  img500: img/2014/11/novembre-500x500.jpg
   img300: img/2014/11/novembre-300x300.jpg
   img250: img/2014/11/novembre-250x250.jpg
   img174: img/2014/11/novembre-174x174.jpg
