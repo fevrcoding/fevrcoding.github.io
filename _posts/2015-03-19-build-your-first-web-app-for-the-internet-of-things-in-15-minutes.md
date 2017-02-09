@@ -24,7 +24,7 @@ event:
 
 assets:
   cover: img/2015/03/marzo-hero.jpg
-  img500: img/2015/03/marzo.jpg
+  img500: img/2015/03/marzo-500x500.jpg
   img300: img/2015/03/marzo-300x300.jpg
   img250: img/2015/03/marzo-250x250.jpg
   img174: img/2015/03/marzo-174x174.jpg

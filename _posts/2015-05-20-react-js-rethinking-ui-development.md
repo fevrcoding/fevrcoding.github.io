@@ -24,7 +24,7 @@ event:
 
 assets:
       cover: img/2015/05/maggio-hero.jpg
-      img500: img/2015/05/maggio.jpg
+      img500: img/2015/05/maggio-500x500.jpg
       img300: img/2015/05/maggio-300x300.jpg
       img250: img/2015/05/maggio-250x250.jpg
       img174: img/2015/05/maggio-174x174.jpg

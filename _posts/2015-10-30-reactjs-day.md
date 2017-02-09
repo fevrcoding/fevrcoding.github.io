@@ -21,7 +21,7 @@ event:
 
 assets:
   cover: img/2015/10/reactjsday-hero.jpg
-  img500: img/2015/10/reactjsday.jpg
+  img500: img/2015/10/reactjsday-500x500.jpg
   img300: img/2015/10/reactjsday-300x300.jpg
   img250: img/2015/10/reactjsday-250x250.jpg
   img174: img/2015/10/reactjsday-174x174.jpg

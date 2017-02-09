@@ -24,7 +24,7 @@ event:
 
 assets:
       cover: img/2015/04/aprile-hero.jpg
-      img500: img/2015/04/aprile.jpg
+      img500: img/2015/04/aprile-500x500.jpg
       img300: img/2015/04/aprile-300x300.jpg
       img250: img/2015/04/aprile-250x250.jpg
       img174: img/2015/04/aprile-174x174.jpg
