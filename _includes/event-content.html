@@ -77,6 +77,19 @@
 {% endif %}
 <!-- end of Youtube embed -->
 
+<!-- Facebook Live embed -->
+{% if page.event.facebooklive %}
+<hr />
+
+<div class="row facebook__wrapper">
+    <div class="col-sm-6">
+        {% include facebook-live.html id=page.event.facebooklive %}
+    </div>
+</div>
+{% endif %}
+<!-- end of Facebook Live embed -->
+
+
 <!-- Vimeo Videogallery embed -->
 {% if page.event.videogallery %}
 <hr />

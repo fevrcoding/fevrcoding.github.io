@@ -14,7 +14,8 @@ event:
   location: Graffiti HUB
 
   eventbrite: 30982151449
-  youtube: 
+  youtube:
+  facebooklive: https://www.facebook.com/matteoguidotto/videos/10212250312676884
   foto: 
   slides:
 
