@@ -181,4 +181,10 @@ team:
         url: "https://www.linkedin.com/in/lucakinomaroni"
         icon: fa-linkedin
 
-
+defaults:
+  - scope:
+      path: ""
+    values:
+      title: "FEVR - Frontenders Verona - Eventi e formazione frontend javascript Verona"
+      subtitle: "Eventi e formazione frontend javascript Verona"
+      image: /img/logo2016.png
