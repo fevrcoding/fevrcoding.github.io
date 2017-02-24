@@ -14,6 +14,7 @@ event:
   location: BENTOBOX.PRO
 
   eventbrite: 31935348487
+  facebooklive: https://www.facebook.com/matteoguidotto/videos/10212527867735587/
   youtube: 
   foto: 
   slides:
