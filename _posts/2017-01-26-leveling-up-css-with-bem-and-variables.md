@@ -23,7 +23,7 @@ event:
       url: 'https://speakerdeck.com/fevr/bem'
       id: '01cd3c15531247eb88ccca897ff8d14a'
     - author: Giacomo
-      type: slides
+      type: speakerdeck
       url: 'https://speakerdeck.com/fevr/css-from-the-future'
       id: '742efb267f4e485486dc04c98835dcc6'
 
