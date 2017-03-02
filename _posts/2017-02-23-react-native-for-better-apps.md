@@ -16,8 +16,12 @@ event:
   eventbrite: 31935348487
   facebooklive: https://www.facebook.com/matteoguidotto/videos/10212527867735587/
   youtube: 
-  foto: 
+  foto: https://www.facebook.com/media/set/?set=oa.1370648489666988&type=1
   slides:
+      - author: Gian Marco
+        type: speakerdeck
+        url: 'https://speakerdeck.com/fevr/react-native-for-better-apps'
+        id: '14b794aace0944c1ba2ea9c7c0a3f23f'
 
 assets:
   cover: img/2017/02/febbraio-hero.jpg
