@@ -6,7 +6,7 @@ image: img/2017/03/marzo.jpg
 date: 2017-03-01 00:00:00
 author: fevr
 category: eventi
-published: false
+published: true
 
 event:
   speaker: Giulio Collesei
@@ -28,17 +28,20 @@ assets:
   img150: img/2017/03/marzo-150x150.jpg
 ---
 
-Scopriremo come gestire flussi di eventi asincroni con l'uso di [RxJS](https://github.com/ReactiveX/rxjs) (Reactive Extentions) e come questa libreria si applica perfettamente ai concetti chiave del paradigma functional.
+Scopriremo come gestire flussi di eventi asincroni con l'uso di [RxJS](https://github.com/ReactiveX/rxjs) 
+(Reactive Extentions) e come questa libreria si applica perfettamente ai concetti chiave del paradigma functional.
 
 ## BIO
 
 Sviluppatore front-end di trent'anni, Giulio nasce nel comune di Venezia e lavora a San Giovanni Lupatoto, per AQuest.
 
-Inizia il suo percorso professionale nel 2006, come webmaster, realizzando impianti grafici che sviluppava autonomamente in ASP o PHP.
+Inizia il suo percorso professionale nel 2006, come webmaster, realizzando impianti grafici che sviluppava autonomamente
+in ASP o PHP.
 
 In seguito si appassionerà allo studio dei concetti di comunicazione e di marketing operativo.
 
-Negli ultimi 4 anni ha concentrato il suo tempo nello studio approfondito del front-end ed in particolare di interfacce interattive, basate su eventi dell’utente.
+Negli ultimi 4 anni ha concentrato il suo tempo nello studio approfondito del front-end ed in particolare di interfacce
+interattive, basate su eventi dell’utente.
 
 ## QUANDO
 
