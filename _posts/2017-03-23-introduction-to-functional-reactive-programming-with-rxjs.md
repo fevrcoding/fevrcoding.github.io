@@ -29,7 +29,7 @@ assets:
 ---
 
 Scopriremo come gestire flussi di eventi asincroni con l'uso di [RxJS](https://github.com/ReactiveX/rxjs) 
-(Reactive Extentions) e come questa libreria si applica perfettamente ai concetti chiave del paradigma functional.
+(Reactive Extensions) e come questa libreria si applica perfettamente ai concetti chiave del paradigma functional.
 
 ## BIO
 
