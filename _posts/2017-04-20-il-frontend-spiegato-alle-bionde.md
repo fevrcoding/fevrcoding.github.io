@@ -1,7 +1,7 @@
 ---
 layout: event
 title: "Il frontend spiegato alle bionde"
-subtitle: Giulia Talamonti - 20.04.2017 @ Location
+subtitle: Giulia Talamonti - 20.04.2017 @ Graffiti HUB
 image: img/2017/04/aprile.jpg
 date: 2017-04-01 00:00:00
 author: fevr
@@ -11,7 +11,7 @@ published: false
 event:
   speaker: Giulia Talamonti
   date: 2017-04-20 19:00:00
-  location: Location
+  location: Graffiti HUB – Via Legnago 126, 37121 Verona
 
   eventbrite: 
   youtube:
@@ -40,4 +40,4 @@ Giovedì 20 aprile 2017 dalle 19:00 alle 20:30
 
 ## DOVE
 
-Location
+Graffiti HUB – Via Legnago 126, 37121 Verona
