@@ -17,7 +17,12 @@ event:
   youtube:
   facebooklive: https://www.facebook.com/matteoguidotto/videos/10212832312106506/
   foto: 
-  slides: 
+  slides:
+    - author: Giulio
+      type: slides
+      url: 'https://slides.com/giulico/functional-reactive-programming'
+      id: 'giulico/functional-reactive-programming'
+
 
       
 assets:
