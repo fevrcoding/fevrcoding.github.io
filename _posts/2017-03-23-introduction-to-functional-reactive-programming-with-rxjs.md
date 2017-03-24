@@ -15,14 +15,13 @@ event:
 
   eventbrite: 32528188688
   youtube:
-  facebooklive: https://www.facebook.com/matteoguidotto/videos/10212832312106506/
+  facebooklive: 
   foto: 
   slides: 
       - author: Giulio
       type: slides
       url: 'https://slides.com/giulico/functional-reactive-programming'
       id: 'giulico/functional-reactive-programming'
-
 assets:
   cover: img/2017/03/marzo-hero.jpg
   img500: img/2017/03/marzo-500x500.jpg
