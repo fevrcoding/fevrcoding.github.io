@@ -13,7 +13,7 @@ event:
   date: 2017-04-20 19:00:00
   location: Graffiti HUB – Via Legnago 126, 37121 Verona
 
-  eventbrite: 
+  eventbrite: 33205152505
   youtube:
   facebooklive: 
   foto: 
