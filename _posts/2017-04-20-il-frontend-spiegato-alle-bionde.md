@@ -6,7 +6,7 @@ image: img/2017/04/aprile.jpg
 date: 2017-04-01 00:00:00
 author: fevr
 category: eventi
-published: false
+published: true
 
 event:
   speaker: Giulia Talamonti
