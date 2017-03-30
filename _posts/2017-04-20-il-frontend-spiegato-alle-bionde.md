@@ -28,11 +28,16 @@ assets:
   img150: img/2017/04/aprile-150x150.jpg
 ---
 
-Lorem ipsum
+Dopo il talk a Milano Frontend Meetup, Giulia Talamonti [@giucot_](https://twitter.com/@giucot_) ospite del FEVR.
 
-## BIO
+Racconterà la sua esperienza di sviluppo frontend, analizzando le varie fasi:
 
-Lorem ipsum
+- I Tool di Automazione
+- Il team Working
+- Le performance
+- I problemi comuni di HTML e CSS
+
+Appuntamento ore 19 con l'aperitivo e poi talk e cena insieme
 
 ## QUANDO
 
