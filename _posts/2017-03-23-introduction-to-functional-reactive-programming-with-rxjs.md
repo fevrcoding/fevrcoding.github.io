@@ -16,7 +16,7 @@ event:
   eventbrite: 32528188688
   youtube:
   facebooklive: https://www.facebook.com/matteoguidotto/videos/10212832312106506/
-  foto: 
+  foto: https://www.facebook.com/media/set/?set=oa.1404032802995223&type=1
   slides:
     - author: Giulio
       type: slides
