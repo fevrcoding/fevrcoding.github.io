@@ -26,9 +26,62 @@
     background: linear-gradient(to left, #EBAD26, transparent 60%);
 }
 
-.post-area {
-    padding: 40px;
+
+.hero{
+    background-image: url(../img/slider-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 107px;
+    position: relative;
+}
+
+
+.hero:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
     width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    background: linear-gradient(to left, #EBAD26, transparent 60%);
+}
+
+.hero.hero--code-of-conduct{
+background-image: url('../img/code-of-conduct.jpg') !important;
+}
+
+.hero .block {
+    padding-left: 0;
+    color: #E3E3E4;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero .block h1 {
+    font-weight: 100;
+    font-size: 45px;
+    letter-spacing: 6px;
+    padding-bottom: 15px;
+    margin-top: 0;
+    text-transform: capitalize;
+}
+
+.hero .block p {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+.post-area {
+padding: 40px;
+width: 100%;
     min-height: 150px;
     background-color: white;
     border-bottom: 1px dotted #ddd;
@@ -356,6 +409,28 @@
 
 footer .social{
     margin-bottom: 20px;
+}
+
+footer a {
+    color: #595959;
+}
+footer .footer-menu {
+    padding-bottom: 25px;
+}
+footer .footer-menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+footer .footer-menu ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+footer .footer-menu ul li a {
+    display: inline-block;
+    color: #494949;
+}
+footer .footer-menu ul li a:hover {
+    color: #000;
 }
 
 .slide-down-hover{
