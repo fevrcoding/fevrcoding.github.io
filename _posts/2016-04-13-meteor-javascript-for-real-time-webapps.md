@@ -6,6 +6,8 @@ image: img/2016/04/aprile.jpg
 date: 2016-04-01 00:00:00
 author: fevr
 category: eventi
+redirect_from:
+  - /meteor-javascript-for-real-time-webapps
 published: true
 
 event:

@@ -6,6 +6,8 @@ image: img/2015/04/aprile.jpg
 date: 2015-04-01 00:00:00
 author: fevr
 category: eventi
+redirect_from:
+  - /lean-frontend-development
 published: true
 
 event:

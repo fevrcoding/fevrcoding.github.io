@@ -6,6 +6,8 @@ image: img/2016/09/settembre.jpg
 date: 2016-09-01 00:00:00
 author: fevr
 category: eventi
+redirect_from:
+  - /frontend-backend-an-endless-love
 published: true
 
 event:

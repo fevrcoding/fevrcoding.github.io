@@ -6,6 +6,8 @@ image: img/2015/11/novembre.jpg
 date: 2015-11-01 00:00:00
 author: fevr
 category: eventi
+redirect_from:
+  - /polymer-from-components-to-app
 published: true
 
 event:

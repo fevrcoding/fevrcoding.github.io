@@ -6,6 +6,8 @@ image: img/2016/06/giugno.jpg
 date: 2016-06-01 00:00:00
 author: fevr
 category: eventi
+redirect_from:
+  - /responsive-images-da-house
 published: true
 
 event:

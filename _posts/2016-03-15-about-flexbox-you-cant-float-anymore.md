@@ -6,6 +6,8 @@ image: img/2016/03/marzo.jpg
 date: 2016-03-01 00:00:00
 author: fevr
 category: eventi
+redirect_from:
+  - /about-flexbox-you-cant-float-anymore
 published: true
 
 event:

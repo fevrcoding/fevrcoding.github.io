@@ -6,6 +6,8 @@ image: img/2016/11/novembre.jpg
 date: 2016-11-01 00:00:00
 author: fevr
 category: eventi
+redirect_from:
+  - /offline-first-application
 published: true
 
 event:

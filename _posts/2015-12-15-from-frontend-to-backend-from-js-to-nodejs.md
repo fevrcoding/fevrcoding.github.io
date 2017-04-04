@@ -6,6 +6,8 @@ image: img/2015/12/dicembre.jpg
 date: 2015-12-01 00:00:00
 author: fevr
 category: eventi
+redirect_from:
+  - /from-frontend-to-backend-from-js-to-nodejs
 published: true
 
 event:

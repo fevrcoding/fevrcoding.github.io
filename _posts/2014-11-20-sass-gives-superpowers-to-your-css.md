@@ -6,6 +6,8 @@ image: img/2014/11/novembre.jpg
 date: 2014-11-01 00:00:00
 author: fevr
 category: eventi
+redirect_from:
+  - /sass-gives-superpowers-to-your-css
 published: true
 
 event:

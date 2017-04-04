@@ -6,6 +6,8 @@ image: img/2016/02/febbraio.jpg
 date: 2016-02-01 00:00:00
 author: fevr
 category: eventi
+redirect_from:
+  - /la-vita-dopo-angular-1-x
 published: true
 
 event:

@@ -6,6 +6,8 @@ image: img/2015/06/giugno.jpg
 date: 2015-06-01 00:00:00
 author: fevr
 category: eventi
+redirect_from:
+  - /microsoft-unplugged-with-pietro-brambati
 published: true
 
 event:

@@ -6,6 +6,8 @@ image: img/2015/10/reactjsday.jpg
 date: 2015-10-01 00:00:00
 author: fevr
 category: eventi
+redirect_from:
+  - /reactjs-day-2015
 published: true
 
 event:

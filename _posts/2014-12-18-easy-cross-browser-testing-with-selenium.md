@@ -6,6 +6,8 @@ image: img/2014/12/dicembre.jpg
 date: 2014-12-01 00:00:00
 author: fevr
 category: eventi
+redirect_from:
+  - /easy-cross-browser-testing-with-selenium
 published: true
 
 event:

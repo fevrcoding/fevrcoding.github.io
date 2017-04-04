@@ -6,6 +6,8 @@ image: img/2015/09/settembre.jpg
 date: 2015-09-01 00:00:00
 author: fevr
 category: eventi
+redirect_from:
+  - /sound-of-happiness-designer-vs-developer
 published: true
 
 event:

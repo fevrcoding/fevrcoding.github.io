@@ -6,6 +6,8 @@ image: img/2016/10/ottobre.jpg
 date: 2016-10-01 00:00:00
 author: fevr
 category: eventi
+redirect_from:
+  - /a-javascript-carol-ghosts-from-past-present-and-future
 published: true
 
 event:
