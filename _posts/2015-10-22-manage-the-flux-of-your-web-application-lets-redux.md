@@ -6,6 +6,8 @@ image: img/2015/10/ottobre.jpg
 date: 2015-10-01 00:00:00
 author: fevr
 category: eventi
+redirect_from:
+  - /manage-the-flux-of-your-web-application-lets-redux
 published: true
 
 event:

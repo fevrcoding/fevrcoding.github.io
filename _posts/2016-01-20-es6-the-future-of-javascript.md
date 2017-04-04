@@ -6,6 +6,8 @@ image: img/2016/01/gennaio.jpg
 date: 2016-01-01 00:00:00
 author: fevr
 category: eventi
+redirect_from:
+  - /es6-the-future-of-javascript
 published: true
 
 event:

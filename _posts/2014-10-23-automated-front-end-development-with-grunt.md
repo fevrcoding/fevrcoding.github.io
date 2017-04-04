@@ -6,6 +6,8 @@ image: img/2014/10/ottobre.jpg
 date: 2014-10-01 00:00:00
 author: fevr
 category: eventi
+redirect_from:
+  - /automated-front-end-development-with-grunt
 published: true
 
 event:

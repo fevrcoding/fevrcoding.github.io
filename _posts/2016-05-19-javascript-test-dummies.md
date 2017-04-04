@@ -6,6 +6,8 @@ image: img/2016/05/maggio.jpg
 date: 2016-05-01 00:00:00
 author: fevr
 category: eventi
+redirect_from:
+  - /javascript-test-dummies
 published: true
 
 event:

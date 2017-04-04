@@ -6,6 +6,8 @@ image: img/2014/06/giugno.jpg
 date: 2014-06-01 00:00:00
 author: fevr
 category: eventi
+redirect_from:
+  - /workshop-angularjs
 published: true
 
 event:

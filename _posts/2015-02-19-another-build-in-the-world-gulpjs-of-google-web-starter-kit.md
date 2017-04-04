@@ -6,6 +6,8 @@ image: img/2015/02/febbraio.jpg
 date: 2015-02-01 00:00:00
 author: fevr
 category: eventi
+redirect_from:
+  - /another-build-in-the-world-gulpjs-of-google-web-starter-kit
 published: true
 
 event:

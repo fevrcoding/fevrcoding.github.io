@@ -6,6 +6,8 @@ image: img/2015/01/gennaio.jpg
 date: 2015-01-01 00:00:00
 author: fevr
 category: eventi
+redirect_from:
+  - /hybrid-apps-development-with-angularjs-ionic-and-cordova
 published: true
 
 event:

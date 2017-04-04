@@ -6,6 +6,8 @@ image: img/2015/03/marzo.jpg
 date: 2015-03-01 00:00:00
 author: fevr
 category: eventi
+redirect_from:
+  - /build-your-first-web-app-for-the-internet-of-things-in-15-minutes
 published: true
 
 event:

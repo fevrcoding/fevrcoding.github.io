@@ -6,6 +6,8 @@ image: img/2014/09/settembre.jpg
 date: 2014-09-01 00:00:00
 author: fevr
 category: eventi
+redirect_from:
+  - /css3-transforms-transitions-and-animations
 published: true
 
 event:

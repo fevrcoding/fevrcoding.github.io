@@ -6,6 +6,8 @@ image: img/2015/05/maggio.jpg
 date: 2015-05-01 00:00:00
 author: fevr
 category: eventi
+redirect_from:
+  - /react-js-rethinking-ui-development
 published: true
 
 event:

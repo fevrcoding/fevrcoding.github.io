@@ -6,6 +6,8 @@ image: img/2016/11/our-digital-experience.jpg
 date: 2016-10-01 00:00:00
 author: fevr
 category: eventi
+redirect_from:
+  - /our-digital-experience
 published: true
 
 event:
