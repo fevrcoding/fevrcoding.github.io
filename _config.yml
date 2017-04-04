@@ -98,6 +98,8 @@ social:
     url: "https://www.youtube.com/channel/UCyBgo76Z93uqEXqK6GmxN5w"
   speakerdeck:
     url: "https://speakerdeck.com/fevr"
+  meetup:
+    url: "https://meetup.com/it-IT/FEVR-Frontenders-Verona/"
 
 team:
   - name: "Matteo Guidotto"
