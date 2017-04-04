@@ -1,12 +1,12 @@
-const gulp            = require(`gulp`);
-const clean           = require(`gulp-clean`);
-const runSequence     = require(`run-sequence`);
-const rename          = require(`gulp-rename`);
-const imageResize     = require(`gulp-image-resize`);
-const imagemin        = require(`gulp-imagemin`);
-const debug           = require(`gulp-debug`);
+const gulp            = require('gulp');
+const clean           = require('gulp-clean');
+const runSequence     = require('run-sequence');
+const rename          = require('gulp-rename');
+const imageResize     = require('gulp-image-resize');
+const imagemin        = require('gulp-imagemin');
+const debug           = require('gulp-debug');
 
-const imagesFiles = "convert/**/*.{jpg,png,gif}";
+const imagesFiles = 'convert/**/*.{jpg,png,gif}';
 
 const imagesSizes = [
     {w:150, h:150},
@@ -16,19 +16,20 @@ const imagesSizes = [
     {w:500, h:500}
 ];
 
-const distDir = `convert/dist/`;
+const distDir = 'convert/dist/';
 
 /* Tasks */
 const resizeImageTasks = [];
 
-gulp.task(`clean-dist`, () => {
-    return gulp.src(`${distDir}*`, {read: false})
+gulp.task('clean-dist', function() {
+    return gulp.src(distDir + '*', {read: false})
         .pipe(clean())
-})
+});
 
-imagesSizes.forEach((size) => {
-    const resizeImageTask = `resize-${size.w}x${size.h}`;
-    gulp.task(resizeImageTask, () => {
+imagesSizes.forEach(function (size) {
+    const resizeImageTask = 'resize-' + size.w + 'x' + size.h;
+
+    gulp.task(resizeImageTask, function () {
         return gulp
             .src(imagesFiles)
             .pipe(imageResize({
@@ -38,23 +39,25 @@ imagesSizes.forEach((size) => {
                 upscale : false,
                 imageMagick : true
             }))
-            .pipe(debug())
             .pipe(imagemin())
-            .pipe(rename(
-                (path) => { path.basename += `-${size.w}x${size.h}`; }
-                ))
+            .pipe(rename( function(path){
+                    path.basename += '-' + size.w + 'x' + size.h;
+                } ))
             .pipe(gulp.dest(distDir));
     });
 
     resizeImageTasks.push(resizeImageTask);
 });
 
-gulp.task(`resize-images`, resizeImageTasks);
+gulp.task('resize-images', resizeImageTasks);
 
-gulp.task(`min-images`, function () {
- return gulp.src(imagesFiles)
- .pipe(imagemin())
- .pipe(gulp.dest(distDir));
+gulp.task('minify', function () {
+ return gulp
+     .src(imagesFiles)
+     .pipe(imagemin())
+     .pipe(gulp.dest(distDir));
  });
 
-gulp.task(`default`, () => { runSequence( `clean-dist`, `resize-images` ); });
+gulp.task('default', function() {
+    runSequence( 'clean-dist', 'resize-images' );
+});
