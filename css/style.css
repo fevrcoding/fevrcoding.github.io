@@ -16,19 +16,16 @@
     text-align: center;
 }
 
-#slider,
-#global-header{
+#slider{
     background-position: 50% 50%;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
 }
 
-/* overrides default background on #global-header */
-#global-header:before {
-    background: linear-gradient(to left, #EBAD26, transparent 60%);
+#slider a.btn{
+    text-shadow: none;
 }
-
 
 .hero{
-    background-image: url(../img/slider-bg.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -36,7 +33,14 @@
     padding-top: 150px;
     padding-bottom: 107px;
     position: relative;
+    background-color: #666;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
 }
+
+.hero.event-hero{
+    padding-top: 300px;
+}
+
 
 
 .hero:before {
@@ -49,11 +53,19 @@
     width: 100%;
     height: 100%;
     opacity: 0.8;
-    background: linear-gradient(to left, #EBAD26, transparent 60%);
+    background: linear-gradient(to left, rgba(235, 173, 38, .8), transparent 60%);
 }
 
 .hero.hero--code-of-conduct{
-background-image: url('../img/code-of-conduct.jpg') !important;
+    background-image: url('../img/code-of-conduct.jpg') !important;
+}
+
+.hero.hero--contact{
+    background-image: url('../img/contact.jpg') !important;
+}
+
+.hero.hero--events{
+    background-image: url('../img/events.jpg') !important;
 }
 
 .hero .block {
@@ -161,10 +173,6 @@ width: 100%;
 #slider .block p {
     letter-spacing: 0;
     font-weight: 400;
-}
-
-#global-header .block{
-    padding-left: 0;
 }
 
 #feature h2 {
@@ -383,10 +391,6 @@ width: 100%;
 #intro .block ul{
     color: #7B7B7B;
     padding-top: 20px;
-}
-
-#global-header.event-hero{
-    padding-top: 300px;
 }
 
 #intro .block img{

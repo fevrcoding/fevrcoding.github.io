@@ -11,7 +11,7 @@ published: false
 event:
   speaker: Filippo Riggio
   date: 2017-06-22 19:00:00
-  location: Graffiti HUB – Via Legnago 126, 37121 Verona
+  location: Graffiti HUB
 
   eventbrite: 33205522612
   youtube:
