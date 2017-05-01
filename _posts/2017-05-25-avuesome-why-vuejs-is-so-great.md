@@ -6,7 +6,7 @@ image: img/2017/05/maggio.jpg
 date: 2017-05-01 00:00:00
 author: fevr
 category: eventi
-published: false
+published: true
 
 event:
   speaker: Lorenzo Girardi
@@ -28,7 +28,15 @@ assets:
   img150: img/2017/05/maggio-150x150.jpg
 ---
 
-Lorem ipsum...
+Un viaggio attraverso le principali funzioni di Vue.js, alla scoperta delle ragioni per le quali è diventato uno dei principali framework frontend.
+
+## BIO
+
+Lorenzo prende vita a Zevio (VR) ventiquattro anni fa nel primo giorno del Toro.
+Grazie alla passione tramandatagli dal padre intraprende studi superiori di indirizzo informatico.
+Dal 2012 lavora per varie aziende nel veronese quali CRMVILLAGE, ADDVISER e AQUEST.
+Attualmente lavora in DEVELON (VI) come front-end developer, amante del design e dell'accessibilità.
+Nel tempo libero dedica la maggior parte del tempo alla musica.
 
 ## QUANDO
 
