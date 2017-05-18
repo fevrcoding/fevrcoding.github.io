@@ -82,6 +82,10 @@ sponsor:
     img: "img/sponsor/avocode.png"
     url: "https://avocode.com/"
 
+  - name: "WestHouse"
+    img: "img/sponsor/westhouse.png"
+    url: "https://www.westhouse-group.com/it/"
+
 
 social:
   email: "fevr.gruppo@gmail.com"
