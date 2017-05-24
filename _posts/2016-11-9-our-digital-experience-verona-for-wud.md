@@ -8,6 +8,7 @@ author: fevr
 category: eventi
 redirect_from:
   - /our-digital-experience
+  - /our-digital-experience/
 published: true
 
 event:
