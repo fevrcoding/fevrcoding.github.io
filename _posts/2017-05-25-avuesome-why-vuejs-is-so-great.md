@@ -18,6 +18,11 @@ event:
   facebooklive: "https://www.facebook.com/matteoguidotto/videos/10213490732766611/"
   foto: 
   slides:
+      - author: Lorenzo
+        type: speakerdeck
+        url: 'https://speakerdeck.com/loregirardi/avuesome-why-vue-dot-js-is-so-great'
+        id: '115a55c5be6c4a93a1395c52ce2ac6d7'
+
 
 assets:
   cover: img/2017/05/maggio-hero.jpg
