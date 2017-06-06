@@ -6,7 +6,7 @@ image: img/2017/06/giugno.jpg
 date: 2017-06-01 00:00:00
 author: fevr
 category: eventi
-published: false
+published: true
 
 event:
   speaker: Filippo Riggio
@@ -28,7 +28,13 @@ assets:
   img150: img/2017/06/giugno-150x150.jpg
 ---
 
-Lorem ipsum...
+NativeScript è un framework cross-platform (iOS / Android) per lo sviluppo di app mobile basate su 
+tecnologie web: JavaScript / CSS / XML.
+
+NativeScript supporta Angular 2.
+
+Nel corso del Talk di Filippo Matteo Riggio vedremo attraverso una serie di esempi, 
+come costruire un'app, gestire la UI, il database e la cache.
 
 ## QUANDO
 
