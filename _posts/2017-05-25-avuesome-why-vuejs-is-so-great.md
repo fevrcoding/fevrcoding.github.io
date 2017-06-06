@@ -16,7 +16,7 @@ event:
   eventbrite: 33205499543
   youtube:
   facebooklive: "https://www.facebook.com/matteoguidotto/videos/10213490732766611/"
-  foto: 
+  foto: 'https://www.facebook.com/media/set/?set=oa.1473687792696390'
   slides:
       - author: Lorenzo
         type: speakerdeck
