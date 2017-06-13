@@ -68,6 +68,10 @@
     background-image: url('../img/events.jpg') !important;
 }
 
+.hero.hero--jobs{
+    background-image: url('../img/jobs.jpg') !important;
+}
+
 .hero .block {
     padding-left: 0;
     color: #E3E3E4;
