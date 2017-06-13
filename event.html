@@ -16,7 +16,8 @@ permalink: /eventi/
     </div>
   </div>
 </section>
-{% for post in site.posts %}
+
+{% for post in site.categories.eventi %}
 <a href="{{ post.url | prepend: site.baseurl }}" class="post-area">
   <span  class="post-title">{{ post.title }}</span>
   {% if post.category == 'eventi' %}
