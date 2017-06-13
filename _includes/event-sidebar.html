@@ -1,8 +1,8 @@
 <div class="post-sidebar">
 
-<h3 class="post-sidebar__title">Recent Posts</h3>
+<h3 class="post-sidebar__title">Gli ultimi eventi</h3>
     <ul class="post-sidebar__list">
-      {% for post in site.categories['eventi'] limit:8 %}
+      {% for post in site.categories.eventi limit:8 %}
       <li class="post-sidebar__list-element">
         <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
       </li>
