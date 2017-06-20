@@ -16,7 +16,7 @@ published: true
 > Affianchiamo i nostri clienti con soluzioni mirate, andando incontro anche alle richieste più complesse. Con
 > quattordici sedi in tutto il mondo, Westhouse rientra tra gli HR Provider leader sul panorama internazionale.
 
-PER UN NOSTRO CLIENTE, importante Azienda in forte crescita a Verona, stiamo cercando un:
+PER UN NOSTRO CLIENTE, importante Azienda in forte crescita a Bologna, stiamo cercando un:
 
 ### Front End Developer
 
