@@ -18,6 +18,10 @@ event:
   facebooklive: 
   foto: 
   slides:
+      - author: Filippo
+        type: google-docs
+        url: 'https://docs.google.com/presentation/d/1aLzTxWFvBrGb016Ym9iBiOCAcZx0eRWWs84e7G6d1hE'
+        id: '1aLzTxWFvBrGb016Ym9iBiOCAcZx0eRWWs84e7G6d1hE'
 
 assets:
   cover: img/2017/06/giugno-hero.jpg
