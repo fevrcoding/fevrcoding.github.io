@@ -16,7 +16,7 @@ event:
   eventbrite: 37382455932
   youtube:
   facebooklive: 
-  foto: 
+  foto: https://www.facebook.com/media/set/?set=oa.1605632802835221&type=3
   slides:
 
 assets:
