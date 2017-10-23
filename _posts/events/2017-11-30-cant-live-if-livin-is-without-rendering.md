@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "(Custom) Render your React Application"
+title: "Can't live if livin' is without rendering"
 subtitle: Jiayi Hu - 30.11.2017 @ Graffiti HUB
 image: img/2017/11/novembre-2.jpg
 date: 2017-10-01 00:00:00
@@ -28,7 +28,13 @@ assets:
   img150: img/2017/11/novembre-2-150x150.jpg
 ---
 
-Appuntamento con il FEVR assieme a Jiayi Hu che ci parlerà di...
+Appuntamento con il FEVR assieme a Jiayi Hu che ci parlerà di React custom renderers
+
+Un appuntamento creativo sulle possibilità offerte dalla creazione di un custom renderer per React, 
+alla base del funzionamento di React per Web, Native e VR.
+
+Vedremo anche come questo permetta di usare la familiare sintassi JSX per ottenere soluzioni 
+curiose quali renderizzare componenti in Sketch, creare documenti in PDF o applicazioni CLI.
 
 ## QUANDO
 
