@@ -2,7 +2,7 @@
 layout: event
 title: "Can't live if livin' is without rendering"
 subtitle: Jiayi Hu - 30.11.2017 @ AQuest
-image: img/2017/11/novembre-2.jpg
+image: img/2017/11/novembre2.jpg
 date: 2017-10-01 00:00:00
 author: fevr
 category: eventi
