@@ -1,16 +1,16 @@
 ---
 layout: event
 title: "Can't live if livin' is without rendering"
-subtitle: Jiayi Hu - 30.11.2017 @ AQuest
+subtitle: Jiayi Hu - 29.11.2017 @ AQuest
 image: img/2017/11/novembre2.jpg
-date: 2017-10-01 00:00:00
+date: 2017-11-29 00:00:00
 author: fevr
 category: eventi
 published: true
 
 event:
   speaker: Jiayi Hu
-  date: 2017-11-30 19:00:00
+  date: 2017-11-29 19:00:00
   location: AQuest
 
   eventbrite: 38916358877
@@ -38,7 +38,7 @@ curiose quali renderizzare componenti in Sketch, creare documenti in PDF o appli
 
 ## QUANDO
 
-Giovedì 30 novembre 2017 dalle 19:00 alle 20:30
+Mercoledì 29 novembre 2017 dalle 19:00 alle 20:30
 
 ## DOVE
 
