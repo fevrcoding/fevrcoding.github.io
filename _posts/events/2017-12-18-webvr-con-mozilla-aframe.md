@@ -6,7 +6,7 @@ image: img/2017/12/dicembre.jpg
 date: 2017-11-01 00:00:00
 author: fevr
 category: eventi
-published: false
+published: true
 
 event:
   speaker: Francesco Strazzullo
