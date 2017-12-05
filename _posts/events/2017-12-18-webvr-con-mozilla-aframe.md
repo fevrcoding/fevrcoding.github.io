@@ -10,7 +10,7 @@ published: true
 
 event:
   speaker: Francesco Strazzullo
-  date: 2017-11-29 19:00:00
+  date: 2017-12-18 19:00:00
   location: AQuest
 
   eventbrite: 40185963298
