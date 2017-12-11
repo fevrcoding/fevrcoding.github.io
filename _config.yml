@@ -86,6 +86,10 @@ sponsor:
     img: "img/sponsor/westhouse.png"
     url: "https://www.westhouse-group.com/it/"
 
+  - name: "AQuest"
+    img: "img/sponsor/aquest.png"
+    url: "https://www.aquest.it/it"
+
 
 social:
   email: "fevr.gruppo@gmail.com"
