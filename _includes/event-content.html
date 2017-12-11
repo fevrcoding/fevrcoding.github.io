@@ -115,11 +115,15 @@
         <div class="embed-responsive embed-responsive-4by3">
             {% if slide.type == 'slides' %}
 
-                {% include slides.html id=slide.id %}
+                {% include slides-slides.html id=slide.id %}
 
             {% elsif slide.type == 'speakerdeck' %}
 
-                {% include speakerdeck.html id=slide.id %}
+                {% include slides-speakerdeck.html id=slide.id %}
+
+            {% elsif slide.type == 'slideshare' %}
+
+                {% include slides-slideshare.html id=slide.id %}
 
             {% else %}
 

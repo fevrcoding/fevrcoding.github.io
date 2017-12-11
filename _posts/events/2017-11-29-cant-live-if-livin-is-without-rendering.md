@@ -18,6 +18,11 @@ event:
   facebooklive: https://www.facebook.com/matteoguidotto/videos/10215261402112238/
   foto: https://www.facebook.com/media/set/?set=oa.1651247674940400&type=3
   slides:
+        - author: Jiayi
+          type: slideshare
+          url: 'https://www.slideshare.net/GiovanniJiayiHu/fevr-cant-live-if-livin-is-without-rendering'
+          id: 'wFAzRryNWhSD0n'
+
 
 assets:
   cover: img/2017/11/novembre2-hero.jpg
