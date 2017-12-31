@@ -15,9 +15,13 @@ event:
 
   eventbrite: 40185963298
   youtube:
-  facebooklive: 
-  foto: 
+  facebooklive: 'https://www.facebook.com/matteoguidotto/videos/10215426214272439/'
+  foto: 'https://www.facebook.com/media/set/?set=oa.1674024159329418&type=3'
   slides:
+    - author: Francesco
+      type: slides
+      url: 'https://slides.com/francescostrazzullo/webvr-fevr-2017'
+      id: 'francescostrazzullo/webvr-fevr-2017'
 
 assets:
   cover: img/2017/12/dicembre-hero.jpg
