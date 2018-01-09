@@ -6,7 +6,7 @@ image: img/2018/01/gennaio-fevr.jpg
 date: 2018-01-01 00:00:00
 author: fevr
 category: eventi
-published: false
+published: true
 
 event:
   speaker: Matteo Ronchi

@@ -6,7 +6,7 @@ image: img/2018/01/gennaio-bug.jpg
 date: 2018-01-01 00:00:00
 author: bug
 category: eventi
-published: false
+published: true
 
 event:
   speaker: Nicola Ridolfi
@@ -28,7 +28,9 @@ assets:
   img150: img/2018/01/gennaio-bug-150x150.jpg
 ---
 
-Abstract
+Il concetto di identità, dalla vita reale a quella virtuale. Come funzionano gli ID provider ed un approfondimento su best practice e standard di autenticazione. 
+
+Lo stato dell'arte ed uno sguardo all'immediato futuro
 
 ## QUANDO
 
