@@ -15,9 +15,13 @@ event:
 
   eventbrite: 41600640636
   youtube:
-  facebooklive: 
+  facebooklive: 'https://www.facebook.com/matteoguidotto/videos/10215738604201992/'
   foto: 
   slides:
+      - author: Matteo
+        type: speakerdeck
+        url: 'https://speakerdeck.com/cef62/why-use-types-in-javascript'
+        id: '937cc588505c4e95a26860540202c1ea'
 
 assets:
   cover: img/2018/01/gennaio-fevr-hero.png
