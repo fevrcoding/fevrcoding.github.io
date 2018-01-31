@@ -192,6 +192,20 @@ team:
         url: "https://www.linkedin.com/in/lucakinomaroni"
         icon: fa-linkedin
 
+
+  - name: "Marco Albarelli"
+    role: "Senior Engineer @Toptal"
+    img: "img/marco-albarelli.jpg"
+    social:
+      - name: Github
+        url: "https://github.com/marcoalbarelli"
+        icon: fa-github
+
+      - name: LinkedIn
+        url: "https://www.linkedin.com/in/marcoalbarelli/"
+        icon: fa-linkedin
+
+
 defaults:
   - scope:
       path: ""
