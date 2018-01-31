@@ -70,10 +70,6 @@ sponsor:
     img: "img/sponsor/jetbrains.png"
     url: "https://www.jetbrains.com/"
 
-  - name: "O'Reilly"
-    img: "img/sponsor/oreilly.png"
-    url: "http://www.oreilly.com/"
-
   - name: "Plural Sight"
     img: "img/sponsor/pluralsight.png"
     url: "https://www.pluralsight.com/"
@@ -89,6 +85,10 @@ sponsor:
   - name: "AQuest"
     img: "img/sponsor/aquest.png"
     url: "https://www.aquest.it/it"
+
+  - name: "Vecomp Software"
+    img: "img/sponsor/vecomp-software.png"
+    url: "http://www.vecompsoftware.it/"
 
 
 social:
