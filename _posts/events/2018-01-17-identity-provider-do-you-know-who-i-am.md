@@ -18,7 +18,10 @@ event:
   facebooklive: 'https://www.facebook.com/matteoguidotto/videos/10215674031707720/'
   foto: 
   slides:
-
+    - author: Nicola
+      type: slides
+      url: 'http://slides.com/nicolaridolfi/id-providers'
+      id: 'nicolaridolfi/id-providers'
 assets:
   cover: img/2018/01/gennaio-bug-hero.jpg
   img500: img/2018/01/gennaio-bug-500x500.jpg
