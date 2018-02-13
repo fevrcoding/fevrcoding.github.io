@@ -16,7 +16,7 @@ event:
   eventbrite: 41600640636
   youtube:
   facebooklive: 'https://www.facebook.com/matteoguidotto/videos/10215738604201992/'
-  foto: 
+  foto: 'https://www.facebook.com/media/set/?set=oa.1716754251723075&type=3'
   slides:
       - author: Matteo
         type: speakerdeck

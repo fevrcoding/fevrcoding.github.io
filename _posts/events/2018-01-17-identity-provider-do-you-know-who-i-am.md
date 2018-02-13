@@ -16,7 +16,7 @@ event:
   eventbrite: 41600497207
   youtube:
   facebooklive: 'https://www.facebook.com/matteoguidotto/videos/10215674031707720/'
-  foto: 
+  foto: 'https://www.facebook.com/media/set/?set=oa.1719399914791842&type=3'
   slides:
     - author: Nicola
       type: slides
