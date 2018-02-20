@@ -3,7 +3,7 @@ layout: event
 title: "Stack Overflow e i suoi tag: una storia vera"
 subtitle: Marco Cecconi - 12.02.2018 @ AQuest
 image: img/2018/02/febbraio-bug.jpg
-date: 2018-01-01 00:00:00
+date: 2018-02-01 00:00:00
 author: bug
 category: eventi
 published: true
