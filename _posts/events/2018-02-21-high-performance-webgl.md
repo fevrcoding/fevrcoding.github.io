@@ -15,9 +15,13 @@ event:
 
   eventbrite: 42605153160
   youtube:
-  facebooklive: 
+  facebooklive: 'https://www.facebook.com/cesaredamico/videos/10215434258240012/'
   foto: 
   slides:
+    - author: Luigi
+      type: speakerdeck
+      url: 'https://speakerdeck.com/luruke/high-performance-webgl'
+      id: '2115c2b4732e4e828df495bad3836ed6'
 
 assets:
   cover: img/2018/02/febbraio-fevr-hero.jpg
