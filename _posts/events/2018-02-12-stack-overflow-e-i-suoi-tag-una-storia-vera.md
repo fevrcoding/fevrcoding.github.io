@@ -16,8 +16,8 @@ event:
   eventbrite: 42567927818
   youtube:
   facebooklive: 'https://www.facebook.com/matteoguidotto/videos/10215912929320011/'
-  foto: 
-  slides:
+  foto: 'https://www.facebook.com/media/set/?set=oa.1721196357945531&type=3'
+  slides: 
 
 assets:
   cover: img/2018/02/febbraio-bug-hero.jpg
