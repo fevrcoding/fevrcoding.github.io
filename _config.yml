@@ -206,6 +206,20 @@ team:
         icon: fa-linkedin
 
 
+  - name: "Cesare D'Amico"
+    role: "Engineering Manager"
+    img: "img/cesare-damico.jpg"
+    social:
+
+      - name: Twitter
+        url: "https://twitter.com/__ce"
+        icon: fa-twitter
+
+      - name: LinkedIn
+        url: "https://www.linkedin.com/in/cesare/"
+        icon: fa-linkedin
+
+
 defaults:
   - scope:
       path: ""
