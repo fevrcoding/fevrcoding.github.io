@@ -16,7 +16,7 @@ event:
   eventbrite: 42605153160
   youtube:
   facebooklive: 'https://www.facebook.com/cesaredamico/videos/10215434258240012/'
-  foto: 
+  foto: 'https://www.facebook.com/media/set/?set=oa.1760174734047693&type=3'
   slides:
     - author: Luigi
       type: speakerdeck
