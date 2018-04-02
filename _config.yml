@@ -58,10 +58,6 @@ descriptions:
     desc: "I nostri eventi."
 
 sponsor:
-  - name: "Graffiti HUB"
-    img: "img/sponsor/graffitihub.png"
-    url: "https://www.facebook.com/GraffitiHub/"
-
   - name: "Kaleidoscope Studio"
     img: "img/sponsor/kaleidoscope.png"
     url: "http://www.kaleidoscope.it/"
@@ -86,9 +82,9 @@ sponsor:
     img: "img/sponsor/aquest.png"
     url: "https://www.aquest.it/it"
 
-  - name: "Vecomp Software"
-    img: "img/sponsor/vecomp-software.png"
-    url: "http://www.vecompsoftware.it/"
+  - name: "dgroove"
+    img: "img/sponsor/dgroove.png"
+    url: "http://www.dgroove.it/"
 
 
 social:
