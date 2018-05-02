@@ -3,14 +3,14 @@ layout: event
 title: "Component-driven Web Theming"
 subtitle: Massimo Artizzu - 30.05.2018 @ AQuest
 image: img/2018/05/maggio-fevr.jpg
-date: 2018-04-01 00:00:00
+date: 2018-05-01 00:00:00
 author: fevr
 category: eventi
 published: true
 
 event:
   speaker: Massimo Artizzu
-  date: 2018-04-18 19:00:00
+  date: 2018-05-30 19:00:00
   location: AQuest
 
   eventbrite: 45430801751
@@ -36,7 +36,7 @@ Direttamente dall'ultima edizione del CSSDay, Massimo Artizzu al FEVR ospite del
 
 ## QUANDO
 
-Mercoledì 18 aprile 2018 dalle 19:00 alle 20:30
+Mercoledì 30 maggio 2018 dalle 19:00 alle 20:30
 
 ## DOVE
 
