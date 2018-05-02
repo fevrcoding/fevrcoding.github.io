@@ -32,7 +32,7 @@ Direttamente dall'ultima edizione del CSSDay, Massimo Artizzu al FEVR ospite del
 
 ## ABSTRACT
 
-"La 'cascata' del CSS ci ha da sempre consentito di estendere e ridefinire regole e dichiarazioni di stile, ma più spesso si è rivelato uno strumento difficile da usare e controllare. Per questo abbiamo perseguito, e finalmente conquistato (con l'arrivo dei Web Component) l'incapsulamento degli stili. Tuttavia, la necessità rimane: come adattare un componente esterno al nostro design, se gli stili sono isolati? Vedremo in una panoramica le tecniche passate
+La 'cascata' del CSS ci ha da sempre consentito di estendere e ridefinire regole e dichiarazioni di stile, ma più spesso si è rivelato uno strumento difficile da usare e controllare. Per questo abbiamo perseguito, e finalmente conquistato (con l'arrivo dei Web Component) l'incapsulamento degli stili. Tuttavia, la necessità rimane: come adattare un componente esterno al nostro design, se gli stili sono isolati? Vedremo in una panoramica le tecniche passate
 
 ## QUANDO
 
