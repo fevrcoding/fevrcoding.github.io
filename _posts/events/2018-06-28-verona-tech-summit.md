@@ -28,7 +28,8 @@ assets:
   img150: img/2018/06/verona-tech-summit-150x150.jpg
 ---
 
-Nasce il primo evento a Verona che riunisce tutte le community tech di Verona.
+**Nasce il primo evento a Verona che riunisce tutte le community tech di Verona.**
+
 Verona Tech Summit celebra la contaminazione delle conoscenze, il networking e il mondo tech con una serata in cui tutte le community racconteranno i loro temi.
 
 Parleremo di organizzazione, di backend e di WordPress, di machine learning, di frontend, UX design e pure di makers e lo faremo con i gruppi che li rappresentano attraverso il valore principale
