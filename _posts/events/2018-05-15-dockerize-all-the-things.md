@@ -15,9 +15,13 @@ event:
 
   eventbrite: 44874567038
   youtube:
-  facebooklive:
-  foto:
-  slides: 
+  facebooklive: 'https://www.facebook.com/matteoguidotto/videos/10216696019616779/'
+  foto: 'https://www.facebook.com/groups/frontendersverona/permalink/1828016960596803/'
+  slides:
+    - author: Thomas
+      type: drive
+      url: 'https://drive.google.com/file/d/1n2yw73PcSPrT4YOf1s0PMi53q3zpf6Sj/view'
+      id: '1n2yw73PcSPrT4YOf1s0PMi53q3zpf6Sj'
 
 assets:
   cover: img/2018/05/maggio-bug-hero.jpg

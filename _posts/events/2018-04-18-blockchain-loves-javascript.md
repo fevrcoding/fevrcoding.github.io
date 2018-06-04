@@ -17,7 +17,11 @@ event:
   youtube:
   facebooklive: https://www.facebook.com/matteoguidotto/videos/10216494648822635/
   foto: https://www.facebook.com/media/set/?set=oa.1794313037300529&type=3
-  slides:
+  slides: 
+    - author: Simone
+      type: github
+      url: 'https://github.com/Siimone/FEVR-18-04-18'
+      id: 'Siimone/FEVR-18-04-18'
 
 assets:
   cover: img/2018/04/aprile-fevr-hero.jpg
