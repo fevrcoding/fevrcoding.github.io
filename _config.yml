@@ -42,6 +42,7 @@ social:
 
 # Build settings
 markdown: kramdown
+future: true
 
 gems:
   - jekyll-sitemap
