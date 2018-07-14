@@ -21,7 +21,7 @@ permalink: /eventi/
 <a href="{{ post.url | prepend: site.baseurl }}" class="post-area">
   <span  class="post-title">{{ post.title }}</span>
   {% if post.category == 'eventi' %}
-    <span class="post-date">{{ post.event.speaker }} - {{post.event.date | date: "%d/%m/%Y"}} - {{post.event.location}} </span>
+    <span class="post-date">{{ post.event.speaker }} - {{post.date | date: "%d/%m/%Y"}} - {{post.event.location}} </span>
   {% else %}
     <span class="post-date">{{ post.subtitle }} </span>
   {% endif %}

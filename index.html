@@ -13,7 +13,7 @@ permalink: /
                     <h1 class="animated fadeInUp">{{post.title | upcase}}</h1>
                     <div class="animated fadeInUp buttons">
                         <p>
-                            {{ post.event.speaker }} - {{post.event.date | date: "%d/%m/%Y"}} - {{post.event.location}}
+                            {{ post.event.speaker }} - {{post.date | date: "%d/%m/%Y"}} - {{post.event.location}}
                         </p>
                         <p>
                             <a href="{{ post.url | prepend: site.baseurl }}" class="btn yellow-btn">Dettagli</a>
@@ -56,7 +56,7 @@ permalink: /
                                         <img class="img-rounded img-responsive center-block" src="{{ site.url }}/{{ post.assets.img500}}" alt="{{post.title}}">
                                     </span>
                                     <span class="evento-title line">{{post.title | upcase}}</span>
-                                    <span class="evento-description">{{ post.event.speaker }} - {{post.event.date | date: "%d/%m/%Y"}} - {{post.event.location}}</span>
+                                    <span class="evento-description">{{ post.event.speaker }} - {{post.date | date: "%d/%m/%Y"}} - {{post.event.location}}</span>
                                 </a>
                             </li>
                             {% endfor %}
