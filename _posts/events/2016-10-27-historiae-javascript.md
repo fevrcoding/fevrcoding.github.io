@@ -3,7 +3,7 @@ layout: event
 title: Historiae Javascript
 subtitle: Marco Solazzi – 27 Ottobre 2016 – Graffiti HUB
 image: img/2016/10/ottobre.jpg
-date: 2016-10-01 00:00:00
+date: 2016-10-27 19:00:00
 author: fevr
 category: eventi
 redirect_from:
@@ -12,7 +12,6 @@ published: true
 
 event:
   speaker: Marco Solazzi
-  date: 2016-10-27 19:00:00
   location: Graffiti HUB
 
   eventbrite: 28448104045

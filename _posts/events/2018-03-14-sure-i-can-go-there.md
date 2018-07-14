@@ -3,14 +3,13 @@ layout: event
 title: "Sure, I can GO there"
 subtitle: Simone Gentili - 14.03.2018 @ AQuest
 image: img/2018/03/marzo-bug.jpg
-date: 2018-03-01 00:00:00
+date: 2018-03-14 19:00:00
 author: bug
 category: eventi
 published: true
 
 event:
   speaker: Simone Gentili
-  date: 2018-03-14 19:00:00
   location: AQuest
 
   eventbrite: 43525087709

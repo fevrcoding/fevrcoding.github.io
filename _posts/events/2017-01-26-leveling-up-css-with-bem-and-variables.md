@@ -3,14 +3,13 @@ layout: event
 title: "Leveling Up CSS with BEM and Variables"
 subtitle: Alessandro Muraro e Giacomo Zinetti - 26.01.2017 @ Graffiti HUB
 image: img/2017/01/gennaio.jpg
-date: 2017-01-01 00:00:00
+date: 2017-01-26 19:00:00
 author: fevr
 category: eventi
 published: true
 
 event:
   speaker: Alessandro Muraro e Giacomo Zinetti
-  date: 2017-01-26 19:00:00
   location: Graffiti HUB
 
   eventbrite: 30982151449

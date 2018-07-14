@@ -3,7 +3,7 @@ layout: event
 title: "Javascript Test Dummies"
 subtitle: Mauro Verrocchio – 19 Maggio 2016 – Graffiti HUB
 image: img/2016/05/maggio.jpg
-date: 2016-05-01 00:00:00
+date: 2016-05-19 19:00:00
 author: fevr
 category: eventi
 redirect_from:
@@ -12,7 +12,6 @@ published: true
 
 event:
   speaker: Mauro Verrocchio
-  date: 2016-05-19 19:00:00
   location: Graffiti HUB
 
   eventbrite: 24799282321

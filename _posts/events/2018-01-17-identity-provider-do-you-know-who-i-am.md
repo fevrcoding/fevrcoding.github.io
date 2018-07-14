@@ -3,14 +3,13 @@ layout: event
 title: "Identity provider. Do you know who I am?!"
 subtitle: Nicola Ridolfi - 17.01.2018 @ AQuest
 image: img/2018/01/gennaio-bug.jpg
-date: 2018-01-01 00:00:00
+date: 2018-01-17 19:00:00
 author: bug
 category: eventi
 published: true
 
 event:
   speaker: Nicola Ridolfi
-  date: 2018-01-17 19:00:00
   location: AQuest
 
   eventbrite: 41600497207

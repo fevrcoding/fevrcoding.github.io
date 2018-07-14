@@ -3,14 +3,13 @@ layout: event
 title: "Il frontend spiegato alle bionde"
 subtitle: Giulia Talamonti - 20.04.2017 @ Graffiti HUB
 image: img/2017/04/aprile.jpg
-date: 2017-04-01 00:00:00
+date: 2017-04-20 19:00:00
 author: fevr
 category: eventi
 published: true
 
 event:
   speaker: Giulia Talamonti
-  date: 2017-04-20 19:00:00
   location: Graffiti HUB
 
   eventbrite: 33205152505

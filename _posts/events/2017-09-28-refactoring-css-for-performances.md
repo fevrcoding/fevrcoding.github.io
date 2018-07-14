@@ -3,14 +3,13 @@ layout: event
 title: "Refactoring CSS for performances"
 subtitle: Mattia Tommasone - 28.09.2017 @ Graffiti HUB
 image: img/2017/09/settembre.jpg
-date: 2017-09-01 00:00:00
+date: 2017-09-28 19:00:00
 author: fevr
 category: eventi
 published: true
 
 event:
   speaker: Mattia Tommasone
-  date: 2017-09-28 19:00:00
   location: Graffiti HUB
 
   eventbrite: 37382455932

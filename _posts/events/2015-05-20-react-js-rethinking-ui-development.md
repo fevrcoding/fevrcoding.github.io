@@ -3,7 +3,7 @@ layout: event
 title: "REACT JS – Rethinking UI Development"
 subtitle: Stefano Ceschi Berrini – 20 Maggio 2015 – Startup GYM
 image: img/2015/05/maggio.jpg
-date: 2015-05-01 00:00:00
+date: 2015-05-20 19:00:00
 author: fevr
 category: eventi
 redirect_from:
@@ -12,7 +12,6 @@ published: true
 
 event:
   speaker: Stefano Ceschi Berrini
-  date: 2015-05-20 19:00:00
   location: Startup GYM
 
   eventbrite: 16933005074

@@ -3,14 +3,13 @@ layout: event
 title: "Component-driven Web Theming"
 subtitle: Massimo Artizzu - 30.05.2018 @ AQuest
 image: img/2018/05/maggio-fevr.jpg
-date: 2018-05-01 00:00:00
+date: 2018-05-30 19:00:00
 author: fevr
 category: eventi
 published: true
 
 event:
   speaker: Massimo Artizzu
-  date: 2018-05-30 19:00:00
   location: AQuest
 
   eventbrite: 45430801751

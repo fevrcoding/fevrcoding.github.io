@@ -3,7 +3,7 @@ layout: event
 title: "Microsoft Unplugged with Pietro Brambati"
 subtitle: Pietro Brambati – 25 Giugno 2015 – The Fab
 image: img/2015/06/giugno.jpg
-date: 2015-06-01 00:00:00
+date: 2015-06-25 19:00:00
 author: fevr
 category: eventi
 redirect_from:
@@ -12,7 +12,6 @@ published: true
 
 event:
   speaker: Pietro Brambati
-  date: 2015-06-25 19:00:00
   location: The Fab
 
   eventbrite: 17063555554

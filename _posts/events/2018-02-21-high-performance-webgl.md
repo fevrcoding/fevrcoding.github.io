@@ -3,14 +3,13 @@ layout: event
 title: "High performance WebGL"
 subtitle: Luigi De Rosa - 21.02.2018 @ AQuest
 image: img/2018/02/febbraio-fevr.jpg
-date: 2018-02-01 00:00:00
+date: 2018-02-21 19:00:00
 author: fevr
 category: eventi
 published: true
 
 event:
   speaker: Luigi De Rosa
-  date: 2018-02-21 19:00:00
   location: AQuest
 
   eventbrite: 42605153160

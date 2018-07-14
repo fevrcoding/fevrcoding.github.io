@@ -3,7 +3,7 @@ layout: event
 title: "Polymer from Components to App"
 subtitle: Maurizio Mangione – 26 Novembre 2015 – Graffiti HUB
 image: img/2015/11/novembre.jpg
-date: 2015-11-01 00:00:00
+date: 2015-11-26 19:00:00
 author: fevr
 category: eventi
 redirect_from:
@@ -12,7 +12,6 @@ published: true
 
 event:
   speaker: Maurizio Mangione
-  date: 2015-11-26 19:00:00
   location: Graffiti HUB
 
   eventbrite: 19376272954

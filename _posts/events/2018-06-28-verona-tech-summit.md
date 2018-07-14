@@ -3,14 +3,13 @@ layout: event
 title: "Verona Tech Summit"
 subtitle: Verona Tech Scene - 28.06.2018 @ 311 Verona
 image: img/2018/06/verona-tech-summit.jpg
-date: 2018-06-01 00:00:00
+date: 2018-06-28 19:00:00
 author: fevr
 category: eventi
 published: true
 
 event:
   speaker: Verona Tech Scene
-  date: 2018-06-28 19:00:00
   location: 311 Verona
 
   eventbrite: 46185858145

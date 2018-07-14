@@ -3,14 +3,13 @@ layout: event
 title: "React Native for Better Apps"
 subtitle: Gian Marco Toso - 23.02.2017 @ BENTOBOX.PRO
 image: img/2017/02/febbraio.jpg
-date: 2017-02-01 00:00:00
+date: 2017-02-23 19:00:00
 author: fevr
 category: eventi
 published: true
 
 event:
   speaker: Gian Marco Toso
-  date: 2017-02-23 19:00:00
   location: BENTOBOX.PRO
 
   eventbrite: 31935348487

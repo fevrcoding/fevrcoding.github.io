@@ -3,14 +3,13 @@ layout: event
 title: "First Meeting"
 subtitle: FEVR - 20 Maggio 2014 – The Fab
 image: img/2014/05/maggio.jpg
-date: 2014-05-01 00:00:00
+date: 2014-05-20 19:00:00
 author: fevr
 category: eventi
 published: true
 
 event:
   speaker: FEVR
-  date: 2014-05-20 19:00:00
   location: The Fab
 
   eventbrite:

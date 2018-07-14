@@ -3,14 +3,13 @@ layout: event
 title: "Build apps with nativescript and angular2"
 subtitle: Filippo Riggio - 22.06.2017 @ Graffiti HUB
 image: img/2017/06/giugno.jpg
-date: 2017-06-01 00:00:00
+date: 2017-06-22 19:00:00
 author: fevr
 category: eventi
 published: true
 
 event:
   speaker: Filippo Riggio
-  date: 2017-06-22 19:00:00
   location: Graffiti HUB
 
   eventbrite: 33205522612

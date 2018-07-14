@@ -3,14 +3,13 @@ layout: event
 title: "Angular Best Practices"
 subtitle: Fabio Biondi e Michele Stieven - 02.11.2017 @ Graffiti HUB
 image: img/2017/11/novembre.jpg
-date: 2017-10-01 00:00:00
+date: 2017-11-02 16:00:00
 author: fevr
 category: eventi
 published: true
 
 event:
   speaker: Fabio Biondi e Michele Stieven
-  date: 2017-11-02 16:00:00
   location: Graffiti HUB
 
   eventbrite: 38620438772

@@ -3,14 +3,13 @@ layout: event
 title: "Introduction to CSS Grids"
 subtitle: Nicola Zambello - 22.03.2018 @ AQuest
 image: img/2018/03/marzo-fevr.png
-date: 2018-03-01 00:00:00
+date: 2018-03-22 19:00:00
 author: fevr
 category: eventi
 published: true
 
 event:
   speaker: Nicola Zambello
-  date: 2018-03-22 19:00:00
   location: AQuest
 
   eventbrite: 43525249192

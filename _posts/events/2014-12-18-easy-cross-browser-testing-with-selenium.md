@@ -3,7 +3,7 @@ layout: event
 title: "Easy Cross-Browser Testing with Selenium"
 subtitle: Marco Picello – 18 Dicembre 2014 – The Fab
 image: img/2014/12/dicembre.jpg
-date: 2014-12-01 00:00:00
+date: 2014-12-18 19:00:00
 author: fevr
 category: eventi
 redirect_from:
@@ -12,7 +12,6 @@ published: true
 
 event:
   speaker: Marco Picello
-  date: 2014-12-18 19:00:00
   location: The Fab
 
   eventbrite: 14721764193

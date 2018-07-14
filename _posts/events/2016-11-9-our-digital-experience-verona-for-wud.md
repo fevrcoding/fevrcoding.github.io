@@ -3,7 +3,7 @@ layout: event
 title: Our Digital Experience - Verona for WUD
 subtitle: Conferenza - 9 Novembre 2016 – 311 Verona
 image: img/2016/11/our-digital-experience.jpg
-date: 2016-10-01 00:00:00
+date: 2016-10-27 19:00:00
 author: fevr
 category: eventi
 redirect_from:
@@ -13,7 +13,6 @@ published: true
 
 event:
   speaker: Conferenza
-  date: 2016-10-27 19:00:00
   location: 311 Verona
 
   eventbrite: 28481319393

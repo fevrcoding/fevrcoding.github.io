@@ -3,7 +3,7 @@ layout: event
 title: "From frontend to backend: from Js to Nodejs"
 subtitle: Davide Zeffiro – 15 Dicembre 2015 – Graffiti HUB
 image: img/2015/12/dicembre.jpg
-date: 2015-12-01 00:00:00
+date: 2015-12-15 19:00:00
 author: fevr
 category: eventi
 redirect_from:
@@ -12,7 +12,6 @@ published: true
 
 event:
   speaker: Davide Zeffiro
-  date: 2015-12-15 19:00:00
   location: Graffiti HUB
 
   eventbrite: 19674078699

@@ -3,14 +3,13 @@ layout: event
 title: "Why use types in Javascript: Flow & Typescript"
 subtitle: Matteo Ronchi - 24.01.2018 @ AQuest
 image: img/2018/01/gennaio-fevr.jpg
-date: 2018-01-01 00:00:00
+date: 2018-01-24 19:00:00
 author: fevr
 category: eventi
 published: true
 
 event:
   speaker: Matteo Ronchi
-  date: 2018-01-24 19:00:00
   location: AQuest
 
   eventbrite: 41600640636

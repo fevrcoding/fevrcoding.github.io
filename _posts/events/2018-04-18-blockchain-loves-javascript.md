@@ -3,14 +3,13 @@ layout: event
 title: "Blockchain loves Javascript"
 subtitle: Simone Da Re - 18.04.2018 @ AQuest
 image: img/2018/04/aprile-fevr.jpg
-date: 2018-04-01 00:00:00
+date: 2018-04-18 19:00:00
 author: fevr
 category: eventi
 published: true
 
 event:
   speaker: Simone Da Re
-  date: 2018-04-18 19:00:00
   location: AQuest
 
   eventbrite: 43857239183
