@@ -6,7 +6,7 @@ image: img/2018/09/settembre-fevr.jpg
 date: 2018-09-27 19:00:00
 author: fevr
 category: eventi
-published: false
+published: true
 
 event:
   speaker: Kalidou Diagne
