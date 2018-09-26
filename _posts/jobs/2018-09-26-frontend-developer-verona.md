@@ -6,7 +6,7 @@ date: 2018-09-26 00:00:00
 author: fevr
 category: jobs
 permalink: /:categories/:title/
-published: false
+published: true
 ---
 
 > **WESTHOUSE - WE make talent work.**
