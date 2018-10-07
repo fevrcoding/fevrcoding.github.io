@@ -6,7 +6,7 @@ image: img/2018/10/ottobre-fevr.jpg
 date: 2018-10-25 19:00:00
 author: fevr
 category: eventi
-published: false
+published: true
 
 event:
   speaker: Michel Murabito
