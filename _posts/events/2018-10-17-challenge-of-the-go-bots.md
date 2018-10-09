@@ -34,7 +34,7 @@ Vi racconto l'esperienza che ho vissuto nello sviluppo di un progetto tutto somm
 
 ## QUANDO
 
-Mercoledì 10 ottobre 2018 dalle 19:00 alle 20:30
+Mercoledì 17 ottobre 2018 dalle 19:00 alle 20:30
 
 ## DOVE
 
