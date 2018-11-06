@@ -106,6 +106,8 @@ social:
     url: "https://speakerdeck.com/fevr"
   meetup:
     url: "https://meetup.com/it-IT/FEVR-Frontenders-Verona/"
+  patreon:
+    url: "https://www.patreon.com/fevr"
 
 team:
   - name: "Matteo Guidotto"
