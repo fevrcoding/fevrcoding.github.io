@@ -1,9 +1,9 @@
 ---
 layout: event
 title: "Unity: from Gaming to industry"
-subtitle: Roberto Brogi - 12.12.2018 @ AQuest
+subtitle: Roberto Brogi - 11.12.2018 @ AQuest
 image: img/2018/12/dicembre-fevr.jpg
-date: 2018-12-12 19:00:00
+date: 2018-12-11 19:00:00
 author: fevr
 category: eventi
 published: false
@@ -42,7 +42,7 @@ Sta solo alla nostra immaginazione trovare il giusto posto per questo Framework 
 
 ## QUANDO
 
-Mercoledì 12 dicembre 2018 dalle 19:00 alle 20:30
+Martedì 11 dicembre 2018 dalle 19:00 alle 20:30
 
 ## DOVE
 
