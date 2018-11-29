@@ -6,7 +6,7 @@ image: img/2018/12/dicembre-fevr.jpg
 date: 2018-12-11 19:00:00
 author: fevr
 category: eventi
-published: false
+published: true
 
 event:
   speaker: Roberto Brogi
