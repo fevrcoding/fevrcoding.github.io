@@ -12,7 +12,7 @@ event:
   speaker: Roberto Brogi
   location: AQuest
 
-  eventbrite: 52178541422
+  eventbrite: 52178713938
   youtube:
   facebooklive: 
   foto: 
