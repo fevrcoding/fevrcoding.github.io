@@ -14,9 +14,13 @@ event:
 
   eventbrite: 48106385494
   youtube:
-  facebooklive: 
+  facebooklive: https://www.facebook.com/matteoguidotto/videos/10217784002095661/
   foto: 
-  slides:
+  slides: 
+    - author: Kalidou
+      type: facebook
+      url: 'https://www.facebook.com/groups/frontendersverona/permalink/2010032729061891/'
+      id: '2010032729061891'
 
 assets:
   cover: img/2018/09/settembre-fevr-hero.jpg

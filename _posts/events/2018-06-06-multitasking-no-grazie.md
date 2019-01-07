@@ -14,7 +14,7 @@ event:
 
   eventbrite: 46504133114
   youtube:
-  facebooklive:
+  facebooklive: https://www.facebook.com/matteoguidotto/videos/10216861398111138/
   foto: 
   slides:
 

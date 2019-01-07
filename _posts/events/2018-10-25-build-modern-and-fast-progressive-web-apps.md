@@ -14,9 +14,13 @@ event:
 
   eventbrite: 48106475764
   youtube:
-  facebooklive: 
-  foto: 
+  facebooklive: https://www.facebook.com/matteoguidotto/videos/10218020587730154/
+  foto: https://www.facebook.com/media/set/?set=oa.2087286698003160&type=3
   slides:
+    - author: Michel
+      type: drive
+      url: 'https://drive.google.com/file/d/1dopPdY7lRN_UXPWSN1GZCfbWGq4MzAQ5/view'
+      id: '1dopPdY7lRN_UXPWSN1GZCfbWGq4MzAQ5'
 
 assets:
   cover: img/2018/10/ottobre-fevr-hero.jpg

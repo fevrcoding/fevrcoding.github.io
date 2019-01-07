@@ -14,8 +14,8 @@ event:
 
   eventbrite: 48529434846
   youtube:
-  facebooklive:
-  foto: 
+  facebooklive: https://www.facebook.com/marco.albarelli1/videos/10215610800774692/
+  foto: https://www.facebook.com/media/set/?set=oa.1988849337846897&type=3
   slides:
 
 assets:

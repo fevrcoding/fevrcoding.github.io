@@ -14,9 +14,12 @@ event:
 
   eventbrite: 52178541422
   youtube:
-  facebooklive: 
-  foto: 
-  slides:
+  facebooklive: https://www.facebook.com/matteoguidotto/videos/10218294294652656/
+  foto: https://www.facebook.com/media/set/?set=oa.2104200499645113&type=3
+  slides: 
+  - author: Jiayi
+      type: pdf
+      url: 'https://github.com/jiayihu/talks/blob/master/get-hyper-excited-for-web-standards/presentation.pdf'
 
 assets:
   cover: img/2018/11/novembre-fevr-hero.jpg

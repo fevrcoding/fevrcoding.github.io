@@ -14,9 +14,13 @@ event:
 
   eventbrite: 51003583090
   youtube:
-  facebooklive:
+  facebooklive: https://www.facebook.com/marco.albarelli1/videos/10216124294491714/
   foto: 
   slides:
+    - author: Stefano
+      type: slides
+      url: 'http://slides.com/devinterface/service-objects-pattern-and-antipattern'
+      id: 'devinterface/service-objects-pattern-and-antipattern'
 
 assets:
   cover: img/2018/11/novembre-bug-hero.jpg

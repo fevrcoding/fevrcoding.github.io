@@ -14,7 +14,7 @@ event:
 
   eventbrite: 46185858145
   youtube:
-  facebooklive:
+  facebooklive: https://www.facebook.com/VeronaTechScene/videos/2125959077423863/
   foto: 
   slides:
 
