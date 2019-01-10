@@ -2,11 +2,11 @@
 layout: event
 title: "Sicurezza Applicativa e metodologia OWASP"
 subtitle: Francesco Mantovanelli - 15.01.2019 @ AQuest
-image: img/2019/01/gennaio-bug.jpg
+image: img/2019/01/bug-gennaio.jpg
 date: 2019-01-15 19:00:00
 author: bug
 category: eventi
-published: false
+published: true
 
 event:
   speaker: Francesco Mantovanelli
@@ -19,12 +19,12 @@ event:
   slides:
 
 assets:
-  cover: img/2019/01/gennaio-bug-hero.jpg
-  img500: img/2019/01/gennaio-bug-500x500.jpg
-  img300: img/2019/01/gennaio-bug-300x300.jpg
-  img250: img/2019/01/gennaio-bug-250x250.jpg
-  img174: img/2019/01/gennaio-bug-174x174.jpg
-  img150: img/2019/01/gennaio-bug-150x150.jpg
+  cover: img/2019/01/bug-gennaio-hero.jpg
+  img500: img/2019/01/bug-gennaio-500x500.jpg
+  img300: img/2019/01/bug-gennaio-300x300.jpg
+  img250: img/2019/01/bug-gennaio-250x250.jpg
+  img174: img/2019/01/bug-gennaio-174x174.jpg
+  img150: img/2019/01/bug-gennaio-150x150.jpg
 ---
 
 Francesco Mantovanelli ci parlerà di pattern.
