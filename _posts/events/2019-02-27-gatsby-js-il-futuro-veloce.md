@@ -14,9 +14,14 @@ event:
 
   eventbrite: 54843079126
   youtube:
-  facebooklive: 
+  facebooklive: https://www.facebook.com/matteoguidotto/videos/10219007744168448/
   foto: 
   slides: 
+    - author: Marco
+      type: site
+      url: 'https://cafe112018.talks.marcovalsecchi.it'
+      id: 'https://cafe112018.talks.marcovalsecchi.it'
+
 
 assets:
   cover: img/2019/02/fevr-febbraio-hero.jpg

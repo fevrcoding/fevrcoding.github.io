@@ -14,9 +14,14 @@ event:
 
   eventbrite: 54749541352
   youtube:
-  facebooklive: 
-  foto: 
+  facebooklive: https://www.facebook.com/matteoguidotto/videos/10218729831980817/
+  foto: https://www.facebook.com/media/set/?set=oa.2201745936557235&type=3
   slides: 
+    - author: Lorenzo
+      type: speakerdeck
+      url: 'https://speakerdeck.com/loregirardi/deep-dive-into-vue-dot-js-transitions'
+      id: '9e38094bdce140b0ae728844a0bce58e'
+  
 
 assets:
   cover: img/2019/01/fevr-gennaio-hero.jpg
