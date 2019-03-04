@@ -6,7 +6,7 @@ image: img/2019/03/bug-marzo.jpg
 date: 2019-02-20 19:00:00
 author: bug
 category: eventi
-published: false
+published: true
 
 event:
   speaker: Ferdinando Santacroce
