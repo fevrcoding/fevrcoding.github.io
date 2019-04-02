@@ -38,7 +38,7 @@ Italiano
 
 ## QUANDO
 
-Mercoledì 23 gennaio 2019 dalle 19:00 alle 20:30
+Mercoledì 17 aprile 2019 dalle 19:00 alle 20:30
 
 ## DOVE
 
