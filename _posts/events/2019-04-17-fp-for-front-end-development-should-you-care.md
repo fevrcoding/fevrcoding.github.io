@@ -14,9 +14,12 @@ event:
 
   eventbrite: 59315833254
   youtube:
-  facebooklive: 
+  facebooklive: https://www.facebook.com/matteoguidotto/videos/10219381703397195/
   foto: 
   slides: 
+  - author: Gabriele
+      type: pdf
+      url: 'https://www.facebook.com/download/382245795959314/fp-ts-fevr.pdf?hash=AcoQsMMstFFIUkDh'
 
 assets:
   cover: img/2019/04/fevr-aprile-hero.jpg
