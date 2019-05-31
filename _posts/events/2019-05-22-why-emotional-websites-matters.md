@@ -14,9 +14,13 @@ event:
 
   eventbrite: 60918637284
   youtube:
-  facebooklive: 
+  facebooklive: https://www.facebook.com/matteoguidotto/videos/10219658810044688/
   foto: 
   slides: 
+    - author: Margherita
+      type: speakerdeck
+      url: 'https://speakerdeck.com/meg/why-emotional-websites-matter'
+      id: 'df110451e21943bf9fa14b907dc38237'
 
 assets:
   cover: img/2019/05/fevr-maggio-hero.jpg
