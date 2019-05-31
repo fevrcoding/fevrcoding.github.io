@@ -1,15 +1,15 @@
 ---
 layout: event
 title: "UI testing best practices"
-subtitle: NOME SPEAKER - 26.06.2019 @ Officina 18
+subtitle: Stefano Magni - 26.06.2019 @ Officina 18
 image: img/2019/06/fevr-giugno.jpg
 date: 2019-06-26 19:00:00
 author: fevr
 category: eventi
-published: false
+published: true
 
 event:
-  speaker: NOME SPEAKER
+  speaker: Stefano Magni
   location: Officina 18
 
   eventbrite: 62559956514
