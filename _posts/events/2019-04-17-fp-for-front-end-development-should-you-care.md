@@ -18,8 +18,8 @@ event:
   foto: 
   slides: 
   - author: Gabriele
-      type: pdf
-      url: 'https://www.facebook.com/download/382245795959314/fp-ts-fevr.pdf?hash=AcoQsMMstFFIUkDh'
+    type: pdf
+    url: 'https://www.facebook.com/download/382245795959314/fp-ts-fevr.pdf?hash=AcoQsMMstFFIUkDh'
 
 assets:
   cover: img/2019/04/fevr-aprile-hero.jpg
