@@ -59,6 +59,18 @@ descriptions:
     desc: "I nostri eventi."
 
 sponsor:
+  - name: "Officina18
+    img: "img/sponsor/officina18.png"
+    url: "http://www.officina18.it"
+
+  - name: "WestHouse"
+    img: "img/sponsor/westhouse.png"
+    url: "https://www.westhouse-group.com/it/"
+
+  - name: "dgroove"
+    img: "img/sponsor/dgroove.png"
+    url: "http://www.dgroove.it/"
+    
   - name: "Kaleidoscope Studio"
     img: "img/sponsor/kaleidoscope.png"
     url: "http://www.kaleidoscope.it/"
@@ -75,18 +87,9 @@ sponsor:
     img: "img/sponsor/avocode.png"
     url: "https://avocode.com/"
 
-  - name: "WestHouse"
-    img: "img/sponsor/westhouse.png"
-    url: "https://www.westhouse-group.com/it/"
-
   - name: "AQuest"
     img: "img/sponsor/aquest.png"
     url: "https://www.aquest.it/it"
-
-  - name: "dgroove"
-    img: "img/sponsor/dgroove.png"
-    url: "http://www.dgroove.it/"
-
 
 social:
   email: "fevr.gruppo@gmail.com"
