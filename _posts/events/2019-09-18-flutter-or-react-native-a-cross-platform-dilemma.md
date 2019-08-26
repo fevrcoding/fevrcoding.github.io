@@ -33,8 +33,7 @@ In questo periodo l'hype intorno a Flutter sta crescendo molto. Ma che dire del 
 
 Marco Gomiero
 
-Computer Engineer, Android Developer, passionate about data analysis, IoT, Wearable Devices and BOT.
-Co-manager of the **Google Developer Group Venice**
+Computer Engineer, Android Developer, passionate about data analysis and about making automated tools for overcoming trivial tasks in an unnecessarily complicated way due to pathological laziness. Currently working at Uniwhere as Mobile and Data Engineer, in my free time I organize events with the Google Developer Group Venezia, I share my experience by public speaking and I write code.
 
 ## QUANDO
 
