@@ -70,6 +70,10 @@ sponsor:
   - name: "dgroove"
     img: "img/sponsor/dgroove.png"
     url: "http://www.dgroove.it/"
+
+  - name: "Spreaker"
+    img: "img/sponsor/spreaker.png"
+    url: "https://www.spreaker.com/"
     
   - name: "Kaleidoscope Studio"
     img: "img/sponsor/kaleidoscope.png"
