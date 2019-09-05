@@ -18,8 +18,8 @@ event:
   foto: https://www.facebook.com/media/set/?set=oa.2104200499645113&type=3
   slides: 
   - author: Jiayi
-      type: pdf
-      url: 'https://github.com/jiayihu/talks/blob/master/get-hyper-excited-for-web-standards/presentation.pdf'
+    type: pdf
+    url: 'https://github.com/jiayihu/talks/blob/master/get-hyper-excited-for-web-standards/presentation.pdf'
 
 assets:
   cover: img/2018/11/novembre-fevr-hero.jpg
