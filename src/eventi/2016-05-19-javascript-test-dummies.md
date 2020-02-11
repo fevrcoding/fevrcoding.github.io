@@ -4,6 +4,7 @@ title: 'Javascript Test Dummies'
 subtitle: Mauro Verrocchio – 19 Maggio 2016 – Graffiti HUB
 image: img/2016/05/maggio.jpg
 date: 2016-05-19 19:00:00
+permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ title | slug }}/index.html"
 author: fevr
 tags: eventi
 redirect_from:

@@ -4,6 +4,7 @@ title: 'Easy Cross-Browser Testing with Selenium'
 subtitle: Marco Picello – 18 Dicembre 2014 – The Fab
 image: img/2014/12/dicembre.jpg
 date: 2014-12-18 19:00:00
+permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ title | slug }}/index.html"
 author: fevr
 tags: eventi
 redirect_from:

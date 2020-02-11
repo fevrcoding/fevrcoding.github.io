@@ -4,6 +4,7 @@ title: 'WebVR con Mozilla A-Frame'
 subtitle: Francesco Strazzullo - 18.12.2017 @ AQuest
 image: img/2017/12/dicembre.jpg
 date: 2017-12-18 19:00:00
+permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ title | slug }}/index.html"
 author: fevr
 tags: eventi
 published: true

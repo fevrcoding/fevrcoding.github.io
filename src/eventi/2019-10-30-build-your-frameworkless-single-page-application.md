@@ -4,6 +4,7 @@ title: 'Build your frameworkless Single Page Application'
 subtitle: Antonio Dell'ava - 30.10.2019 @ Officina 18
 image: img/2019/10/fevr-ottobre.jpg
 date: 2019-10-30 19:00:00
+permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ title | slug }}/index.html"
 author: fevr
 tags: eventi
 published: true

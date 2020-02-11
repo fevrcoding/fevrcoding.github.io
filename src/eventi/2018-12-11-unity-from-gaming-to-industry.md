@@ -4,6 +4,7 @@ title: 'Unity: from Gaming to industry'
 subtitle: Roberto Brogi - 11.12.2018 @ AQuest
 image: img/2018/12/dicembre-fevr.jpg
 date: 2018-12-11 19:00:00
+permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ title | slug }}/index.html"
 author: fevr
 tags: eventi
 published: true

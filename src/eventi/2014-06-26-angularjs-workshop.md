@@ -4,6 +4,7 @@ title: 'AngularJS Workshop'
 subtitle: Marco Solazzi – 26 Giugno 2014 – Geekville Coworking
 image: img/2014/06/giugno.jpg
 date: 2014-06-26 19:00:00
+permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ title | slug }}/index.html"
 author: fevr
 tags: eventi
 redirect_from:

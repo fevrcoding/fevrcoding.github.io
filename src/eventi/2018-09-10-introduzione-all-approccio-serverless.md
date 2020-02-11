@@ -4,6 +4,7 @@ title: "Introduzione all'approccio Serverless"
 subtitle: Luca Bianchi - 10.09.2018 @ AQuest
 image: img/2018/09/settembre-bug.jpg
 date: 2018-09-10 19:00:00
+permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ title | slug }}/index.html"
 author: bug
 tags: eventi
 published: true

@@ -4,6 +4,7 @@ title: 'Multitasking? No, grazie!'
 subtitle: Andrea Zanferrari e Ale Ziliotto - 06.06.2018 @ AQuest
 image: img/2018/06/giugno-pomo.jpg
 date: 2018-06-06 19:00:00
+permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ title | slug }}/index.html"
 author: pomo
 tags: eventi
 published: true

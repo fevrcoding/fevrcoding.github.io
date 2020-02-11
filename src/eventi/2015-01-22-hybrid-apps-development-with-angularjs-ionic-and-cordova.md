@@ -4,6 +4,7 @@ title: 'Hybrid Apps Development with AngularJS, Ionic and Cordova'
 subtitle: Matteo Ronchi – 22 Gennaio 2015 – The Fab
 image: img/2015/01/gennaio.jpg
 date: 2015-01-22 19:00:00
+permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ title | slug }}/index.html"
 author: fevr
 tags: eventi
 redirect_from:

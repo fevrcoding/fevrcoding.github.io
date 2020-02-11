@@ -4,6 +4,7 @@ title: ReactJS Day 2016
 subtitle: Conferenza – 7 Ottobre 2016 – Hotel S. Marco
 image: img/2016/10/reactjsday.jpg
 date: 2016-10-07 09:00:00
+permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ title | slug }}/index.html"
 author: fevr
 tags: eventi
 redirect_from:

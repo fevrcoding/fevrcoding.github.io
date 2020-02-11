@@ -4,6 +4,7 @@ title: 'FP for front-end development: should you care?'
 subtitle: Gabriele Petronella - 17.04.2019 @ AQuest
 image: img/2019/04/fevr-aprile.jpg
 date: 2019-04-17 19:00:00
+permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ title | slug }}/index.html"
 author: fevr
 tags: eventi
 published: true

@@ -4,6 +4,7 @@ title: 'Dockerize all the things'
 subtitle: Thomas Rossetto - 15.05.2018 @ AQuest
 image: img/2018/05/maggio-bug.jpg
 date: 2018-05-15 19:00:00
+permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ title | slug }}/index.html"
 author: bug
 tags: eventi
 published: true

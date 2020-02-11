@@ -4,6 +4,7 @@ title: 'UI testing best practices'
 subtitle: Stefano Magni - 26.06.2019 @ Officina 18
 image: img/2019/06/fevr-giugno.jpg
 date: 2019-06-26 19:00:00
+permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ title | slug }}/index.html"
 author: fevr
 tags: eventi
 published: true

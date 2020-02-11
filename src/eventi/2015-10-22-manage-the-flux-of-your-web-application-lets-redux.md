@@ -4,6 +4,7 @@ title: 'Manage the Flux of your web application: let’s Redux'
 subtitle: Francesco Strazzullo – 22 Ottobre 2015 – Graffiti HUB
 image: img/2015/10/ottobre.jpg
 date: 2015-10-22 19:00:00
+permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ title | slug }}/index.html"
 author: fevr
 tags: eventi
 redirect_from:

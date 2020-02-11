@@ -4,6 +4,7 @@ title: "Can't live if livin' is without rendering"
 subtitle: Jiayi Hu - 29.11.2017 @ AQuest
 image: img/2017/11/novembre2.jpg
 date: 2017-11-29 19:00:00
+permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ title | slug }}/index.html"
 author: fevr
 tags: eventi
 published: true
