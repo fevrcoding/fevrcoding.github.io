@@ -1,0 +1,30 @@
+---
+layout: page
+title: Eventi
+---
+<!-- Slider Start -->
+<section class="hero hero--events">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Scopri i nostri eventi.</h1>
+          <p>Ti aspettiamo!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% for post in collections.eventi | reverse %}
+  <a href="{{ post.url | url }}" class="post-area">
+    <span  class="post-title">{{ post.data.title }}</span>
+    {% if 'eventi' in post.data == %}
+      <span class="post-date">{{ post.data.event.speaker }} - {{post.date | date('dd/LL/yyyy') }} - {{post.data.event.location}}
+      </span>
+    {% else %}
+      <span class="post-date">{{ post.data.subtitle }}
+      </span>
+    {% endif %}
+  </a>
+{% endfor %}

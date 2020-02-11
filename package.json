@@ -4,6 +4,7 @@
   "description": "Fevr static website",
   "main": "index.js",
   "scripts": {
+    "frontend": "gulp",
     "serve": "bundle exec jekyll serve"
   },
   "repository": {
@@ -14,17 +15,19 @@
   "license": "ISC",
   "homepage": "https://github.com/fevrcoding/fevrcoding.github.io",
   "devDependencies": {
-    "clean": "4.0.2",
-    "gulp": "3.9.1",
-    "gulp-clean": "0.3.2",
-    "gulp-debug": "2.1.2",
-    "gulp-image-resize": "0.10.0",
-    "gulp-imagemin": "3.1.1",
-    "gulp-plumber": "1.1.0",
-    "gulp-rename": "1.2.2",
-    "run-sequence": "1.2.2"
-  },
-  "dependencies": {
-    "imagemin": "5.2.2"
+    "@11ty/eleventy": "^0.10.0",
+    "del": "^5.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "gulp": "^4.0.2",
+    "gulp-image-resize": "^0.13.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^2.0.0",
+    "imagemin": "^7.0.1",
+    "js-yaml": "^3.13.1",
+    "luxon": "^1.22.0",
+    "prettier": "^1.19.1"
   }
 }

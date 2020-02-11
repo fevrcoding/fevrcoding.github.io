@@ -1,0 +1,43 @@
+<div class="row post__wrapper">
+  <div class="col-sm-12">
+    <div class="block">
+      <h1>{{ page.title }}</h1>
+      <hr />
+      <p>{{ content | safe }}</p>
+    </div>
+  </div>
+</div>
+
+<hr />
+
+<section class="share">
+  <ul class="list-inline">
+    <li>Condividi su:</li>
+    <li>
+      <a
+        class="btn btn-info"
+        target="_blank"
+        href="http://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
+      >
+        <i class="fa fa-facebook"></i> Facebook
+      </a>
+    </li>
+    <li>
+      <a
+        class="btn btn-info"
+        href="http://twitter.com/intent/tweet?text={{ page.title }}&via=__fevr&url={{ site.url }}{{ page.url }}"
+      >
+        <i class="fa fa-twitter"></i> Twitter
+      </a>
+    </li>
+    <li>
+      <a class="btn btn-info" href="{{ site.url }}{{ page.url }}">
+        <i class="fa fa-link"></i> Permalink
+      </a>
+    </li>
+  </ul>
+</section>
+
+<!-- Post Navigation -->
+{% include post-navigation.html %}
+<!-- end of Post Navigation -->
