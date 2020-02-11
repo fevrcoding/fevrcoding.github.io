@@ -5,7 +5,7 @@ subtitle: Verona
 date: 2017-06-01 00:00:00
 author: fevr
 tags: jobs
-permalink: /:categories/:title/
+permalink: '/jobs/{{ title | slug }}/index.html'
 published: false
 ---
 

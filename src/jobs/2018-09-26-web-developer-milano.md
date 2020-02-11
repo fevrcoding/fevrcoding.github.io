@@ -5,7 +5,7 @@ subtitle: Milano
 date: 2018-09-26 00:00:00
 author: fevr
 tags: jobs
-permalink: /:categories/:title/
+permalink: '/jobs/{{ title | slug }}/index.html'
 published: true
 ---
 
