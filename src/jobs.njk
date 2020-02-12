@@ -15,7 +15,7 @@ title: Jobs
     </div>
   </div>
 </section>
-{% for job in collections.jobs | reverse %}
+{% for job in collections.jobs | published | reverse %}
   <a href="{{ job.url }}" class="post-area">
     <span  class="post-title">{{ job.data.title }}</span>
     <span class="post-date">{{ job.data.subtitle }}

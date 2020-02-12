@@ -2,160 +2,160 @@
 layout: page
 ---
 
-{% set post = collections.eventi | last %}
+{% set post = collections.eventi | published | last %}
 <!-- Slider Start -->
 <section id="slider" style="background-image: url({{ post.data.assets.cover | url }})">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="block">
-                    <h1 class="animated fadeInUp">{{post.title | upper }}</h1>
-                    <div class="animated fadeInUp buttons">
-                        <p>
-                            {{ post.data.event.speaker }} - {{ post.date | date('dd/LL/yyyy') }} - {{post.data.event.location}}
-                        </p>
-                        <p>
-                            <a href="{{ post.url }}" class="btn yellow-btn">Dettagli</a>
-                        </p>
-                        <p>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="block">
+          <h1 class="animated fadeInUp">{{post.title | upper }}</h1>
+          <div class="animated fadeInUp buttons">
+            <p>
+              {{ post.data.event.speaker }} - {{ post.date | date('dd/LL/yyyy') }} - {{post.data.event.location}}
+            </p>
+            <p>
+              <a href="{{ post.url }}" class="btn yellow-btn">Dettagli</a>
+            </p>
+            <p>
                             Seguici su:<br>
-                            <a href="{{site.social.facebook.url}}" target="_blank" class="btn blue-btn">Facebook</a>
-                            <a href="{{site.social.slack.url}}" target="_blank" class="btn red-btn">Slack</a>
-                            <a href="{{site.social.twitter.url}}" target="_blank" class="btn blue-btn">Twitter</a>
-                            <a href="{{site.social.patreon.url}}" target="_blank" class="btn red-btn">Patreon</a>
+              <a href="{{site.social.facebook.url}}" target="_blank" class="btn blue-btn">Facebook</a>
+              <a href="{{site.social.slack.url}}" target="_blank" class="btn red-btn">Slack</a>
+              <a href="{{site.social.twitter.url}}" target="_blank" class="btn blue-btn">Twitter</a>
+              <a href="{{site.social.patreon.url}}" target="_blank" class="btn red-btn">Patreon</a>
 
-                        </p>
-                    </div>
-                </div>
-            </div>
+            </p>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </section>
 
 <!-- Wrapper Start -->
 <section id="eventi">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="block">
-                    <div class="section-title">
-                        <h2>Eventi</h2>
-                        <!-- <p class="eventi-text">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2>Eventi</h2>
+            <!-- <p class="eventi-text">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, modi? <br>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet autem ea eius
                             expedita, impedit ipsum magnam nulla quos sint.
                         </p> -->
 
-                        <ul class="row">
-                            {% for post in collections.eventi | reverse | slice(8) %}
-                                <li class="col-sm-3 col-xs-12 evento-item-wrapper">
-                                    <a class="evento-item slide-down-hover" href="{{ post.url }}">
-                                        <span class="evento-img">
-                                            <img class="img-rounded img-responsive center-block" src="{{ site.url }}/{{ post.data.assets.img500 }}" alt="">
-                                        </span>
-                                        <span class="evento-title line">{{post.data.title | upper }}</span>
-                                        <span class="evento-description">{{ post.data.event.speaker }} - {{post.date | date('dd/LL/yyyy') }} - {{post.data.event.location}}</span>
-                                    </a>
-                                </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- .col-md-7 close -->
+            <ul class="row">
+              {% for post in collections.eventi | published | reverse | slice(8) %}
+                <li class="col-sm-3 col-xs-12 evento-item-wrapper">
+                  <a class="evento-item slide-down-hover" href="{{ post.url }}">
+                    <span class="evento-img">
+                      <img class="img-rounded img-responsive center-block" src="{{ site.url }}/{{ post.data.assets.img500 }}" alt="">
+                    </span>
+                    <span class="evento-title line">{{post.data.title | upper }}</span>
+                    <span class="evento-description">{{ post.data.event.speaker }} - {{post.date | date('dd/LL/yyyy') }} - {{post.data.event.location}}</span>
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
         </div>
+      </div>
+      <!-- .col-md-7 close -->
     </div>
+  </div>
 </section>
 
 <section id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="block">
-                    <div class="section-title">
-                        <h2>Chi siamo</h2>
-                        <p>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2>Chi siamo</h2>
+            <p>
                             FEVR promuove eventi e corsi sullo sviluppo frontend e delle interfacce digitali. <br>
                             Puoi contattarci alla nostra mail, sulla community Facebook oppure sul nostro canale Slack.
                         </p>
+          </div>
+          <div class="our-team">
+            <div class="row">
+
+              {% for member in site.team %}
+                <div class="col-lg-3 col-sm-3 col-xs-12 team-box">
+                  <div class="team-member">
+                    <figure class="profile-pic">
+                      <img class="img-responsive center-block img-circle" src="/{{member.img | url }}" alt="Foto di {{member.name}}">
+                    </figure>
+                    <div class="member-details">
+                      <h3 class="dark-text red-border-bottom">{{member.name | upper }}</h3>
+                      <div class="position">{{member.role}}</div>
                     </div>
-                    <div class="our-team">
-                        <div class="row">
-
-                            {% for member in site.team %}
-                                <div class="col-lg-3 col-sm-3 col-xs-12 team-box">
-                                    <div class="team-member">
-                                        <figure class="profile-pic">
-                                            <img class="img-responsive center-block img-circle" src="/{{member.img | url }}" alt="Foto di {{member.name}}">
-                                        </figure>
-                                        <div class="member-details">
-                                            <h3 class="dark-text red-border-bottom">{{member.name | upper }}</h3>
-                                            <div class="position">{{member.role}}</div>
-                                        </div>
-                                        <div class="social-icons">
-                                            <div class="row">
-                                                {% for social in member.social %}
-                                                    <div class="col-xs-2 col-xs-push-2">
-                                                        <a href="{{social.url}}" target="_blank" title="{{member.name}} su {{social.name}}">
-                                                            <i class="fa white-text {{social.icon}}"></i>
-                                                        </a>
-                                                    </div>
-                                                {% endfor %}
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            {% endfor %}
-
-                        </div>
+                    <div class="social-icons">
+                      <div class="row">
+                        {% for social in member.social %}
+                          <div class="col-xs-2 col-xs-push-2">
+                            <a href="{{social.url}}" target="_blank" title="{{member.name}} su {{social.name}}">
+                              <i class="fa white-text {{social.icon}}"></i>
+                            </a>
+                          </div>
+                        {% endfor %}
+                      </div>
                     </div>
-
+                  </div>
                 </div>
+              {% endfor %}
+
             </div>
-            <!-- .col-md-7 close -->
+          </div>
+
         </div>
+      </div>
+      <!-- .col-md-7 close -->
     </div>
+  </div>
 </section>
 
 <section id="feature">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-md-offset-6">
-                <h2>I nostri eventi</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-6">
+        <h2>I nostri eventi</h2>
 
-                <p>Collaboriamo con coworking e realtà locali da cinque anni, organizzando un meetup mensile.</p>
-                <p>Ospitiamo professionisti del settore dello sviluppo web affrontando qualsiasi tematica
+        <p>Collaboriamo con coworking e realtà locali da cinque anni, organizzando un meetup mensile.</p>
+        <p>Ospitiamo professionisti del settore dello sviluppo web affrontando qualsiasi tematica
                     sia relativa alle interfacce web.</p>
-                <p>Parliamo principalmente di Javascript e CSS, spaziamo però dall'internet of things fino a
+        <p>Parliamo principalmente di Javascript e CSS, spaziamo però dall'internet of things fino a
                     incontri sulla user experience.</p>
-                <p>Organizziamo dal 2015 assieme al <a href="http://www.grusp.org/it/">GrUSP</a> la conferenza europea
+        <p>Organizziamo dal 2015 assieme al <a href="http://www.grusp.org/it/">GrUSP</a> la conferenza europea
                     "reactjsday" che coinvolge speaker da tutta europa e più di 300 partecipanti.</p>
 
-                <a href="{{ '/eventi' | url }}" class="btn btn-view-works">Mostra gli eventi</a>
-            </div>
-        </div>
+        <a href="{{ '/eventi' | url }}" class="btn btn-view-works">Mostra gli eventi</a>
+      </div>
     </div>
+  </div>
 </section>
 
 <!-- Service Start -->
 <section id="sponsor">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="section-title">
-                    <h2>Sponsor &amp; Friends</h2>
-                    <p>Tutto ciò che facciamo non sarebbe possibile senza le persone che ci supportano ogni giorno!</p>
-                </div>
-            </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="section-title">
+          <h2>Sponsor &amp; Friends</h2>
+          <p>Tutto ciò che facciamo non sarebbe possibile senza le persone che ci supportano ogni giorno!</p>
         </div>
-        <div class="row ">
-            {% for sp in site.sponsor %}
-                <div class="col-sm-6 col-md-3">
-                    <a class="sponsor-item slide-down-hover" href="{{sp.url}}" target="_blank" aria-label="{{ sp.name }}">
-                        <img src="/{{sp.img}}" class="img-circle img-responsive center-block" alt="">
-                    </a>
-                </div>
-            {% endfor %}
-        </div>
+      </div>
     </div>
+    <div class="row ">
+      {% for sp in site.sponsor %}
+        <div class="col-sm-6 col-md-3">
+          <a class="sponsor-item slide-down-hover" href="{{sp.url}}" target="_blank" aria-label="{{ sp.name }}">
+            <img src="/{{sp.img}}" class="img-circle img-responsive center-block" alt="">
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
 </section>

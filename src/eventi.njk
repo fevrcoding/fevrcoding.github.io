@@ -16,10 +16,10 @@ title: Eventi
   </div>
 </section>
 
-{% for post in collections.eventi | reverse %}
-  <a href="{{ post.url | url }}" class="post-area">
+{% for post in collections.eventi | published | reverse %}
+  <a href="{{ post.url }}" class="post-area">
     <span  class="post-title">{{ post.data.title }}</span>
-    {% if 'eventi' in post.data == %}
+    {% if 'eventi' in post.data %}
       <span class="post-date">{{ post.data.event.speaker }} - {{post.date | date('dd/LL/yyyy') }} - {{post.data.event.location}}
       </span>
     {% else %}
