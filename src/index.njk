@@ -97,7 +97,7 @@ layout: page
                         {% for social in member.social %}
                           <div class="col-xs-2 col-xs-push-2">
                             <a href="{{social.url}}" target="_blank" title="{{member.name}} su {{social.name}}">
-                              <i class="fa white-text {{social.icon}}"></i>
+                              <span aria-hidden="true" class="fa white-text {{social.icon}}"></span>
                             </a>
                           </div>
                         {% endfor %}

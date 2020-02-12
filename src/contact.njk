@@ -29,7 +29,7 @@ title: Contattaci - FEVR - Eventi e formazione frontend javascript Verona
               {% if (id != 'email' and social.list != false) %}
                 <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 social-list-element">
                   <a class="social-link" href="{{ social.url }}" target="_blank">
-                    <i class="fa social-icon fa-{{ social.icon | default(id) }}"></i>
+                    <span aria-hidden="true" class="fa social-icon fa-{{ social.icon | default(id) }}"></span>
                     <span class="social-name">{{ social.name }}</span>
                   </a>
                 </div>

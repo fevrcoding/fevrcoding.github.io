@@ -86,7 +86,7 @@
         target="_blank"
         href="http://www.facebook.com/sharer/sharer.php?u={{ site.url + page.url | urlencode }}"
       >
-        <i class="fa fa-facebook"></i> Facebook
+        <span aria-hidden="true" class="fa fa-facebook"></span> Facebook
       </a>
     </li>
     <li>
@@ -94,12 +94,12 @@
         class="btn btn-info"
         href="http://twitter.com/intent/tweet?text={{ title | urlencode }}&via=__fevr&url={{ site.url + page.url | urlencode }}"
       >
-        <i class="fa fa-twitter"></i> Twitter
+        <span aria-hidden="true" class="fa fa-twitter"></span> Twitter
       </a>
     </li>
     <li>
       <a class="btn btn-info" href="{{ site.url }}{{ page.url }}">
-        <i class="fa fa-link"></i> Permalink
+        <span aria-hidden="true" class="fa fa-link"></span> Permalink
       </a>
     </li>
   </ul>
@@ -112,7 +112,7 @@
     <li aria-hidden="true">Supportaci su:</li>
     <li>
       <a class="btn red-btn" target="_blank" href="{{site.social.patreon.url}}">
-        <i class="fa fa-link"></i> Patreon
+        <span aria-hidden="true" class="fa fa-link"></span> Patreon
       </a>
     </li>
   </ul>
