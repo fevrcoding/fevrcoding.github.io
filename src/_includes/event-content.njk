@@ -5,7 +5,7 @@
       <h1>{{ title }}</h1>
       <hr aria-hidden="true"/>
 
-      <div role="contentinfo">
+      <footer>
         <ul class="list-inline">
           {% if event.eventbrite %}
             <li>
@@ -66,7 +66,7 @@
             {%- endfor %}
           {% endif %}
         </ul>
-      </div role="contentinfo">
+      </footer>
 
       {{ content | safe }}
     </div>
@@ -117,7 +117,7 @@
   </ul>
 </aside>
 
-<div role="contentinfo">
+<footer>
 
   <!-- Youtube embed -->
   {% if event.youtube %}
@@ -182,4 +182,4 @@
   <!-- Post Navigation -->
   {% include "post-navigation.njk" %}
   <!-- end of Post Navigation -->
-</div>
+</footer>

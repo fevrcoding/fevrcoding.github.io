@@ -417,29 +417,29 @@ width: 100%;
 
 
 
-footer .social{
+#footer .social{
     margin-bottom: 20px;
 }
 
-footer a {
+#footer a {
     color: #595959;
 }
-footer .footer-menu {
+#footer .footer-menu {
     padding-bottom: 25px;
 }
-footer .footer-menu ul {
+#footer .footer-menu ul {
     margin: 0px;
     padding: 0px;
 }
-footer .footer-menu ul li {
+#footer .footer-menu ul li {
     display: inline-block;
     padding: 0px 20px;
 }
-footer .footer-menu ul li a {
+#footer .footer-menu ul li a {
     display: inline-block;
     color: #494949;
 }
-footer .footer-menu ul li a:hover {
+#footer .footer-menu ul li a:hover {
     color: #000;
 }
 
