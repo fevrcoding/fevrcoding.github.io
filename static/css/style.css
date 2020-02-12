@@ -374,11 +374,11 @@ width: 100%;
     text-align: center;
 }
 
-.team-member .social-icons a i{
+.team-member .social-icons a .fa {
     color: #2c3e50;
 }
 
-.team-member .social-icons a:hover i{
+.team-member .social-icons a:hover .fa {
     color: #34495e;
 }
 

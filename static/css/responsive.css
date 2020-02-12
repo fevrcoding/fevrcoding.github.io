@@ -367,7 +367,7 @@ px      68    160    252    */
   #wrapper-contact .block .location p {
     width: 100%;
   }
-  #wrapper-contact .block .social-media-icon a i {
+  #wrapper-contact .block .social-media-icon a .fa {
     padding-top: 30px;
   }
   /*--

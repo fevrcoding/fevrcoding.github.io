@@ -2,7 +2,7 @@
 
   <h3 class="post-sidebar__title">Gli ultimi eventi</h3>
   <ul class="post-sidebar__list">
-    {% for post in collections.eventi | published | reverse | slice(8) %}
+    {% for post in collections.eventi | published | reverse | limit(8) %}
       <li class="post-sidebar__list-element">
         <a href="{{ post.url }}">{{post.data.title}}</a>
       </li>

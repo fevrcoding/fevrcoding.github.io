@@ -18,15 +18,19 @@ module.exports = function(eleventyConfig) {
   );
 
   eleventyConfig.addNunjucksFilter('dateformat', (date, format) => {
-    return DateTime.fromJSDate(date).toFormat(format);
+    return DateTime.fromJSDate(date, { zone: 'utc' }).toFormat(format);
   });
 
   eleventyConfig.addFilter('dateslug', (date) => {
-    return DateTime.fromJSDate(date).toFormat('yyyy/LL/dd');
+    return DateTime.fromJSDate(date, { zone: 'utc' }).toFormat('yyyy/LL/dd');
   });
 
   eleventyConfig.addNunjucksFilter('published', (posts) => {
     return posts.filter((post) => post.data.published);
+  });
+
+  eleventyConfig.addNunjucksFilter('limit', (posts, num) => {
+    return posts.slice(0, num);
   });
 
   return {

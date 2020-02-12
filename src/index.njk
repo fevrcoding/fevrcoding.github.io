@@ -9,10 +9,13 @@ layout: page
     <div class="row">
       <div class="col-xs-12">
         <div class="block">
-          <h1 class="animated fadeInUp">{{post.title | upper }}</h1>
+          <p class="sr-only">Prossimo evento</p>
+          <h1 class="animated fadeInUp">{{post.data.title | upper }}</h1>
           <div class="animated fadeInUp buttons">
             <p>
-              {{ post.data.event.speaker }} - {{ post.date | dateformat('dd/LL/yyyy') }} - {{post.data.event.location}}
+              {{ post.data.event.speaker }} - 
+              <time datetime="{{ post.date.toISOString() }}">{{ post.date | dateformat('dd/LL/yyyy') }}</time> - 
+              {{post.data.event.location}}
             </p>
             <p>
               <a href="{{ post.url }}" class="btn yellow-btn">Dettagli</a>
@@ -40,21 +43,17 @@ layout: page
         <div class="block">
           <div class="section-title">
             <h2>Eventi</h2>
-            <!-- <p class="eventi-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, modi? <br>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet autem ea eius
-                            expedita, impedit ipsum magnam nulla quos sint.
-                        </p> -->
 
             <ul class="row">
-              {% for post in collections.eventi | published | reverse | slice(8) %}
+              {% for post in collections.eventi | published | reverse | limit(8) %}
                 <li class="col-sm-3 col-xs-12 evento-item-wrapper">
                   <a class="evento-item slide-down-hover" href="{{ post.url }}">
                     <span class="evento-img">
                       <img class="img-rounded img-responsive center-block" src="{{ site.url }}/{{ post.data.assets.img500 }}" alt="">
                     </span>
-                    <span class="evento-title line">{{post.data.title | upper }}</span>
-                    <span class="evento-description">{{ post.data.event.speaker }} - {{post.date | dateformat('dd/LL/yyyy') }} - {{post.data.event.location}}</span>
+                    <span role="heading" aria-level="3" class="evento-title line">{{post.data.title | upper }}</span>
+                    <span class="evento-description">{{ post.data.event.speaker }} - 
+                    <time datetime="{{ post.date.toISOString() }}">{{post.date | dateformat('dd/LL/yyyy') }}</time> - {{post.data.event.location}}</span>
                   </a>
                 </li>
               {% endfor %}
