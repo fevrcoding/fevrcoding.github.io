@@ -34,7 +34,7 @@ assets:
 ---
 
 L'anno 2016 si è aperto con i ragazzi di [TrevisoJS](https://www.facebook.com/trevisojs/) e l'incontro su
-[ES6]({% post_url events/2016-01-20-es6-the-future-of-javascript %}), lo chiudiamo con il secondo capitolo sul
+[ES6](/eventi/2016/01/20/es6-the-future-of-javascript), lo chiudiamo con il secondo capitolo sul
 futuro di Javascript, parleremo di es7, asyncronous javascript, promise, coroutine etc.
 
 Relatore della serata è Marco Munari
