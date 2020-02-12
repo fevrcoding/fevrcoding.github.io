@@ -3,7 +3,7 @@ title: 'Sure, I can GO there'
 subtitle: Simone Gentili - 14.03.2018 @ AQuest
 image: img/2018/03/marzo-bug.jpg
 date: 2018-03-14 19:00:00
-permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
+permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 author: bug
 
 published: true

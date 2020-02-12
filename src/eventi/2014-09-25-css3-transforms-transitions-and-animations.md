@@ -3,7 +3,7 @@ title: 'CSS3 Transforms Transitions and Animations'
 subtitle: Alberto Quaglia – 25 Settembre 2014 – The Fab
 image: img/2014/09/settembre.jpg
 date: 2014-09-25 19:00:00
-permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
+permalink: "/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html"
 redirect_from:
   - /css3-transforms-transitions-and-animations
 published: true

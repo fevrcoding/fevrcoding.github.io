@@ -3,7 +3,7 @@ title: Historiae Javascript
 subtitle: Marco Solazzi – 27 Ottobre 2016 – Graffiti HUB
 image: img/2016/10/ottobre.jpg
 date: 2016-10-27 19:00:00
-permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
+permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
 redirect_from:
   - /a-javascript-carol-ghosts-from-past-present-and-future

@@ -3,7 +3,7 @@ title: 'Tour Inside GraphQL'
 subtitle: Kalidou Diagne - 27.09.2018 @ AQuest
 image: img/2018/09/settembre-fevr.jpg
 date: 2018-09-27 19:00:00
-permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
+permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
 published: true
 

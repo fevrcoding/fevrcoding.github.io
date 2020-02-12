@@ -1,11 +1,9 @@
 ---
-
 title: ReactJS Day 2017
 subtitle: Conference – 6th October 2017 – Best Western CTC Hotel
 image: img/2017/10/reactjsday.jpg
 date: 2017-10-06 09:00:00
-permalink: '/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html'
-
+permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
 redirect_from:
   - /reactjs-day-2017

@@ -3,7 +3,7 @@ title: 'Challenge of the GO Bots'
 subtitle: Andrea Manzini - 17.10.2018 @ AQuest
 image: img/2018/10/ottobre-bug.jpg
 date: 2018-10-17 19:00:00
-permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
+permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 author: bug
 
 published: true

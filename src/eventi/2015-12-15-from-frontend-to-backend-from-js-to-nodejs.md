@@ -3,7 +3,7 @@ title: 'From frontend to backend: from Js to Nodejs'
 subtitle: Davide Zeffiro – 15 Dicembre 2015 – Graffiti HUB
 image: img/2015/12/dicembre.jpg
 date: 2015-12-15 19:00:00
-permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
+permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
 redirect_from:
   - /from-frontend-to-backend-from-js-to-nodejs

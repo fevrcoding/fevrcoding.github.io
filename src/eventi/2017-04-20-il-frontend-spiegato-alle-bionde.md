@@ -3,7 +3,7 @@ title: 'Il frontend spiegato alle bionde'
 subtitle: Giulia Talamonti - 20.04.2017 @ Graffiti HUB
 image: img/2017/04/aprile.jpg
 date: 2017-04-20 19:00:00
-permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
+permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
 published: true
 

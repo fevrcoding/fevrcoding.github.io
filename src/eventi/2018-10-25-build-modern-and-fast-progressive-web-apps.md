@@ -3,7 +3,7 @@ title: 'Build Modern (And Fast) Progressive WebApps'
 subtitle: Michel Murabito - 25.10.2018 @ AQuest
 image: img/2018/10/ottobre-fevr.jpg
 date: 2018-10-25 19:00:00
-permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
+permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
 published: true
 

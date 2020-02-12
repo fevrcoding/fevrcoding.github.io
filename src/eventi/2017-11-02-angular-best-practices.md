@@ -3,7 +3,7 @@ title: 'Angular Best Practices'
 subtitle: Fabio Biondi e Michele Stieven - 02.11.2017 @ Graffiti HUB
 image: img/2017/11/novembre.jpg
 date: 2017-11-02 16:00:00
-permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
+permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
 published: true
 

@@ -3,7 +3,7 @@ title: 'Why use types in Javascript: Flow & Typescript'
 subtitle: Matteo Ronchi - 24.01.2018 @ AQuest
 image: img/2018/01/gennaio-fevr.jpg
 date: 2018-01-24 19:00:00
-permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
+permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
 published: true
 
