@@ -4,7 +4,7 @@ title: 'Deep dive into vue.js transitions'
 subtitle: Lorenzo Girardi - 23.01.2019 @ AQuest
 image: img/2019/01/fevr-gennaio.jpg
 date: 2019-01-23 19:00:00
-permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ page.fileSlug | slug }}/index.html"
+permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
 author: fevr
 tags: eventi
 published: true

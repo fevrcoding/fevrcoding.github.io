@@ -150,7 +150,7 @@
 
     <div class="row vimeo-videogallery__wrapper">
       <div class="col-sm-12">
-        {{ embed.vimeo(event.videogallery) }}
+        {{ embeds.vimeo(event.videogallery) }}
       </div>
     </div>
   {% endif %}
@@ -181,6 +181,6 @@
   {% endif %}
   <!-- end of Eventbrite embed -->
   <!-- Post Navigation -->
-  {% include post-navigation.njk %}
+  {% include "post-navigation.njk" %}
   <!-- end of Post Navigation -->
 </footer>

@@ -4,7 +4,7 @@ title: 'About Flexbox, you can’t float anymore'
 subtitle: Davide di Pumpo, Giacomo Zanetti e Alessandro Muraro – 15 Marzo 2016 – Graffiti HUB
 image: img/2016/03/marzo.jpg
 date: 2016-03-15 19:00:00
-permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ page.fileSlug | slug }}/index.html"
+permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
 author: fevr
 tags: eventi
 redirect_from:

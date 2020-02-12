@@ -4,7 +4,7 @@ title: 'SASS gives superpowers to your CSS'
 subtitle: Federico Bonomi – 20 Novembre 2014 – The Fab
 image: img/2014/11/novembre.jpg
 date: 2014-11-20 19:00:00
-permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ page.fileSlug | slug }}/index.html"
+permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
 author: fevr
 tags: eventi
 redirect_from:

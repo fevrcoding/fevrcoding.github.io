@@ -17,7 +17,7 @@ module.exports = function(eleventyConfig) {
     yaml.safeLoad(contents),
   );
 
-  eleventyConfig.addNunjucksFilter('date', (date, format) => {
+  eleventyConfig.addFilter('dateformat', (date, format) => {
     return DateTime.fromJSDate(date).toFormat(format);
   });
 

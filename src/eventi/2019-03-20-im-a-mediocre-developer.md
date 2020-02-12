@@ -4,7 +4,7 @@ title: "I'm a mediocre developer"
 subtitle: Ferdinando Santacroce - 20.03.2019 @ AQuest
 image: img/2019/03/bug-marzo.jpg
 date: 2019-03-20 19:00:00
-permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ page.fileSlug | slug }}/index.html"
+permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
 author: bug
 tags: eventi
 published: true

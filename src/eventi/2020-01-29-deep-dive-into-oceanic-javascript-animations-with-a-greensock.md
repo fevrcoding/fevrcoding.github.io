@@ -4,7 +4,7 @@ title: 'Deep dive into oceanic javascript animations with a greensock'
 subtitle: Alessandro Rigobello - 29.01.2020 @ Officina 18
 image: img/2020/01/fevr-gennaio.jpg
 date: 2020-01-29 19:00:00
-permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ page.fileSlug | slug }}/index.html"
+permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
 author: fevr
 tags: eventi
 published: true

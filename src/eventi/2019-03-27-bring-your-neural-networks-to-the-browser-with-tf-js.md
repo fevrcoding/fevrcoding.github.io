@@ -4,7 +4,7 @@ title: 'Bring your neural networks to the browser with TF.js!'
 subtitle: Simone Scardapane - 27.03.2019 @ 311 Verona
 image: img/2019/03/fevr-marzo.jpg
 date: 2019-03-27 19:00:00
-permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ page.fileSlug | slug }}/index.html"
+permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
 author: fevr
 tags: eventi
 published: true

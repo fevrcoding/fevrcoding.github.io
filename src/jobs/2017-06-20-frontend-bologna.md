@@ -5,7 +5,7 @@ subtitle: Bologna
 date: 2017-06-20 00:00:00
 author: fevr
 tags: jobs
-permalink: '/jobs/{{ page.fileSlug | slug }}/index.html'
+permalink: false #'/jobs/{{ page.fileSlug | slug }}/index.html'
 published: false
 ---
 

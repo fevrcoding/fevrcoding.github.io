@@ -4,7 +4,7 @@ title: 'Build your first web app for the Internet of things in 15 minutes'
 subtitle: Andrea Reginato – 19 Marzo 2015 – The Fab
 image: img/2015/03/marzo.jpg
 date: 2015-03-19 19:00:00
-permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ page.fileSlug | slug }}/index.html"
+permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
 author: fevr
 tags: eventi
 redirect_from:

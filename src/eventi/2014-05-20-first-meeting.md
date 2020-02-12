@@ -4,7 +4,7 @@ title: 'First Meeting'
 subtitle: FEVR - 20 Maggio 2014 – The Fab
 image: img/2014/05/maggio.jpg
 date: 2014-05-20 19:00:00
-permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ page.fileSlug | slug }}/index.html"
+permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
 author: fevr
 tags: eventi
 published: true
