@@ -1,0 +1,81 @@
+{% macro eventbrite(id) %}
+    <div style="width:100%; text-align:left;">
+        <iframe src="//eventbrite.it/tickets-external?eid={{id | urlencode }}&ref=etckt"
+            frameborder="0"
+            height="385"
+            width="100%"
+            vspace="0"
+            hspace="0"
+            marginheight="5"
+            marginwidth="5"
+            scrolling="auto"
+            allowtransparency="true"></iframe>
+        <div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;" >
+            <a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank" href="http://www.eventbrite.it/">
+            Con tecnologia Eventbrite
+        </a>
+        </div>
+    </div>
+{%endmacro %}
+
+{% macro facebooklive(id) %}
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe src="https://www.facebook.com/plugins/post.php?href={{id | urlencode }}"
+            style="border:none;overflow:hidden"
+            scrolling="no"
+            frameborder="0"
+            allowTransparency="true"></iframe>
+    </div>
+{% endmacro %}
+
+{% macro youtube(id) %}
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe src="https://www.youtube.com/embed/{{ id }}" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+    </div>
+{% endmacro %}
+
+{% macro vimeo(id) %}
+    <section class="videogallery">
+        <ul class="list-inline">
+            <li>See the videogallery on </li>
+            <li>
+                <a class="btn btn-info" target="_blank" href="https://vimeo.com/album/{{id}}">
+                Vimeo
+            </a>
+            </li>
+        </ul>
+    </section>
+{% endmacro %}
+
+{% macro slides(slide) %}
+    {% if slide.type == 'slides' %}
+        <iframe src="//slides.com/{{slide.id}}/embed?style=light"
+        scrolling="no"
+        webkitallowfullscreen="true"
+        mozallowfullscreen="true"
+        allowfullscreen="true"
+        frameborder="0"></iframe>
+    {% elif slide.type == 'speakerdeck' %}
+        <iframe class="speakerdeck-iframe"
+        src="https://speakerdeck.com/player/{{slide.id}}"
+        style="border: 0px none; background: transparent none repeat scroll 0% 0%; margin: 0px; padding: 0px; border-radius: 5px;"
+        allowfullscreen="true"
+        mozallowfullscreen="true"
+        webkitallowfullscreen="true"
+        frameborder="0"></iframe>
+    {% elif slide.type == 'slideshare' %}
+        <iframe
+        src="//www.slideshare.net/slideshow/embed_code/key/{{slide.id}}"
+        width="595" height="485" frameborder="0" marginwidth="0"
+        marginheight="0" scrolling="no"
+        style="border: 0px; margin-bottom:5px; max-width: 100%;"
+        allowfullscreen></iframe>
+    {% else %}
+        <!-- Button fallback -->
+        <a href="{{slide.url}}" class="btn btn-primary" target="_blank"
+        >Slides {{slide.author}}</a
+      >
+        <!-- end of Button fallback -->
+
+    {% endif %}
+{% endmacro %}

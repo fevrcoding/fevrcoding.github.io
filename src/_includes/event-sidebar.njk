@@ -1,16 +1,16 @@
 <div class="post-sidebar">
 
-<h3 class="post-sidebar__title">Gli ultimi eventi</h3>
-    <ul class="post-sidebar__list">
-      {% for post in site.categories.eventi limit:8 %}
+  <h3 class="post-sidebar__title">Gli ultimi eventi</h3>
+  <ul class="post-sidebar__list">
+    {% for post in collections.eventi | reverse | slice(8) %}
       <li class="post-sidebar__list-element">
-        <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+        <a href="{{ post.url }}">{{post.data.title}}</a>
       </li>
-      {% endfor %}
-    </ul>
+    {% endfor %}
+  </ul>
 </div>
 
-<hr />
+<hr/>
 
 <div class="post-sidebar">
   <h3 class="post-sidebar__title">Donazione</h3>
@@ -26,7 +26,7 @@
 
 </div>
 
-<hr />
+<hr/>
 
 <div class="post-sidebar">
   <h3>Twitter Feed</h3>

@@ -1,0 +1,41 @@
+<div class="row">
+
+  <div class="col-xs-12">
+    <hr/>
+  </div>
+
+  {% if tags %}
+    {% set category = tags[0] %}
+    {% set posts = collections[category] %}
+
+    {% for post in posts %}
+      {% if post.url == page.url %}
+        {% set post_index0 = loop.index0 %}
+        {% set post_index1 = loop.index %}
+      {% endif %}
+    {% endfor %}
+
+    {% for post in posts %}
+      {% if post_index0 == loop.index %}
+        {% set next_post = post %}
+      {% endif %}
+      {% if post_index1 == loop.index0 %}
+        {% set prev_post = post %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
+  <div class="col-xs-12 col-sm-6 post-navigation text-left">
+    {% if next_post %}
+      <a class="prev" href="{{next_post.url}}">
+        <span aria-hidden="true">&laquo;</span>
+        {{next_post.title}}</a>
+    {% endif %}
+  </div>
+  <div class="col-xs-12 col-sm-6 post-navigation text-right">
+    {% if prev_post %}
+      <a class="next" href="{{prev_post.url}}">{{prev_post.title}}
+        <span aria-hidden="true">&raquo;</span></a>
+    {% endif %}
+  </div>
+</div>

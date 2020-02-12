@@ -47,14 +47,14 @@ layout: page
                         </p> -->
 
                         <ul class="row">
-                            {% for post in site.categories['eventi'] limit : 8 %}
+                            {% for post in collections.eventi | reverse | slice(8) %}
                                 <li class="col-sm-3 col-xs-12 evento-item-wrapper">
-                                    <a class="evento-item slide-down-hover" href="{{ post.url | prepend: site.baseurl }}">
+                                    <a class="evento-item slide-down-hover" href="{{ post.url }}">
                                         <span class="evento-img">
-                                            <img class="img-rounded img-responsive center-block" src="{{ site.url }}/{{ post.assets.img500}}" alt="{{post.title}}">
+                                            <img class="img-rounded img-responsive center-block" src="{{ site.url }}/{{ post.data.assets.img500 }}" alt="">
                                         </span>
-                                        <span class="evento-title line">{{post.title | upcase}}</span>
-                                        <span class="evento-description">{{ post.event.speaker }} - {{post.date | date: "%d/%m/%Y"}} - {{post.event.location}}</span>
+                                        <span class="evento-title line">{{post.data.title | upper }}</span>
+                                        <span class="evento-description">{{ post.data.event.speaker }} - {{post.date | date('dd/LL/yyyy') }} - {{post.data.event.location}}</span>
                                     </a>
                                 </li>
                             {% endfor %}
@@ -86,10 +86,10 @@ layout: page
                                 <div class="col-lg-3 col-sm-3 col-xs-12 team-box">
                                     <div class="team-member">
                                         <figure class="profile-pic">
-                                            <img class="img-responsive center-block img-circle" src="{{ site.baseurl }}/{{member.img}}" alt="{{member.name}}">
+                                            <img class="img-responsive center-block img-circle" src="/{{member.img | url }}" alt="Foto di {{member.name}}">
                                         </figure>
                                         <div class="member-details">
-                                            <h3 class="dark-text red-border-bottom">{{member.name | upcase}}</h3>
+                                            <h3 class="dark-text red-border-bottom">{{member.name | upper }}</h3>
                                             <div class="position">{{member.role}}</div>
                                         </div>
                                         <div class="social-icons">
@@ -131,7 +131,7 @@ layout: page
                 <p>Organizziamo dal 2015 assieme al <a href="http://www.grusp.org/it/">GrUSP</a> la conferenza europea
                     "reactjsday" che coinvolge speaker da tutta europa e più di 300 partecipanti.</p>
 
-                <a href="{{ site.baseurl }}/eventi" class="btn btn-view-works">Mostra gli eventi</a>
+                <a href="{{ '/eventi' | url }}" class="btn btn-view-works">Mostra gli eventi</a>
             </div>
         </div>
     </div>
@@ -151,9 +151,8 @@ layout: page
         <div class="row ">
             {% for sp in site.sponsor %}
                 <div class="col-sm-6 col-md-3">
-                    <a class="sponsor-item slide-down-hover" href="{{sp.url}}" target="_blank">
-                        <img src="{{ site.baseurl }}/{{sp.img}}" class="img-circle img-responsive center-block" alt="{{sp.name}}">
-                        <!-- <h4>{{sp.name}}</h4> -->
+                    <a class="sponsor-item slide-down-hover" href="{{sp.url}}" target="_blank" aria-label="{{ sp.name }}">
+                        <img src="/{{sp.img}}" class="img-circle img-responsive center-block" alt="">
                     </a>
                 </div>
             {% endfor %}

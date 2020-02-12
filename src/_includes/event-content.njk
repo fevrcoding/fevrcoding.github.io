@@ -1,63 +1,64 @@
+{% import "macro.njk" as embeds %}
 <div class="row post__wrapper">
   <div class="col-sm-12">
     <div class="block">
-      <h1>{{ page.title }}</h1>
+      <h1>{{ title }}</h1>
       <hr/>
 
       <ul class="list-inline">
-        {% if page.event.eventbrite %}
+        {% if event.eventbrite %}
           <li>
             <a
-            href="https://www.eventbrite.it/e/{{page.event.eventbrite}}"
+            href="https://www.eventbrite.it/e/{{event.eventbrite}}"
             class="btn btn-warning"
             target="_blank"
             >Eventbrite</a
           >
           </li>
         {% endif %}
-        {% if page.event.youtube %}
+        {% if event.youtube %}
           <li>
             <a
-            href="{{page.event.youtube}}"
+            href="{{event.youtube}}"
             class="btn btn-danger"
             target="_blank"
             >Video</a
           >
           </li>
         {% endif %}
-        {% if page.event.facebooklive %}
+        {% if event.facebooklive %}
           <li>
             <a
-            href="{{page.event.facebooklive}}"
+            href="{{event.facebooklive}}"
             class="btn btn-danger"
             target="_blank"
             >Video</a
           >
           </li>
         {% endif %}
-        {% if page.event.videogallery %}
+        {% if event.videogallery %}
           <li>
             <a
-            href="https://vimeo.com/album/{{page.event.videogallery}}"
+            href="https://vimeo.com/album/{{event.videogallery}}"
             class="btn btn-danger"
             target="_blank"
             >Video</a
           >
           </li>
         {% endif %}
-        {% if page.event.foto %}
+        {% if event.foto %}
           <li>
-            <a href="{{page.event.foto}}" class="btn btn-primary" target="_blank"
+            <a href="{{event.foto}}" class="btn btn-primary" target="_blank"
             >Foto</a
           >
           </li>
         {% endif %}
-        {% if page.event.slides %}
-          {% for slide in page.event.slides
+        {% if event.slides %}
+          {% for slide in event.slides
  %}
             <li>
               <a href="{{slide.url}}" class="btn btn-success" target="_blank">
-                {% if page.event.slides.size == 1 %} Slides {% else%} Slides
+                {% if event.slides.length == 1 %} Slides {% else%} Slides
             {{slide.author}}
                 {% endif %}
               </a>
@@ -80,7 +81,7 @@
       <a
         class="btn btn-info"
         target="_blank"
-        href="http://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
+        href="http://www.facebook.com/sharer/sharer.php?u={{ site.url + page.url | urlencode }}"
       >
         <i class="fa fa-facebook"></i> Facebook
       </a>
@@ -88,7 +89,7 @@
     <li>
       <a
         class="btn btn-info"
-        href="http://twitter.com/intent/tweet?text={{ page.title }}&via=__fevr&url={{ site.url }}{{ page.url }}"
+        href="http://twitter.com/intent/tweet?text={{ title | urlencode }}&via=__fevr&url={{ site.url + page.url | urlencode }}"
       >
         <i class="fa fa-twitter"></i> Twitter
       </a>
@@ -114,79 +115,61 @@
 </section>
 
 <!-- Youtube embed -->
-{% if page.event.youtube %}
+{% if event.youtube %}
   <hr/>
 
   <div class="row youtube__wrapper">
     <div class="col-sm-6">
-      {% include youtube.html id = page.event.youtube %}
+      {{ embeds.youtube(event.youtube) }}
     </div>
   </div>
 {% endif %}
 <!-- end of Youtube embed -->
 
 <!-- Facebook Live embed -->
-{% if page.event.facebooklive %}
+{% if event.facebooklive %}
   <hr/>
 
   <div class="row facebook__wrapper">
     <div class="col-sm-6">
-      {% include facebook-live.html id=page.event.facebooklive %}
+      {{ embeds.facebooklive(event.facebooklive) }}
     </div>
   </div>
 {% endif %}
 <!-- end of Facebook Live embed -->
 
 <!-- Vimeo Videogallery embed -->
-{% if page.event.videogallery %}
+{% if event.videogallery %}
   <hr/>
 
   <div class="row vimeo-videogallery__wrapper">
     <div class="col-sm-12">
-      {% include vimeo-videogallery.html id=page.event.videogallery %}
+      {{ embed.vimeo(event.videogallery) }}
     </div>
   </div>
 {% endif %}
 <!-- end of Vimeo Videogallery embed -->
 
-{% if page.event.slides %}
+{% if event.slides %}
   <hr/>
 
   <div class="row slides__wrapper">
-    {% for slide in page.event.slides %}
+    {% for slide in event.slides %}
       <div class="col-sm-6">
         <div class="embed-responsive embed-responsive-4by3">
-          {% if slide.type == 'slides' %}
-            {% include slides-slides.html id=slide.id
-      %}
-            {% elsif slide.type == 'speakerdeck' %}
-            {% include
-      slides-speakerdeck.html id=slide.id %}
-            {% elsif slide.type == 'slideshare'
- %}
-            {% include slides-slideshare.html id=slide.id %}
-          {% else %}
-
-            <!-- Button fallback -->
-            <a href="{{slide.url}}" class="btn btn-primary" target="_blank"
-        >Slides {{slide.author}}</a
-      >
-            <!-- end of Button fallback -->
-
-          {% endif %}
+          {{ embeds.slides(slide) }}
         </div>
       </div>
     {% endfor %}
   </div>
 {% endif %}
-
 <!-- Eventbrite embed -->
-{% if page.event.eventbrite %}
+{% if event.eventbrite %}
   <hr/>
 
   <div class="row eventbrite__wrapper">
     <div class="col-sm-12">
-      {% include eventbrite.html id = page.event.eventbrite %}
+      {{ embeds.eventbrite(event.eventbrite) }}
     </div>
   </div>
 {% endif %}

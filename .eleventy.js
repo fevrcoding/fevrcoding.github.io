@@ -1,4 +1,5 @@
 const yaml = require('js-yaml');
+const rss = require('@11ty/eleventy-plugin-rss');
 const { DateTime } = require('luxon');
 
 module.exports = function(eleventyConfig) {
@@ -7,6 +8,8 @@ module.exports = function(eleventyConfig) {
   for (const folder of assets) {
     eleventyConfig.addPassthroughCopy({ [`static/${folder}`]: folder });
   }
+
+  eleventyConfig.addPlugin(rss);
 
   eleventyConfig.addPassthroughCopy({ 'static/*.*': '.' });
 
