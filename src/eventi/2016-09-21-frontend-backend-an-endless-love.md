@@ -1,12 +1,10 @@
 ---
-layout: event
 title: 'Frontend & Backend: an endless love'
 subtitle: Marco Albarelli e Nicola Bosco – 21 Settembre 2016 – Graffiti HUB
 image: img/2016/09/settembre.jpg
 date: 2016-09-21 19:00:00
 permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
-author: fevr
-tags: eventi
+
 redirect_from:
   - /frontend-backend-an-endless-love
 published: true

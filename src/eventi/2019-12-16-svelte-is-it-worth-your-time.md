@@ -1,12 +1,10 @@
 ---
-layout: event
 title: 'Svelte Is it worth your time ?'
 subtitle: Anatolie Ghebea - 16.12.2019 @ Officina 18
 image: img/2019/12/fevr-dicembre.jpg
 date: 2019-12-16 19:00:00
 permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
-author: fevr
-tags: eventi
+
 published: true
 
 event:

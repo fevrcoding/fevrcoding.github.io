@@ -1,10 +1,8 @@
 ---
-layout: job
 title: 'Sviluppatore Web App'
 subtitle: Verona e/o Padova
 date: 2017-11-29 00:00:00
-author: fevr
-tags: jobs
+
 permalink: '/jobs/{{ page.fileSlug | slug }}/index.html'
 published: true
 ---

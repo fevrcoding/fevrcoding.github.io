@@ -1,12 +1,10 @@
 ---
-layout: event
 title: 'Flutter or React Native, a cross-platform dilemma'
 subtitle: Marco Gomiero - 18.09.2019 @ Officina 18
 image: img/2019/09/fevr-settembre.jpg
 date: 2019-09-18 19:00:00
 permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
-author: fevr
-tags: eventi
+
 published: true
 
 event:

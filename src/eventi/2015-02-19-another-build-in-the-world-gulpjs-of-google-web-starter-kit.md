@@ -1,12 +1,10 @@
 ---
-layout: event
 title: 'Another Build in the World: GULPJS of Google Web Starter Kit'
 subtitle: Paolo Cargnin – 19 Febbraio 2015 – The Fab
 image: img/2015/02/febbraio.jpg
 date: 2015-02-19 19:00:00
 permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
-author: fevr
-tags: eventi
+
 redirect_from:
   - /another-build-in-the-world-gulpjs-of-google-web-starter-kit
 published: true

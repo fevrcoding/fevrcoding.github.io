@@ -1,12 +1,10 @@
 ---
-layout: event
 title: 'ES6: The future of Javascript'
 subtitle: Robert Casanova e Nicholas Ruggeri – 20 Gennaio 2016 – Graffiti HUB
 image: img/2016/01/gennaio.jpg
 date: 2016-01-20 19:00:00
 permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
-author: fevr
-tags: eventi
+
 redirect_from:
   - /es6-the-future-of-javascript
 published: true

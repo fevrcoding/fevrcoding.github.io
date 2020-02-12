@@ -1,10 +1,8 @@
 ---
-layout: job
 title: 'Front End Developer (Middle/Senior)'
 subtitle: Verona
 date: 2017-11-29 00:00:00
-author: fevr
-tags: jobs
+
 permalink: '/jobs/{{ page.fileSlug | slug }}/index.html'
 published: true
 ---

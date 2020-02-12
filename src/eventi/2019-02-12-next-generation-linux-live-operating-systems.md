@@ -1,12 +1,11 @@
 ---
-layout: event
 title: 'Next Generation Linux live operating systems'
 subtitle: Marco Buratto - 12.02.2019 @ AQuest
 image: img/2019/02/bug-febbraio.jpg
 date: 2019-02-12 19:00:00
 permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
 author: bug
-tags: eventi
+
 published: true
 
 event:

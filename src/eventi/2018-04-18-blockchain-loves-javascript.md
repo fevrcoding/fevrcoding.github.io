@@ -1,12 +1,10 @@
 ---
-layout: event
 title: 'Blockchain loves Javascript'
 subtitle: Simone Da Re - 18.04.2018 @ AQuest
 image: img/2018/04/aprile-fevr.jpg
 date: 2018-04-18 19:00:00
 permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
-author: fevr
-tags: eventi
+
 published: true
 
 event:

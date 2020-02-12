@@ -1,12 +1,10 @@
 ---
-layout: event
 title: 'Automated Front-end Development with Grunt'
 subtitle: Marco Solazzi – 23 Ottobre 2014 – The Fab
 image: img/2014/10/ottobre.jpg
 date: 2014-10-23 19:00:00
 permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
-author: fevr
-tags: eventi
+
 redirect_from:
   - /automated-front-end-development-with-grunt
 published: true

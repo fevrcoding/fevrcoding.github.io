@@ -1,12 +1,10 @@
 ---
-layout: event
 title: 'Polymer from Components to App'
 subtitle: Maurizio Mangione – 26 Novembre 2015 – Graffiti HUB
 image: img/2015/11/novembre.jpg
 date: 2015-11-26 19:00:00
 permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
-author: fevr
-tags: eventi
+
 redirect_from:
   - /polymer-from-components-to-app
 published: true

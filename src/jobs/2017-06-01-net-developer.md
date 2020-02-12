@@ -1,10 +1,8 @@
 ---
-layout: job
 title: '.NET Developer'
 subtitle: Verona
 date: 2017-06-01 00:00:00
-author: fevr
-tags: jobs
+
 permalink: false #'/jobs/{{ page.fileSlug | slug }}/index.html'
 published: false
 ---

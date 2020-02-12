@@ -1,10 +1,8 @@
 ---
-layout: job
 title: 'Technical Leader Java Developer'
 subtitle: Verona e Milano
 date: 2017-06-01 00:00:00
-author: fevr
-tags: jobs
+
 permalink: false #'/jobs/{{ page.fileSlug | slug }}/index.html'
 published: false
 ---

@@ -1,12 +1,10 @@
 ---
-layout: event
 title: 'Why emotional Websites matters'
 subtitle: Margherita Ferri - 22.05.2019 @ AQuest
 image: img/2019/05/fevr-maggio.jpg
 date: 2019-05-22 19:00:00
 permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
-author: fevr
-tags: eventi
+
 published: true
 
 event:

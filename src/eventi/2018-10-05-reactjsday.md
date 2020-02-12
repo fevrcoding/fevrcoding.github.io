@@ -1,12 +1,10 @@
 ---
-layout: event
 title: ReactJS Day 2018
 subtitle: Conference – 5th October 2018 – Hotel S. Marco
 image: img/2018/10/reactjsday.jpg
 date: 2018-10-05 09:00:00
 permalink: '/eventi/{{ page.date }}/{{ page.fileSlug | slug }}/index.html'
-author: fevr
-tags: eventi
+
 redirect_from:
   - /reactjs-day-2018
 published: true

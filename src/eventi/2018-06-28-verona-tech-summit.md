@@ -1,12 +1,10 @@
 ---
-layout: event
 title: 'Verona Tech Summit'
 subtitle: Verona Tech Scene - 28.06.2018 @ 311 Verona
 image: img/2018/06/verona-tech-summit.jpg
 date: 2018-06-28 19:00:00
 permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
-author: fevr
-tags: eventi
+
 published: true
 
 event:

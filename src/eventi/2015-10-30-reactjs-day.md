@@ -1,12 +1,12 @@
 ---
-layout: event
+
 title: ReactJS Day 2015
 subtitle: Conferenza – 30 Ottobre 2015 – Hotel S. Marco
 image: img/2015/10/reactjsday.jpg
 date: 2015-10-30 09:00:00
 permalink: '/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html'
-author: fevr
-tags: eventi
+
+
 redirect_from:
   - /reactjs-day-2015
 published: true

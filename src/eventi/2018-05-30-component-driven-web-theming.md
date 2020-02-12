@@ -1,12 +1,10 @@
 ---
-layout: event
 title: 'Component-driven Web Theming'
 subtitle: Massimo Artizzu - 30.05.2018 @ AQuest
 image: img/2018/05/maggio-fevr.jpg
 date: 2018-05-30 19:00:00
 permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
-author: fevr
-tags: eventi
+
 published: true
 
 event:

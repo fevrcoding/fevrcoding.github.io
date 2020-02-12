@@ -1,12 +1,10 @@
 ---
-layout: event
 title: 'Refactoring CSS for performances'
 subtitle: Mattia Tommasone - 28.09.2017 @ Graffiti HUB
 image: img/2017/09/settembre.jpg
 date: 2017-09-28 19:00:00
 permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
-author: fevr
-tags: eventi
+
 published: true
 
 event:

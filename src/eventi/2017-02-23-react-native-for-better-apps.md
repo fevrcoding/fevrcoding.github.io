@@ -1,12 +1,10 @@
 ---
-layout: event
 title: 'React Native for Better Apps'
 subtitle: Gian Marco Toso - 23.02.2017 @ BENTOBOX.PRO
 image: img/2017/02/febbraio.jpg
 date: 2017-02-23 19:00:00
 permalink: "/eventi/{{ page.date | dateformat: 'dd/LL/yyyy' }}/{{ page.fileSlug | slug }}/index.html"
-author: fevr
-tags: eventi
+
 published: true
 
 event:
