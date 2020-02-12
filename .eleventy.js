@@ -21,6 +21,10 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(date).toFormat(format);
   });
 
+  eleventyConfig.addNunjucksFilter('published', (posts) => {
+    return posts.filter((post) => post.data.published);
+  });
+
   return {
     htmlTemplateEngine: 'njk',
     dir: {
