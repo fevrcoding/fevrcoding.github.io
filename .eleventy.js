@@ -33,6 +33,25 @@ module.exports = function(eleventyConfig) {
     return posts.slice(0, num);
   });
 
+  // redirect collection
+  eleventyConfig.addCollection('redirects', function(collection) {
+    const redirs = collection.getAll().filter(({ data }) => data.redirect_from);
+    const redirects = new Map();
+    for (item of redirs) {
+      let { redirect_from } = item.data;
+      if (!Array.isArray(redirect_from)) {
+        redirect_from = [redirect_from];
+      }
+      redirect_from.forEach((from) => {
+        redirects.set(from, {
+          from,
+          to: item.url,
+        });
+      });
+    }
+    return [...redirects.values()];
+  });
+
   return {
     htmlTemplateEngine: 'njk',
     dir: {

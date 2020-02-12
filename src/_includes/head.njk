@@ -12,14 +12,14 @@
 <link rel="canonical" href="{{ site.url }}{{ page.url | replace('index.html','') }}">
 <meta property="og:url" content="{{ site.url }}{{ page.url | replace('index.html','') }}"/>
 <meta property="og:site_name" content="{{ site.title }}"/>
-{%- if assets.cover %}
-    <meta property="og:image" content="{{ site.url }}{{ assets.cover }}"/>
+{%- if image %}
+    <meta property="og:image" content="{{ image | absoluteUrl(site.url) }}"/>
 {%- endif %}
 {%- if (tags and 'eventi' in tags) %}
     <meta property="og:type" content="article"/>
     <meta property="article:published_time" content="{{ date.toISOString()}}"/>
     <meta name="twitter:card" content="summary_large_image"/>
-    <meta property="twitter:image" content="{{ site.url }}{{ assets.cover }}"/>
+    <meta property="twitter:image" content="{{ image | absoluteUrl(site.url)  }}"/>
 {%- endif %}
 <meta property="twitter:title" content="{{ title or site.title }}"/>
 <meta name="twitter:site" content="@__fevr"/>
@@ -51,7 +51,7 @@
                 "@type": "Person",
                 "name": "fevr"
             },
-            "image": "{{  assets.cover | absoluteUrl(site.url) }}",
+            "image": "{{  image | absoluteUrl(site.url) }}",
             "description": "{{ autoDescription }}",
             "@context": "https://schema.org"
         }

@@ -6,13 +6,7 @@ const imagemin = require('gulp-imagemin');
 
 const imagesFiles = 'convert/**/*.{jpg,png,gif}';
 
-const imagesSizes = [
-  { w: 150, h: 150 },
-  { w: 174, h: 174 },
-  { w: 250, h: 250 },
-  { w: 300, h: 300 },
-  { w: 500, h: 500 },
-];
+const imagesSizes = [{ w: 500, h: 500 }];
 
 const distDir = 'convert/dist/';
 

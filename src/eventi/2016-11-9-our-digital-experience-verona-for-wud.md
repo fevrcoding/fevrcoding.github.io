@@ -6,7 +6,6 @@ date: 2016-10-27 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
 redirect_from:
-  - /our-digital-experience
   - /our-digital-experience/
 published: true
 
