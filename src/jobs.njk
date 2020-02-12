@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Jobs
 ---
 <!-- Slider Start -->
@@ -17,7 +17,7 @@ title: Jobs
 </section>
 {% for job in collections.jobs | published | reverse %}
   <a href="{{ job.url }}" class="post-area">
-    <span  class="post-title">{{ job.data.title }}</span>
+    <span role="heading" aria-level="2" class="post-title">{{ job.data.title }}</span>
     <span class="post-date">{{ job.data.subtitle }}
     </span>
   </a>

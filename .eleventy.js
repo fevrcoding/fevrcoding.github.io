@@ -22,7 +22,7 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addFilter('dateslug', (date) => {
-    return DateTime.fromJSDate(date, { zone: 'utc' }).toFormat('yyyy/LL/dd');
+    return DateTime.fromJSDate(date, { zone: 'utc' }).toFormat('yyyy/LL');
   });
 
   eleventyConfig.addNunjucksFilter('published', (posts) => {

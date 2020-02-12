@@ -1,14 +1,13 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>
-    {% if title %}{{ title }} - {% endif %}{{ site.title }}
-</title>
+{%- set page_title %}
+{%- if title %}{{ title }} | {% endif %}{{ site.title }}
+{%- endset %}
+<title>{{page_title}}</title>
 <meta name="author" content="fevr"/>
 <meta property="og:locale" content="it_IT"/>
-{% set autoDescription %}
-{{ content | default('') | striptags | truncate(196) }}
-{% endset %}
+{%- set autoDescription %}{{ content | default('') | striptags | truncate(196) | trim }}{%- endset %}
 <meta name="description" content="{{ description or autoDescription or site.description }}">
 <link rel="canonical" href="{{ site.url }}{{ page.url | replace('index.html','') }}">
 <meta property="og:url" content="{{ site.url }}{{ page.url | replace('index.html','') }}"/>
@@ -26,7 +25,56 @@
 <meta name="twitter:site" content="@__fevr"/>
 <meta name="twitter:creator" content="@fevr"/>
 <link type="application/atom+xml" rel="alternate" href="{{ site.url }}/feed.xml" title="{{ site.title }}"/>
+{{ page.tags | dump  }}
 
+<script type="application/ld+json">
+    {% if (tags and 'eventi' in tags) %}
+        {
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "{{ page.url | absoluteUrl(site.url)}}"
+            },
+            "@type": "BlogPosting",
+            "url": "{{ page.url | absoluteUrl(site.url)}}",
+            "publisher": {
+                "@type": "Organization",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "{{ site.logo | absoluteUrl(site.url) }}"
+                },
+                "name": "fevr"
+            },
+            "headline": "{{ title }}",
+            "dateModified": "{{ page.date.toISOString() }}",
+            "datePublished": "{{ page.date.toISOString() }}",
+            "author": {
+                "@type": "Person",
+                "name": "fevr"
+            },
+            "image": "{{  assets.cover | absoluteUrl(site.url) }}",
+            "description": "{{ autoDescription }}",
+            "@context": "https://schema.org"
+        }
+    {% else %}
+        {
+            "@type": "WebSite",
+            "url": "{{ page.url | absoluteUrl(site.url) }}",
+            "publisher": {
+                "@type": "Organization",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "{{ site.logo | absoluteUrl(site.url) }}"
+                }
+            },
+            "name": "{{page_title}}",
+            "headline": "{{ description or autoDescription or site.description }}",
+            "image": "{{ site.logo | absoluteUrl(site.url) }}",
+            "description": "{{ description or autoDescription or site.description }}",
+            "@context": "https://schema.org"
+        }
+
+    {% endif %}
+</script>
 <!-- Icons -->
 <!-- TODO: ADD ICON FILES -->
 <!--<link rel="icon" href="/favicon32.png" sizes="32x32">-->
@@ -35,24 +83,24 @@
 <!--<meta name="msapplication-TileImage" content="/favicon270.png">-->
 
 <!-- CSS -->
-<link rel="stylesheet" href="/css/owl.carousel.css"/>
+{# <link rel="stylesheet" href="/css/owl.carousel.css"/> #}
 <link rel="stylesheet" href="/css/bootstrap.min.css"/>
 <link rel="stylesheet" href="/css/font-awesome.min.css"/>
 <link rel="stylesheet" href="/css/airspace.css"/>
 <link rel="stylesheet" href="/css/style.css"/>
-<link rel="stylesheet" href="/css/ionicons.min.css"/>
+{# <link rel="stylesheet" href="/css/ionicons.min.css"/> #}
 <link rel="stylesheet" href="/css/animate.css"/>
 <link rel="stylesheet" href="/css/responsive.css"/>
-<link rel="stylesheet" href="/css/syntax.css"/>
+{# <link rel="stylesheet" href="/css/syntax.css"/> #}
 
 <!-- Js -->
 <script defer src="/js/vendor/jquery-1.10.2.min.js"></script>
 <script defer src="/js/bootstrap.min.js"></script>
-<script defer src="/js/owl.carousel.min.js"></script>
-<script defer src="/js/plugins.js"></script>
-<script defer src="/js/min/waypoints.min.js"></script>
-<script defer src="/js/jquery.counterup.js"></script>
-<script defer src="/js/main.js"></script>
+{# <script defer src="/js/owl.carousel.min.js"></script> #}
+{# <script defer src="/js/plugins.js"></script> #}
+{# <script defer src="/js/min/waypoints.min.js"></script> #}
+{# <script defer src="/js/jquery.counterup.js"></script> #}
+{# <script defer src="/js/main.js"></script> #}
 
 <!-- Google Analytics -->
 <script>

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Eventi
 ---
 <!-- Slider Start -->
@@ -18,9 +18,11 @@ title: Eventi
 
 {% for post in collections.eventi | published | reverse %}
   <a href="{{ post.url }}" class="post-area">
-    <span  class="post-title">{{ post.data.title }}</span>
+    <span role="heading" aria-level="2" class="post-title">{{ post.data.title }}</span>
     {% if (post.data.tags and 'eventi' in post.data.tags) %}
-      <span class="post-date">{{ post.data.event.speaker }} - {{post.date | dateformat('dd/LL/yyyy') }} - {{post.data.event.location}}
+      <span class="post-date">{{ post.data.event.speaker }} - 
+      <time datetime="{{ post.date.toISOString() }}">{{post.date | dateformat('dd/LL/yyyy') }}</time>
+       - {{post.data.event.location}}
       </span>
     {% else %}
       <span class="post-date">{{ post.data.subtitle }}

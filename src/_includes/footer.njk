@@ -1,5 +1,5 @@
 <!-- Call to action Start -->
-<section id="call-to-action">
+<aside id="call-to-action">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -10,14 +10,14 @@
       </div>
     </div>
   </div>
-</section>
+</aside>
 <!-- footer Start -->
 <footer id="footer">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <nav class="footer-menu">
-          <p class="sr-only">Menu principale</p>
+        <nav class="footer-menu" aria-labelledby="footer-menu-title">
+          <p class="sr-only" id="footer-menu-title">Menu principale</p>
           <ul>
             {% for item in nav %}
               <li>

@@ -1,44 +1,21 @@
 ---
 layout: page
 title: Contattaci - FEVR - Eventi e formazione frontend javascript Verona
+hero_title: Contattaci
+hero_subtitle: Seguici nei nostri canali!
+hero_id: contact
 ---
+<h2>Contattaci</h2>
 
-<!-- Slider Start -->
-<section class="hero hero--contact">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-          <h1>Contattaci</h1>
-          <p>Seguici nei nostri canali!</p>
-        </div>
+<div class="row social-list">
+  {% for id, social in site.social %}
+    {% if (id != 'email' and social.list != false) %}
+      <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 social-list-element">
+        <a class="social-link" href="{{ social.url }}" target="_blank">
+          <span aria-hidden="true" class="fa social-icon fa-{{ social.icon | default(id) }}"></span>
+          <span class="social-name">{{ social.name }}</span>
+        </a>
       </div>
-    </div>
-  </div>
-</section>
-<!-- contact form start -->
-<section id="contact-form">
-  <div class="container">
-    <div id="contact-box" class="row">
-      <div class="col-xs-12">
-        <div class="block">
-          <h2>Contattaci</h2>
-
-          <div class="row social-list">
-            {% for id, social in site.social %}
-              {% if (id != 'email' and social.list != false) %}
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 social-list-element">
-                  <a class="social-link" href="{{ social.url }}" target="_blank">
-                    <span aria-hidden="true" class="fa social-icon fa-{{ social.icon | default(id) }}"></span>
-                    <span class="social-name">{{ social.name }}</span>
-                  </a>
-                </div>
-              {% endif %}
-            {% endfor %}
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    {% endif %}
+  {% endfor %}
+</div>

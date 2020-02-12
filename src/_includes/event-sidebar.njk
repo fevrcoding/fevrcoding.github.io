@@ -1,6 +1,6 @@
-<nav class="post-sidebar">
+<nav class="post-sidebar" aria-labelledby="event-sidebar-title">
 
-  <h3 class="post-sidebar__title">Gli ultimi eventi</h3>
+  <h3 class="post-sidebar__title" id="event-sidebar-title">Gli ultimi eventi</h3>
   <ul class="post-sidebar__list">
     {% for post in collections.eventi | published | reverse | limit(8) %}
       <li class="post-sidebar__list-element">
