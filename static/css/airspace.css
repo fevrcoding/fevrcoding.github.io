@@ -773,7 +773,7 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	footer Start
 --*/
-footer {
+#footer {
   background: #F5F5F5;
   text-align: center;
   padding-top: 48px;

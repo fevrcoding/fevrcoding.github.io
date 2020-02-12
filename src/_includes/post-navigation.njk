@@ -7,38 +7,35 @@
   {% if tags %}
     {% set category = tags[0] %}
     {% set posts = collections[category] %}
+    {% set next_post,
+    prev_post = null %}
 
     {% for post in posts %}
       {% if post.url == page.url %}
-        {% set post_index0 = loop.index0 %}
-        {% set post_index1 = loop.index %}
+        {% if not loop.last %}
+          {% set next_post = posts[loop.index] %}
+        {% endif %}
+        {% if not loop.first %}
+          {% set prev_post = posts[loop.index0 - 1] %}
+        {% endif %}
       {% endif %}
     {% endfor %}
 
-    {% for post in posts %}
-      {% if post_index0 == loop.index %}
-        {% set next_post = post %}
+    <div class="col-xs-12 col-sm-6 post-navigation text-left">
+      {% if next_post %}
+        <a class="prev" href="{{next_post.url}}">
+          <span aria-hidden="true">&laquo;</span>
+          <span class="sr-only">Prossimo evento: </span>
+          {{next_post.data.title}}</a>
       {% endif %}
-      {% if post_index1 == loop.index0 %}
-        {% set prev_post = post %}
+    </div>
+    <div class="col-xs-12 col-sm-6 post-navigation text-right">
+      {% if prev_post %}
+        <a class="next" href="{{prev_post.url}}">
+          <span class="sr-only">Evento precedente: </span>
+          {{prev_post.data.title}}
+          <span aria-hidden="true">&raquo;</span></a>
       {% endif %}
-    {% endfor %}
+    </div>
   {% endif %}
-
-  <div class="col-xs-12 col-sm-6 post-navigation text-left">
-    {% if next_post %}
-      <a class="prev" href="{{next_post.url}}">
-        <span aria-hidden="true">&laquo;</span>
-        <span class="sr-only">Prossimo evento: </span>
-        {{next_post.title}}</a>
-    {% endif %}
-  </div>
-  <div class="col-xs-12 col-sm-6 post-navigation text-right">
-    {% if prev_post %}
-      <a class="next" href="{{prev_post.url}}">
-        <span class="sr-only">Evento precedente: </span>
-        {{prev_post.title}}
-        <span aria-hidden="true">&raquo;</span></a>
-    {% endif %}
-  </div>
 </div>
