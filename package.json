@@ -1,11 +1,12 @@
 {
   "name": "fevr-new",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Fevr static website",
   "main": "index.js",
   "scripts": {
     "frontend": "gulp",
-    "serve": "bundle exec jekyll serve"
+    "serve": "eleventy --serve",
+    "build": "eleventy"
   },
   "repository": {
     "type": "git",
