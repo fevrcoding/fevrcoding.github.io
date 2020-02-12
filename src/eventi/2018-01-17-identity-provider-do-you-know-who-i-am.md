@@ -4,7 +4,7 @@ title: 'Identity provider. Do you know who I am?!'
 subtitle: Nicola Ridolfi - 17.01.2018 @ AQuest
 image: img/2018/01/gennaio-bug.jpg
 date: 2018-01-17 19:00:00
-permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ title | slug }}/index.html"
+permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ page.fileSlug | slug }}/index.html"
 author: bug
 tags: eventi
 published: true

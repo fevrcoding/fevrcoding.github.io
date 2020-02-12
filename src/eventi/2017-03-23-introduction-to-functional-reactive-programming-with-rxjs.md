@@ -4,7 +4,7 @@ title: 'Introduction to Functional Reactive Programming with RxJS'
 subtitle: Giulio Collesei - 23.03.2017 @ Graffiti HUB
 image: img/2017/03/marzo.jpg
 date: 2017-03-23 19:00:00
-permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ title | slug }}/index.html"
+permalink: "/eventi/{{ page.date | date('dd/LL/yyyy') }}/{{ page.fileSlug | slug }}/index.html"
 author: fevr
 tags: eventi
 published: true
