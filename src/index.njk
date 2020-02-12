@@ -89,7 +89,7 @@ layout: page
                     </figure>
                     <div class="member-details">
                       <h3 class="dark-text red-border-bottom">{{member.name | upper }}</h3>
-                      <div class="position">{{member.role}}</div>
+                      <p class="position">{{member.role}}</p>
                     </div>
                     <div class="social-icons">
                       <div class="row">
@@ -125,12 +125,12 @@ layout: page
         <p>Collaboriamo con coworking e realtà locali da cinque anni, organizzando un meetup mensile.</p>
         <p>Ospitiamo professionisti del settore dello sviluppo web affrontando qualsiasi tematica
                     sia relativa alle interfacce web.</p>
-        <p>Parliamo principalmente di Javascript e CSS, spaziamo però dall'internet of things fino a
-                    incontri sulla user experience.</p>
+        <p>Parliamo principalmente di JavaScript e CSS, spaziamo però dall'Internet of Things fino a
+                    incontri sulla User Experience.</p>
         <p>Organizziamo dal 2015 assieme al <a href="http://www.grusp.org/it/">GrUSP</a> la conferenza europea
-                    "reactjsday" che coinvolge speaker da tutta europa e più di 300 partecipanti.</p>
+                    "reactjsday" che coinvolge speaker da tutta Europa e più di 300 partecipanti.</p>
 
-        <a href="{{ '/eventi' | url }}" class="btn btn-view-works">Mostra gli eventi</a>
+        <a href="/eventi/" class="btn btn-view-works">Mostra gli eventi</a>
       </div>
     </div>
   </div>
@@ -150,7 +150,8 @@ layout: page
     <div class="row ">
       {% for sp in site.sponsor %}
         <div class="col-sm-6 col-md-3">
-          <a class="sponsor-item slide-down-hover" href="{{sp.url}}" target="_blank" aria-label="{{ sp.name }}">
+          <a class="sponsor-item slide-down-hover" href="{{sp.url}}" target="_blank">
+            <span class="sr-only">{{ sp.name }}</span>
             <img src="/{{sp.img}}" class="img-circle img-responsive center-block" alt="">
           </a>
         </div>

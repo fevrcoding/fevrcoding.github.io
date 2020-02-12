@@ -367,6 +367,8 @@ width: 100%;
 .team-member .position {
     font-size: 13px;
     color: #2c3e50;
+    line-height: normal;
+    margin-bottom: 0;
 }
 
 .team-member .social-icons {
