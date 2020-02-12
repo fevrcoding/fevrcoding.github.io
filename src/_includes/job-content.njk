@@ -2,16 +2,17 @@
   <div class="col-sm-12">
     <div class="block">
       <h1>{{ title }}</h1>
-      <hr/>
-      <p>{{ content | safe }}</p>
+      <hr aria-hidden="true"/>
+      {{ content | safe }}
     </div>
   </div>
 </div>
 
-<hr/>
+<hr aria-hidden="true"/>
 
-<section class="share">
-  <ul class="list-inline" aria-label="Condividi su">
+<footer class="share">
+  <p class="sr-only">Condividi su</p>
+  <ul class="list-inline">
     <li aria-hidden="true">Condividi su:</li>
     <li>
       <a
@@ -19,7 +20,7 @@
         target="_blank"
         href="http://www.facebook.com/sharer/sharer.php?u={{ site.url + page.url | urlencode }}"
       >
-        <i class="fa fa-facebook"></i> Facebook
+        <span aria-hidden="true" class="fa fa-facebook"></span> Facebook
       </a>
     </li>
     <li>
@@ -27,17 +28,17 @@
         class="btn btn-info"
         href="http://twitter.com/intent/tweet?text={{ title | urlencode }}&via=__fevr&url={{ site.url + page.url | urlencode }}"
       >
-        <i class="fa fa-twitter"></i> Twitter
+        <span aria-hidden="true" class="fa fa-twitter"></span> Twitter
       </a>
     </li>
     <li>
       <a class="btn btn-info" href="{{ site.url + page.url | urlencode }}">
-        <i class="fa fa-link"></i> Permalink
+        <span aria-hidden="true" class="fa fa-link"></span> Permalink
       </a>
     </li>
   </ul>
-</section>
+</footer>
 
 <!-- Post Navigation -->
-{% include post-navigation.html %}
+{% include post-navigation.njk %}
 <!-- end of Post Navigation -->

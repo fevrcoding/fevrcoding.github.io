@@ -3,80 +3,83 @@
   <div class="col-sm-12">
     <div class="block">
       <h1>{{ title }}</h1>
-      <hr/>
+      <hr aria-hidden="true"/>
 
-      <ul class="list-inline">
-        {% if event.eventbrite %}
-          <li>
-            <a
+      <footer>
+
+        <ul class="list-inline">
+          {% if event.eventbrite %}
+            <li>
+              <a
             href="https://www.eventbrite.it/e/{{event.eventbrite}}"
             class="btn btn-warning"
             target="_blank"
             >Eventbrite</a
           >
-          </li>
-        {% endif %}
-        {% if event.youtube %}
-          <li>
-            <a
+            </li>
+          {% endif %}
+          {% if event.youtube %}
+            <li>
+              <a
             href="{{event.youtube}}"
             class="btn btn-danger"
             target="_blank"
             >Video</a
           >
-          </li>
-        {% endif %}
-        {% if event.facebooklive %}
-          <li>
-            <a
+            </li>
+          {% endif %}
+          {% if event.facebooklive %}
+            <li>
+              <a
             href="{{event.facebooklive}}"
             class="btn btn-danger"
             target="_blank"
             >Video</a
           >
-          </li>
-        {% endif %}
-        {% if event.videogallery %}
-          <li>
-            <a
+            </li>
+          {% endif %}
+          {% if event.videogallery %}
+            <li>
+              <a
             href="https://vimeo.com/album/{{event.videogallery}}"
             class="btn btn-danger"
             target="_blank"
             >Video</a
           >
-          </li>
-        {% endif %}
-        {% if event.foto %}
-          <li>
-            <a href="{{event.foto}}" class="btn btn-primary" target="_blank"
+            </li>
+          {% endif %}
+          {% if event.foto %}
+            <li>
+              <a href="{{event.foto}}" class="btn btn-primary" target="_blank"
             >Foto</a
           >
-          </li>
-        {% endif %}
-        {% if event.slides %}
-          {% for slide in event.slides
- %}
-            <li>
-              <a href="{{slide.url}}" class="btn btn-success" target="_blank">
-                {% if event.slides.length == 1 %} Slides {% else%} Slides
-            {{slide.author}}
-                {% endif %}
-              </a>
             </li>
-          {% endfor %}
-        {% endif %}
-      </ul>
+          {% endif %}
+          {% if event.slides %}
+            {%- for slide in event.slides %}
+              <li>
+                <a href="{{slide.url}}" class="btn btn-success" target="_blank">
+                  {% if event.slides.length == 1 %} Slides {% else%} Slides
+            {{slide.author}}
+                  {% endif %}
+                </a>
+              </li>
+            {%- endfor %}
+          {% endif %}
+        </ul>
+      </footer>
 
-      <p>{{ content | safe }}</p>
+      {{ content | safe }}
     </div>
   </div>
 </div>
 
-<hr/>
+<hr aria-hidden="true"/>
 
-<section class="share">
+<aside class="share">
+  <h2 class="sr-only">Condividi su:</h2>
   <ul class="list-inline">
-    <li>Condividi su:</li>
+    <li aria-hidden="true">Condividi su:</li>
     <li>
       <a
         class="btn btn-info"
@@ -100,81 +103,84 @@
       </a>
     </li>
   </ul>
-</section>
-<hr/>
+</aside>
+<hr aria-hidden="true"/>
 
-<section class="support">
+<aside class="support list-inline">
+  <h2 class="sr-only">Supportaci su:</h2>
   <ul class="list-inline">
-    <li>Supportaci su:</li>
+    <li aria-hidden="true">Supportaci su:</li>
     <li>
       <a class="btn red-btn" target="_blank" href="{{site.social.patreon.url}}">
         <i class="fa fa-link"></i> Patreon
       </a>
     </li>
   </ul>
-</section>
+</aside>
 
-<!-- Youtube embed -->
-{% if event.youtube %}
-  <hr/>
+<footer>
 
-  <div class="row youtube__wrapper">
-    <div class="col-sm-6">
-      {{ embeds.youtube(event.youtube) }}
-    </div>
-  </div>
-{% endif %}
-<!-- end of Youtube embed -->
+  <!-- Youtube embed -->
+  {% if event.youtube %}
+    <hr aria-hidden="true"/>
 
-<!-- Facebook Live embed -->
-{% if event.facebooklive %}
-  <hr/>
-
-  <div class="row facebook__wrapper">
-    <div class="col-sm-6">
-      {{ embeds.facebooklive(event.facebooklive) }}
-    </div>
-  </div>
-{% endif %}
-<!-- end of Facebook Live embed -->
-
-<!-- Vimeo Videogallery embed -->
-{% if event.videogallery %}
-  <hr/>
-
-  <div class="row vimeo-videogallery__wrapper">
-    <div class="col-sm-12">
-      {{ embed.vimeo(event.videogallery) }}
-    </div>
-  </div>
-{% endif %}
-<!-- end of Vimeo Videogallery embed -->
-
-{% if event.slides %}
-  <hr/>
-
-  <div class="row slides__wrapper">
-    {% for slide in event.slides %}
+    <div class="row youtube__wrapper">
       <div class="col-sm-6">
-        <div class="embed-responsive embed-responsive-4by3">
-          {{ embeds.slides(slide) }}
-        </div>
+        {{ embeds.youtube(event.youtube) }}
       </div>
-    {% endfor %}
-  </div>
-{% endif %}
-<!-- Eventbrite embed -->
-{% if event.eventbrite %}
-  <hr/>
-
-  <div class="row eventbrite__wrapper">
-    <div class="col-sm-12">
-      {{ embeds.eventbrite(event.eventbrite) }}
     </div>
-  </div>
-{% endif %}
-<!-- end of Eventbrite embed -->
+  {% endif %}
+  <!-- end of Youtube embed -->
 
-<!-- Post Navigation -->
-{% include post-navigation.html %}
-<!-- end of Post Navigation -->
+  <!-- Facebook Live embed -->
+  {% if event.facebooklive %}
+    <hr/>
+
+    <div class="row facebook__wrapper">
+      <div class="col-sm-6">
+        {{ embeds.facebooklive(event.facebooklive) }}
+      </div>
+    </div>
+  {% endif %}
+  <!-- end of Facebook Live embed -->
+
+  <!-- Vimeo Videogallery embed -->
+  {% if event.videogallery %}
+    <hr aria-hidden="true"/>
+
+    <div class="row vimeo-videogallery__wrapper">
+      <div class="col-sm-12">
+        {{ embed.vimeo(event.videogallery) }}
+      </div>
+    </div>
+  {% endif %}
+  <!-- end of Vimeo Videogallery embed -->
+
+  {% if event.slides %}
+    <hr aria-hidden="true"/>
+
+    <div class="row slides__wrapper">
+      {% for slide in event.slides %}
+        <div class="col-sm-6">
+          <div class="embed-responsive embed-responsive-4by3">
+            {{ embeds.slides(slide) }}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+  <!-- Eventbrite embed -->
+  {% if event.eventbrite %}
+    <hr aria-hidden="true"/>
+
+    <div class="row eventbrite__wrapper">
+      <div class="col-sm-12">
+        {{ embeds.eventbrite(event.eventbrite) }}
+      </div>
+    </div>
+  {% endif %}
+  <!-- end of Eventbrite embed -->
+  <!-- Post Navigation -->
+  {% include post-navigation.njk %}
+  <!-- end of Post Navigation -->
+</footer>

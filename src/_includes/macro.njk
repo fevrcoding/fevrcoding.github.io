@@ -36,10 +36,10 @@
 
 {% macro vimeo(id) %}
     <section class="videogallery">
-        <ul class="list-inline">
-            <li>See the videogallery on </li>
-            <li>
-                <a class="btn btn-info" target="_blank" href="https://vimeo.com/album/{{id}}">
+        <ul class="list-inline" role="presentation">
+            <li role="presentation" lang="en">See the videogallery on </li>
+            <li role="presentation">
+                <a class="btn btn-info" target="_blank" rel="noopener noreferral" href="https://vimeo.com/album/{{id}}">
                 Vimeo
             </a>
             </li>
@@ -72,7 +72,7 @@
         allowfullscreen></iframe>
     {% else %}
         <!-- Button fallback -->
-        <a href="{{slide.url}}" class="btn btn-primary" target="_blank"
+        <a href="{{slide.url}}" class="btn btn-primary" rel="noopener noreferral" target="_blank"
         >Slides {{slide.author}}</a
       >
         <!-- end of Button fallback -->

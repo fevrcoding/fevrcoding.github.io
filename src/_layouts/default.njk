@@ -10,11 +10,13 @@
   <!--________\/\\\________\//\\\\\\\\\\____\//\\\_____\/\\\_____/\\\_\/\\\____\//\\\\\____-->
   <!--_________\///__________\//////////______\///______\///_____\///__\///______\/////____-->
   <head>
-    {% include head.html %}
+    {% include head.njk %}
   </head>
   <body>
-    {% include header.html %}
-    {{ content | safe }}
-    {% include footer.html %}
+    {% include header.njk %}
+    <main>
+      {{ content | safe }}
+    </main>
+    {% include footer.njk %}
   </body>
 </html>

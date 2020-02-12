@@ -3,23 +3,21 @@ layout: default
 ---
 
 <!-- Slider Start -->
-<section class="hero hero--jobs hidden-xs"></section>
+<div class="hero hero--jobs hidden-xs"></div>
 
 <div class="post">
   <!-- Wrapper Start -->
-  <section id="intro">
+  <div id="intro">
     <div class="container">
       <div class="row">
-        <div class="col-sm-9">
-          {% include job-content.html %}
-        </div>
-        <div class="col-sm-3">
-          {% include event-sidebar.html %}
-        </div>
+        <article class="col-sm-9">
+          {% include job-content.njk %}
+        </article>
+        <aside role="complementary" class="col-sm-3">
+          {% include event-sidebar.njk %}
+        </aside>
       </div>
     </div>
-  </section>
+  </div>
 
 </div>
-
-

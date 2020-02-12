@@ -3,20 +3,20 @@ layout: default
 ---
 
 <!-- Slider Start -->
-<section class="hero event-hero hidden-xs" style="background-image: url({{ assets.cover | url }})"></section>
+<div class="hero event-hero hidden-xs" style="background-image: url({{ assets.cover | url }})"></div>
 
 <div class="post">
   <!-- Wrapper Start -->
-  <section id="intro">
+  <div id="intro">
     <div class="container">
       <div class="row">
-        <div class="col-sm-9">
-          {% include event-content.html %}
-        </div>
-        <div class="col-sm-3">
-          {% include event-sidebar.html %}
-        </div>
+        <article class="col-sm-9">
+          {% include event-content.njk %}
+        </article>
+        <aside role="complementary" class="col-sm-3">
+          {% include event-sidebar.njk %}
+        </aside>
       </div>
     </div>
-  </section>
+  </div>
 </div>

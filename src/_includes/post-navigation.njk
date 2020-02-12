@@ -29,12 +29,15 @@
     {% if next_post %}
       <a class="prev" href="{{next_post.url}}">
         <span aria-hidden="true">&laquo;</span>
+        <span class="sr-only">Prossimo evento: </span>
         {{next_post.title}}</a>
     {% endif %}
   </div>
   <div class="col-xs-12 col-sm-6 post-navigation text-right">
     {% if prev_post %}
-      <a class="next" href="{{prev_post.url}}">{{prev_post.title}}
+      <a class="next" href="{{prev_post.url}}">
+        <span class="sr-only">Evento precedente: </span>
+        {{prev_post.title}}
         <span aria-hidden="true">&raquo;</span></a>
     {% endif %}
   </div>

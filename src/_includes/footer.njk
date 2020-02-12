@@ -16,50 +16,51 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <div class="footer-menu">
+        <nav class="footer-menu" aria-label="Menu principale">
           <ul>
+            {% for item in nav %}
+              <li>
+                <a 
+                  {{ 'aria-current="page"' if item.href == page.url | safe }}
+                  href="{{ item.href }}"
+                >{{ item.label }}</a>
+              </li>
+            {% endfor %}
             <li>
-              <a title="Eventi" href="/eventi">Eventi</a>
-            </li>
-            <li>
-              <a title="Chi siamo" href="/#about">Chi siamo</a>
-            </li>
-            <li>
-              <a title="Sponsor & Friends" href="/#sponsor">Sponsor & Friends</a>
-            </li>
-            <li>
-              <a title="Contatti" href="/contact">Contatti</a>
-            </li>
-            <li>
-              <a title="Codice di Condotta" href="/code-of-conduct">Codice di Condotta</a>
+              <a 
+                {{ 'aria-current="page"' if '/code-of-conduct' == page.url | safe }}
+                href="/code-of-conduct"
+              >Codice di Condotta</a>
             </li>
           </ul>
-        </div>
-        <div class="social">
+        </nav>
+        <section class="social">
+          <h3 class="sr-only">Find us on: </h3>
           <ul class="list-inline">
-            <li>Find us on: </li>
+            <li aria-hidden="true">Find us on: </li>
             {% for id in['facebook', 'slack', 'twitter'] %}
               {% set social = site.social[id] %}
               <li>
-                <a href="{{social.url}}" target="_blank">
-                  <i class="fa fa-{{ social.icon | default(id) }}"></i>
+                <a href="{{social.url}}" target="_blank" rel="noopener noreferral">
+                  <span aria-hidden="true" class="fa fa-{{ social.icon | default(id) }}"></span>
                   {{ social.name }}
                 </a>
               </li>
             {% endfor %}
           </ul>
-        </div>
+        </section>
         <p>
           Theme by <a href="http://www.themefisher.com" target="_blank">Themefisher</a>
           -
-          <a href="/sitemap.xml" target="_blank">Sitemap</a>
+          <a href="/sitemap.xml" target="_blank" aria-label="Mappa del sito">Sitemap</a>
           -
-          <a href="/feed.xml" target="_blank">
-            <i class="fa fa-rss" style="color: #f26522"></i> Feed</a>
+          <a href="/feed.xml" target="_blank" aria-label="Feed RSS">
+            <span aria-hidden="true" class="fa fa-rss" style="color: #f26522"></span> Feed</a>
 
           <br>
           Copyright &copy; FEVR - Frontenders Verona. All rights reserved.<br>
-          Developed with ❤️ by <a href="http://github.com/kino90" target="_blank">Luca Maroni</a>.
+          Developed with <span aria-hidden="true">❤️</span>
+          <span class="sr-only">love</span> by <a href="http://github.com/kino90" target="_blank" rel="noopener noreferral">Luca Maroni</a>.
         </p>
       </div>
     </div>

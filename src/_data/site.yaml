@@ -1,210 +1,185 @@
 # Site settings
-title: "FEVR - Frontenders Verona - Eventi e formazione frontend javascript Verona"
-subtitle: "Eventi e formazione frontend javascript Verona"
-description: "Eventi e formazione frontend javascript Verona"
-logo: "/img/logo2016.png"
+title: 'FEVR - Frontenders Verona - Eventi e formazione frontend javascript Verona'
+subtitle: 'Eventi e formazione frontend javascript Verona'
+description: 'Eventi e formazione frontend javascript Verona'
+logo: '/img/logo2016.png'
 # Base URL of site. It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 # baseurl: "/" # the subpath of your site
-url: "http://www.fevr.it" # the base hostname & protocol for your site
-baseurl: ""
-
-permalink: "/:categories/:year/:month/:title/"
-
-twitter:
-  username: "__fevr"
-
-social:
-  name: "FEVR"
-  links:
-    - "https://twitter.com/__fevr"
-    - "https://www.facebook.com/groups/frontendersverona/"
-    - "http://www.eventbrite.it/o/fevr-7297766259"
-    - "https://www.youtube.com/channel/UCyBgo76Z93uqEXqK6GmxN5w"
-    - "https://speakerdeck.com/fevr"
-    - "https://github.com/fevrcoding"
+url: 'http://www.fevr.it' # the base hostname & protocol for your site
 
 # Google analytics
-ga_tracking_id: "UA-3216603-10"
-
-# Category descriptions (for archive pages)
-descriptions:
-  - cat: eventi
-    desc: "I nostri eventi."
+ga_tracking_id: 'UA-3216603-10'
 
 sponsor:
-  - name: "Officina18"
-    img: "img/sponsor/officina18.png"
-    url: "http://www.officina18.it"
+  - name: 'Officina18'
+    img: 'img/sponsor/officina18.png'
+    url: 'http://www.officina18.it'
 
-  - name: "WestHouse"
-    img: "img/sponsor/westhouse.png"
-    url: "https://www.westhouse-group.com/it/"
+  - name: 'WestHouse'
+    img: 'img/sponsor/westhouse.png'
+    url: 'https://www.westhouse-group.com/it/'
 
-  - name: "dgroove"
-    img: "img/sponsor/dgroove.png"
-    url: "http://www.dgroove.it/"
+  - name: 'dgroove'
+    img: 'img/sponsor/dgroove.png'
+    url: 'http://www.dgroove.it/'
 
-  - name: "Spreaker"
-    img: "img/sponsor/spreaker.png"
-    url: "https://www.spreaker.com/"
-    
-  - name: "Kaleidoscope Studio"
-    img: "img/sponsor/kaleidoscope.png"
-    url: "http://www.kaleidoscope.it/"
+  - name: 'Spreaker'
+    img: 'img/sponsor/spreaker.png'
+    url: 'https://www.spreaker.com/'
 
-  - name: "JetBrains"
-    img: "img/sponsor/jetbrains.png"
-    url: "https://www.jetbrains.com/"
+  - name: 'Kaleidoscope Studio'
+    img: 'img/sponsor/kaleidoscope.png'
+    url: 'http://www.kaleidoscope.it/'
 
-  - name: "Plural Sight"
-    img: "img/sponsor/pluralsight.png"
-    url: "https://www.pluralsight.com/"
+  - name: 'JetBrains'
+    img: 'img/sponsor/jetbrains.png'
+    url: 'https://www.jetbrains.com/'
 
-  - name: "Avocode"
-    img: "img/sponsor/avocode.png"
-    url: "https://avocode.com/"
+  - name: 'Plural Sight'
+    img: 'img/sponsor/pluralsight.png'
+    url: 'https://www.pluralsight.com/'
 
-  - name: "AQuest"
-    img: "img/sponsor/aquest.png"
-    url: "https://www.aquest.it/it"
+  - name: 'Avocode'
+    img: 'img/sponsor/avocode.png'
+    url: 'https://avocode.com/'
+
+  - name: 'AQuest'
+    img: 'img/sponsor/aquest.png'
+    url: 'https://www.aquest.it/it'
 
 social:
-  email: "fevr.gruppo@gmail.com"
+  email: 'fevr.gruppo@gmail.com'
   facebook:
     name: Facebook
-    user: "frontendersverona"
-    url: "https://www.facebook.com/groups/frontendersverona/"
+    user: 'frontendersverona'
+    url: 'https://www.facebook.com/groups/frontendersverona/'
   slack:
     name: Slack
-    url: "http://fevr.herokuapp.com/"
+    url: 'http://fevr.herokuapp.com/'
   twitter:
     name: Twitter
-    user: "__fevr"
-    url: "https://twitter.com/__fevr"
+    user: '__fevr'
+    url: 'https://twitter.com/__fevr'
   meetup:
     name: Meetup
-    url: "https://meetup.com/it-IT/FEVR-Frontenders-Verona/"
+    url: 'https://meetup.com/it-IT/FEVR-Frontenders-Verona/'
   eventbrite:
     name: Eventbrite
     icon: calendar
-    url: "http://www.eventbrite.it/o/fevr-7297766259"
+    url: 'http://www.eventbrite.it/o/fevr-7297766259'
   youtube:
     name: Youtube
-    url: "https://www.youtube.com/channel/UCyBgo76Z93uqEXqK6GmxN5w"
+    url: 'https://www.youtube.com/channel/UCyBgo76Z93uqEXqK6GmxN5w'
   speakerdeck:
     name: Speakerdeck
     icon: list-alt
-    url: "https://speakerdeck.com/fevr"
+    url: 'https://speakerdeck.com/fevr'
   patreon:
-    url: "https://www.patreon.com/fevr"
+    url: 'https://www.patreon.com/fevr'
 
 team:
-  - name: "Matteo Guidotto"
-    role: "Project Manager"
-    img: "img/matteo.jpg"
+  - name: 'Matteo Guidotto'
+    role: 'Project Manager'
+    img: 'img/matteo.jpg'
     social:
       - name: Facebook
-        url: "https://www.facebook.com/matteoguidotto"
+        url: 'https://www.facebook.com/matteoguidotto'
         icon: fa-facebook
 
       - name: Twitter
-        url: "https://twitter.com/j8matteo"
+        url: 'https://twitter.com/j8matteo'
         icon: fa-twitter
 
       - name: SlideShare
-        url: "http://www.slideshare.net/matteoguidotto"
+        url: 'http://www.slideshare.net/matteoguidotto'
         icon: fa-slideshare
 
       - name: LinkedIn
-        url: "https://www.linkedin.com/in/matteoguidotto"
+        url: 'https://www.linkedin.com/in/matteoguidotto'
         icon: fa-linkedin
 
-  - name: "Marco Solazzi"
-    role: "Senior Frontend Developer"
-    img: "img/marco.jpg"
+  - name: 'Marco Solazzi'
+    role: 'Senior Frontend Developer'
+    img: 'img/marco.jpg'
     social:
       - name: Facebook
-        url: "https://www.facebook.com/dwightjack"
+        url: 'https://www.facebook.com/dwightjack'
         icon: fa-facebook
 
       - name: Twitter
-        url: "https://twitter.com/dwightjack"
+        url: 'https://twitter.com/dwightjack'
         icon: fa-twitter
 
       - name: Github
-        url: "https://github.com/dwightjack"
+        url: 'https://github.com/dwightjack'
         icon: fa-github
 
       - name: LinkedIn
-        url: "https://www.linkedin.com/in/marcosolazzi"
+        url: 'https://www.linkedin.com/in/marcosolazzi'
         icon: fa-linkedin
 
-  - name: "Matteo Ronchi"
-    role: "Senior Software Engineer"
-    img: "img/matteo-ronchi.jpg"
+  - name: 'Matteo Ronchi'
+    role: 'Senior Software Engineer'
+    img: 'img/matteo-ronchi.jpg'
     social:
       - name: Facebook
-        url: "https://www.facebook.com/matteo.ronchi.979"
+        url: 'https://www.facebook.com/matteo.ronchi.979'
         icon: fa-facebook
 
       - name: Twitter
-        url: "https://twitter.com/cef62"
+        url: 'https://twitter.com/cef62'
         icon: fa-twitter
 
       - name: Github
-        url: "https://github.com/cef62"
+        url: 'https://github.com/cef62'
         icon: fa-github
 
       - name: LinkedIn
-        url: "https://www.linkedin.com/in/matteoronchi"
+        url: 'https://www.linkedin.com/in/matteoronchi'
         icon: fa-linkedin
 
-
-  - name: "Luca Maroni"
-    role: "Frontend Developer"
-    img: "img/luca-maroni.jpg"
+  - name: 'Luca Maroni'
+    role: 'Frontend Developer'
+    img: 'img/luca-maroni.jpg'
     social:
       - name: Facebook
-        url: "https://www.facebook.com/lucakinomaroni"
+        url: 'https://www.facebook.com/lucakinomaroni'
         icon: fa-facebook
 
       - name: Twitter
-        url: "https://twitter.com/lucakinomaroni"
+        url: 'https://twitter.com/lucakinomaroni'
         icon: fa-twitter
 
       - name: Github
-        url: "https://github.com/kino90"
+        url: 'https://github.com/kino90'
         icon: fa-github
 
       - name: LinkedIn
-        url: "https://www.linkedin.com/in/lucakinomaroni"
+        url: 'https://www.linkedin.com/in/lucakinomaroni'
         icon: fa-linkedin
 
-
-  - name: "Marco Albarelli"
-    role: "freelance @Opencontent"
-    img: "img/marco-albarelli.jpg"
+  - name: 'Marco Albarelli'
+    role: 'freelance @Opencontent'
+    img: 'img/marco-albarelli.jpg'
     social:
       - name: Github
-        url: "https://github.com/marcoalbarelli"
+        url: 'https://github.com/marcoalbarelli'
         icon: fa-github
 
       - name: LinkedIn
-        url: "https://www.linkedin.com/in/marcoalbarelli/"
+        url: 'https://www.linkedin.com/in/marcoalbarelli/'
         icon: fa-linkedin
-
 
   - name: "Cesare D'Amico"
-    role: "Engineering Manager"
-    img: "img/cesare-damico.jpg"
+    role: 'Engineering Manager'
+    img: 'img/cesare-damico.jpg'
     social:
-
       - name: Twitter
-        url: "https://twitter.com/__ce"
+        url: 'https://twitter.com/__ce'
         icon: fa-twitter
 
       - name: LinkedIn
-        url: "https://www.linkedin.com/in/cesare/"
+        url: 'https://www.linkedin.com/in/cesare/'
         icon: fa-linkedin
