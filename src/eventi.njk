@@ -19,7 +19,7 @@ title: Eventi
 {% for post in collections.eventi | published | reverse %}
   <a href="{{ post.url }}" class="post-area">
     <span  class="post-title">{{ post.data.title }}</span>
-    {% if 'eventi' in post.data %}
+    {% if (post.data.tags and 'eventi' in post.data.tags) %}
       <span class="post-date">{{ post.data.event.speaker }} - {{post.date | dateformat('dd/LL/yyyy') }} - {{post.data.event.location}}
       </span>
     {% else %}

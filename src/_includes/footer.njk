@@ -21,14 +21,14 @@
             {% for item in nav %}
               <li>
                 <a 
-                  {{ 'aria-current="page"' if item.href == page.url | safe }}
+                  {{ ('aria-current="page"' | safe) if item.href == page.url }}
                   href="{{ item.href }}"
                 >{{ item.label }}</a>
               </li>
             {% endfor %}
             <li>
               <a 
-                {{ 'aria-current="page"' if '/code-of-conduct' == page.url | safe }}
+                {{ ('aria-current="page"' | safe) if '/code-of-conduct' == page.url | safe }}
                 href="/code-of-conduct"
               >Codice di Condotta</a>
             </li>

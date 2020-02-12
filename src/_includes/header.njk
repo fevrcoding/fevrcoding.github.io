@@ -25,7 +25,7 @@
                 {% for item in nav %}
                   <li>
                     <a 
-                      {{ 'aria-current="page"' if item.href == page.url | safe }} 
+                      {{ ('aria-current="page"' | safe) if item.href == page.url }} 
                       href="{{ item.href }}"
                     >{{ item.label }}</a>
                   </li>
