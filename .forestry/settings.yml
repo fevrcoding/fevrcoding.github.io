@@ -9,12 +9,12 @@ sections:
   label: Eventi
   create: documents
   match: "**/*.md"
-  new_doc_ext: ".md"
-upload_dir: uploads
-public_path: "/uploads"
+  new_doc_ext: md
+upload_dir: static/img
+public_path: "/img"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ":filename:"
+file_template: ":year/:month/:filename/:filename:"
 build:
   install_dependencies_command: npm install
   preview_docker_image: node:10
