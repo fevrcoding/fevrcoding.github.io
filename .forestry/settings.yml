@@ -9,7 +9,7 @@ sections:
   label: Eventi
   create: documents
   match: "**/*.md"
-  new_doc_ext: ''
+  new_doc_ext: ".md"
 upload_dir: static/img
 public_path: "/img"
 front_matter_path: ''
