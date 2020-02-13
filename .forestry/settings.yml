@@ -5,11 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: "./src/eventi"
+  path: src/eventi
   label: Eventi
   create: documents
   match: "**/*.md"
-  new_doc_ext: md
+  new_doc_ext: ''
 upload_dir: static/img
 public_path: "/img"
 front_matter_path: ''
