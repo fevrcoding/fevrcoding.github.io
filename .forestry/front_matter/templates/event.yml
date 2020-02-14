@@ -58,7 +58,7 @@ fields:
         label: Link Foto
       - type: field_group
         name: slides
-        label: Link Slides
+        label: Slides
         fields:
           - type: text
             name: author
