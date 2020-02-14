@@ -3,7 +3,7 @@ const rss = require('@11ty/eleventy-plugin-rss');
 const { DateTime } = require('luxon');
 
 module.exports = function(eleventyConfig) {
-  const assets = ['js', 'css', 'fonts', 'img', 'odx-assets'];
+  const assets = ['js', 'css', 'fonts', 'img', 'odx-assets', 'admin'];
 
   for (const folder of assets) {
     eleventyConfig.addPassthroughCopy({ [`static/${folder}`]: folder });

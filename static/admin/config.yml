@@ -1,0 +1,90 @@
+backend:
+  name: git-gateway
+  branch: eleventy
+publish_mode: editorial_workflow
+media_folder: 'static/img'
+public_folder: '/img'
+collections:
+  - name: 'event'
+    label: 'Eventi' # Used in the UI
+    folder: 'src/eventi' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - widget: string
+        name: title
+        label: Titolo
+        required: true
+      - widget: string
+        name: subtitle
+        label: Sottotitolo
+        required: true
+      - widget: image
+        name: image
+        label: Locandina
+        allow_multiple: false
+        required: true
+      - widget: datetime
+        name: date
+        label: Data Evento
+        format: 'YYYY-DD-DD HH:mm:00'
+        required: true
+      - widget: hidden
+        name: permalink
+        label: Permalink
+        default: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
+      - widget: boolean
+        name: published
+        label: Pubblicato
+        default: false
+      - widget: object
+        name: event
+        label: Dettagli
+        fields:
+          - widget: string
+            name: speaker
+            label: Speaker
+          - widget: string
+            name: location
+            label: Location
+            default: Officina 18
+          - widget: number
+            name: eventbrite
+            label: Codice Eventbrite
+          - widget: string
+            name: youtube
+            label: Link YouTube
+          - widget: string
+            name: facebooklive
+            label: Link Live Facebook
+          - widget: string
+            name: foto
+            label: Link Foto
+          - widget: list
+            name: slides
+            label: Slides
+            fields:
+              - widget: string
+                name: author
+                label: Autore
+              - widget: string
+                name: type
+                label: 'Tipo (es: speakerdeck)'
+              - widget: string
+                name: url
+                label: Link
+              - widget: string
+                name: id
+                label: ID
+      - widget: object
+        name: assets
+        label: assets
+        fields:
+          - widget: image
+            name: cover
+            label: Copertina
+            required: true
+          - widget: image
+            name: img500
+            label: Locandina 500x500
+      - { label: 'Body', name: 'body', widget: 'markdown' }
