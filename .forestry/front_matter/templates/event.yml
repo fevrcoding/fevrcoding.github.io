@@ -1,0 +1,69 @@
+---
+label: Event
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: subtitle
+  label: subtitle
+- type: file
+  name: image
+  label: image
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: permalink
+  label: permalink
+- type: boolean
+  name: published
+  label: published
+- type: field_group
+  name: event
+  label: event
+  fields:
+  - type: text
+    name: speaker
+    label: speaker
+  - type: text
+    name: location
+    label: location
+  - type: number
+    name: eventbrite
+    label: eventbrite
+  - type: text
+    name: youtube
+    label: youtube
+  - type: text
+    name: facebooklive
+    label: facebooklive
+  - type: text
+    name: foto
+    label: foto
+  - type: text
+    name: slides
+    label: slides
+- type: field_group
+  name: assets
+  label: assets
+  fields:
+  - type: file
+    name: cover
+    label: cover
+  - type: file
+    name: img500
+    label: img500
+  - type: file
+    name: img300
+    label: img300
+  - type: file
+    name: img250
+    label: img250
+  - type: file
+    name: img174
+    label: img174
+  - type: file
+    name: img150
+    label: img150
