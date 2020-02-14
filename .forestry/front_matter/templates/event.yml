@@ -56,9 +56,11 @@ fields:
       - type: text
         name: foto
         label: Link Foto
-      - type: field_group
+      - type: field_group_list
         name: slides
         label: Slides
+        config:
+          labelField: author
         fields:
           - type: text
             name: author
