@@ -14,6 +14,8 @@ fields:
 - type: datetime
   name: date
   label: date
+  config:
+    required: true
 - type: text
   name: permalink
   label: permalink
