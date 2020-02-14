@@ -56,9 +56,22 @@ fields:
       - type: text
         name: foto
         label: Link Foto
-      - type: text
+      - type: field_group
         name: slides
         label: Link Slides
+        fields:
+          - type: text
+            name: author
+            label: Autore
+          - type: text
+            name: type
+            label: 'Tipo (es: speakerdeck)'
+          - type: text
+            name: url
+            label: Link
+          - type: text
+            name: id
+            label: ID
   - type: field_group
     name: assets
     label: assets
