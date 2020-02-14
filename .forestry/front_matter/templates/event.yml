@@ -2,70 +2,72 @@
 label: Event
 hide_body: false
 fields:
-- type: text
-  name: title
-  label: title
-- type: text
-  name: subtitle
-  label: subtitle
-- type: file
-  name: image
-  label: image
-- type: datetime
-  name: date
-  label: date
-  config:
-    required: true
-- type: text
-  name: permalink
-  label: permalink
-- type: boolean
-  name: published
-  label: published
-- type: field_group
-  name: event
-  label: event
-  fields:
   - type: text
-    name: speaker
-    label: speaker
+    name: title
+    label: Titolo
+    config:
+      required: true
   - type: text
-    name: location
-    label: location
-  - type: number
-    name: eventbrite
-    label: eventbrite
+    name: subtitle
+    label: Sottotitolo
+    config:
+      required: true
+  - type: file
+    name: image
+    label: Locandina
+    config:
+      required: true
+  - type: datetime
+    name: date
+    label: Data Evento
+    config:
+      required: true
   - type: text
-    name: youtube
-    label: youtube
-  - type: text
-    name: facebooklive
-    label: facebooklive
-  - type: text
-    name: foto
-    label: foto
-  - type: text
-    name: slides
-    label: slides
-- type: field_group
-  name: assets
-  label: assets
-  fields:
-  - type: file
-    name: cover
-    label: cover
-  - type: file
-    name: img500
-    label: img500
-  - type: file
-    name: img300
-    label: img300
-  - type: file
-    name: img250
-    label: img250
-  - type: file
-    name: img174
-    label: img174
-  - type: file
-    name: img150
-    label: img150
+    name: permalink
+    label: permalink
+    default: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
+    hidden: true
+  - type: boolean
+    name: published
+    label: Pubblicato
+    default: false
+  - type: field_group
+    name: event
+    label: Dettagli
+    fields:
+      - type: text
+        name: speaker
+        label: Speaker
+        config:
+          required: true
+      - type: text
+        name: location
+        label: Location
+        default: Officina 18
+      - type: number
+        name: eventbrite
+        label: Codice Eventbrite
+      - type: text
+        name: youtube
+        label: Link YouTube
+      - type: text
+        name: facebooklive
+        label: Link Live Facebook
+      - type: text
+        name: foto
+        label: Link Foto
+      - type: text
+        name: slides
+        label: Link Slides
+  - type: field_group
+    name: assets
+    label: assets
+    fields:
+      - type: file
+        name: cover
+        label: Copertina
+        config:
+          required: true
+      - type: file
+        name: img500
+        label: Locandina 500x500
