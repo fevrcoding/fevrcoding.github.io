@@ -2,20 +2,20 @@
 label: Job
 hide_body: false
 fields:
-  - type: text
-    name: title
-    label: Titolo
-  - type: text
-    name: subtitle
-    label: Sottotitolo
-  - type: datetime
-    name: date
-    label: Data pubblicazione
-  - type: text
-    name: permalink
-    label: Permalink
-    description: false per non creare il file
-    default: '/jobs/{{ page.fileSlug | slug }}/index.html'
-  - type: boolean
-    name: published
-    label: Pubblicato
+- type: text
+  name: title
+  label: Titolo
+- type: text
+  name: subtitle
+  label: Sottotitolo
+- type: datetime
+  name: date
+  label: Data pubblicazione
+- type: text
+  name: permalink
+  label: Permalink
+  description: false per non creare il file
+  default: "/jobs/{{ page.fileSlug | slug }}/index.html"
+- type: boolean
+  name: published
+  label: Pubblicato
