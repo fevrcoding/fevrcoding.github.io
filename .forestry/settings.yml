@@ -18,7 +18,7 @@ sections:
     new_doc_ext: md
     templates:
       - event
-upload_dir: static/img
+upload_dir: './static/img'
 public_path: '/img'
 front_matter_path: ''
 use_front_matter_path: false
