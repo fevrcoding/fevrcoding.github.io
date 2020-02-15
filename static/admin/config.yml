@@ -14,27 +14,23 @@ collections:
       - widget: string
         name: title
         label: Titolo
-        required: true
       - widget: string
         name: subtitle
         label: Sottotitolo
-        required: true
       - widget: image
         name: image
         label: Locandina
         allow_multiple: false
-        required: true
       - widget: image
         name: cover
         label: Copertina
-        required: true
       - widget: datetime
         name: date
         label: Data Evento
         format: 'YYYY-DD-DD HH:mm:00'
-        required: true
       - widget: hidden
         name: redirect_from
+        required: false
       - widget: hidden
         name: permalink
         default: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
@@ -49,26 +45,28 @@ collections:
           - widget: string
             name: speaker
             label: Speaker
+            required: false
           - widget: string
             name: location
             label: Location
             default: Officina 18
+            required: false
           - widget: string
             name: eventbrite
             label: Codice Eventbrite
-            default: ''
+            required: false
           - widget: string
             name: youtube
             label: Link YouTube
-            default: ''
+            required: false
           - widget: string
             name: facebooklive
             label: Link Live Facebook
-            default: ''
+            required: false
           - widget: string
             name: foto
             label: Link Foto
-            default: ''
+            required: false
           - widget: list
             name: slides
             label: Slides
@@ -76,13 +74,17 @@ collections:
               - widget: string
                 name: author
                 label: Autore
+                required: false
               - widget: string
                 name: type
                 label: 'Tipo (es: speakerdeck)'
+                required: false
               - widget: string
                 name: url
                 label: Link
+                required: false
               - widget: string
                 name: id
                 label: ID
+                required: false
       - { label: 'Body', name: 'body', widget: 'markdown' }
