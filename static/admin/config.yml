@@ -27,7 +27,7 @@ collections:
       - widget: datetime
         name: date
         label: Data Evento
-        format: 'YYYY-DD-DD HH:mm:00'
+        format: YYYY-DD-DD HH:mm:00
       - widget: hidden
         name: redirect_from
         required: false
