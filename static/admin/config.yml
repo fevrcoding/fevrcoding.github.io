@@ -53,18 +53,22 @@ collections:
             name: location
             label: Location
             default: Officina 18
-          - widget: number
+          - widget: string
             name: eventbrite
             label: Codice Eventbrite
+            default: ''
           - widget: string
             name: youtube
             label: Link YouTube
+            default: ''
           - widget: string
             name: facebooklive
             label: Link Live Facebook
+            default: ''
           - widget: string
             name: foto
             label: Link Foto
+            default: ''
           - widget: list
             name: slides
             label: Slides
