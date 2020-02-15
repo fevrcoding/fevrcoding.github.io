@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: eleventy
 publish_mode: editorial_workflow
-media_folder: 'static/img'
-public_folder: '/img'
+media_folder: 'static/img/contents'
+public_folder: '/img/contents'
 collections:
   - name: 'event'
     label: 'Eventi' # Used in the UI
@@ -30,8 +30,9 @@ collections:
         format: 'YYYY-DD-DD HH:mm:00'
         required: true
       - widget: hidden
+        name: redirect_from
+      - widget: hidden
         name: permalink
-        label: Permalink
         default: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
       - widget: boolean
         name: published
