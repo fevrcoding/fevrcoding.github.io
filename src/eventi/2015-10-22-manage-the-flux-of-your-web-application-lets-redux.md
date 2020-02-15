@@ -1,7 +1,7 @@
 ---
 title: 'Manage the Flux of your web application: let’s Redux'
 subtitle: Francesco Strazzullo – 22 Ottobre 2015 – Graffiti HUB
-image: img/contents/2015-ottobre.jpg
+image: /img/contents/2015-ottobre.jpg
 date: 2015-10-22 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -22,7 +22,7 @@ event:
       url: 'http://slides.com/francescostrazzullo/react-flux-redux-fevr-15/'
       id: 'francescostrazzullo/react-flux-redux-fevr-15'
 
-cover: img/contents/2015-ottobre-hero.jpg
+cover: /img/contents/2015-ottobre-hero.jpg
 ---
 
 L’obiettivo della serata sarà quello di fare una panoramica su Flux e Redux, pattern architetturali che

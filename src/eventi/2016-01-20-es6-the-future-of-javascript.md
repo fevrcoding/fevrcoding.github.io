@@ -1,7 +1,7 @@
 ---
 title: 'ES6: The future of Javascript'
 subtitle: Robert Casanova e Nicholas Ruggeri – 20 Gennaio 2016 – Graffiti HUB
-image: img/contents/2016-gennaio.jpg
+image: /img/contents/2016-gennaio.jpg
 date: 2016-01-20 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -22,7 +22,7 @@ event:
       url: 'https://speakerdeck.com/fevr/es6-the-future-of-javascript'
       id: 'b01b7c3b30764904beeb6c61d3fce3aa'
 
-cover: img/contents/2016-gennaio-hero.jpg
+cover: /img/contents/2016-gennaio-hero.jpg
 ---
 
 "ES6 o Javascript Harmony è la nuova versione di Javascript che andrà

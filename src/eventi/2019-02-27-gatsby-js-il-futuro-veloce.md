@@ -1,7 +1,7 @@
 ---
 title: 'GatsbyJS: il futuro è veloce'
 subtitle: Marco Valsecchi - 27.02.2019 @ AQuest
-image: img/contents/2019-fevr-febbraio.jpg
+image: /img/contents/2019-fevr-febbraio.jpg
 date: 2019-02-27 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -21,7 +21,7 @@ event:
       url: 'https://cafe112018.talks.marcovalsecchi.it'
       id: 'https://cafe112018.talks.marcovalsecchi.it'
 
-cover: img/contents/2019-fevr-febbraio-hero.jpg
+cover: /img/contents/2019-fevr-febbraio-hero.jpg
 ---
 
 Ospite del FEVR di Febbraio è Marco Valsecchi.

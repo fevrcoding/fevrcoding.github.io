@@ -1,7 +1,7 @@
 ---
 title: 'Another Build in the World: GULPJS of Google Web Starter Kit'
 subtitle: Paolo Cargnin – 19 Febbraio 2015 – The Fab
-image: img/contents/2015-febbraio.jpg
+image: /img/contents/2015-febbraio.jpg
 date: 2015-02-19 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -22,7 +22,7 @@ event:
       url: 'https://speakerdeck.com/fevr/gulpjs'
       id: '6f9fbfb819d5412e89d9a9748d285468'
 
-cover: img/contents/2015-febbraio-hero.jpg
+cover: /img/contents/2015-febbraio-hero.jpg
 ---
 
 Dopo l'incontro dello scorso anno su Grunt, andiamo a scoprire GULPJs usato da Google nel suo Web Starter Kit.

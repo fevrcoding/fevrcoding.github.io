@@ -1,7 +1,7 @@
 ---
 title: 'Automated Front-end Development with Grunt'
 subtitle: Marco Solazzi – 23 Ottobre 2014 – The Fab
-image: img/contents/2014-ottobre.jpg
+image: /img/contents/2014-ottobre.jpg
 date: 2014-10-23 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -22,7 +22,7 @@ event:
       url: 'https://speakerdeck.com/fevr/automated-front-end-development-with-grunt'
       id: '5650c9a03fe001324aa67a6501a1d9f8'
 
-cover: img/contents/2014-ottobre-hero.jpg
+cover: /img/contents/2014-ottobre-hero.jpg
 ---
 
 Preprocessori, minificazione, ottimizzazione delle immagini e poi testing, deploy..

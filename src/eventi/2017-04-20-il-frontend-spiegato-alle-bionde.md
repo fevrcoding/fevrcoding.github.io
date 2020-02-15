@@ -1,7 +1,7 @@
 ---
 title: 'Il frontend spiegato alle bionde'
 subtitle: Giulia Talamonti - 20.04.2017 @ Graffiti HUB
-image: img/contents/2017-aprile.jpg
+image: /img/contents/2017-aprile.jpg
 date: 2017-04-20 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -17,7 +17,7 @@ event:
   foto: https://www.facebook.com/media/set/?set=oa.1445241758874327
   slides:
 
-cover: img/contents/2017-aprile-hero.jpg
+cover: /img/contents/2017-aprile-hero.jpg
 ---
 
 Dopo il talk a Milano Frontend Meetup, Giulia Talamonti [@giucot\_](https://twitter.com/@giucot_) ospite del FEVR.

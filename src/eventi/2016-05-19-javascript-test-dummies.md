@@ -1,7 +1,7 @@
 ---
 title: 'Javascript Test Dummies'
 subtitle: Mauro Verrocchio – 19 Maggio 2016 – Graffiti HUB
-image: img/contents/2016-maggio.jpg
+image: /img/contents/2016-maggio.jpg
 date: 2016-05-19 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -22,7 +22,7 @@ event:
       url: 'https://speakerdeck.com/fevr/javascript-test-dummies'
       id: '1d53149e80254fbe80f71f6913dfc2bb'
 
-cover: img/contents/2016-maggio-hero.jpg
+cover: /img/contents/2016-maggio-hero.jpg
 ---
 
 Con Mauro Verrocchio di un argomento in cui siamo sempre molto sensibili (e molto distanti :) ) i test javascript!

@@ -1,7 +1,7 @@
 ---
 title: 'Build apps with nativescript and angular2'
 subtitle: Filippo Riggio - 22.06.2017 @ Graffiti HUB
-image: img/contents/2017-giugno.jpg
+image: /img/contents/2017-giugno.jpg
 date: 2017-06-22 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -21,7 +21,7 @@ event:
       url: 'https://docs.google.com/presentation/d/1aLzTxWFvBrGb016Ym9iBiOCAcZx0eRWWs84e7G6d1hE'
       id: '1aLzTxWFvBrGb016Ym9iBiOCAcZx0eRWWs84e7G6d1hE'
 
-cover: img/contents/2017-giugno-hero.jpg
+cover: /img/contents/2017-giugno-hero.jpg
 ---
 
 NativeScript è un framework cross-platform (iOS / Android) per lo sviluppo di app mobile basate su

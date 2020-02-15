@@ -1,7 +1,7 @@
 ---
 title: Historiae Javascript
 subtitle: Marco Solazzi – 27 Ottobre 2016 – Graffiti HUB
-image: img/contents/2016-ottobre.jpg
+image: /img/contents/2016-ottobre.jpg
 date: 2016-10-27 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -22,7 +22,7 @@ event:
       url: 'https://speakerdeck.com/fevr/historiae-javascript'
       id: '781047ee4d9c48fe8ed99fe8cc959152'
 
-cover: img/contents/2016-ottobre-hero.jpg
+cover: /img/contents/2016-ottobre-hero.jpg
 ---
 
 Con Marco Solazzi vedremo come è cambiato il web nel suo approccio a JavaScript nel corso del suo sviluppo.

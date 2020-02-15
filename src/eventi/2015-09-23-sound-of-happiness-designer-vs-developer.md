@@ -1,7 +1,7 @@
 ---
 title: 'Sound of Happiness – Designer VS Developer'
 subtitle: Filippo Matteo Riggio e Cristiana Tappi – 23 Settembre 2015 – Startup GYM
-image: img/contents/2015-settembre.jpg
+image: /img/contents/2015-settembre.jpg
 date: 2015-09-23 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -22,7 +22,7 @@ event:
       url: 'https://speakerdeck.com/fevr/sound-of-happiness-developer-vs-designer'
       id: 'be1103c4bc814f92a8611b4c805a118c'
 
-cover: img/contents/2015-settembre-hero.jpg
+cover: /img/contents/2015-settembre-hero.jpg
 ---
 
 Come mettere d’accordo Designer&Developer?

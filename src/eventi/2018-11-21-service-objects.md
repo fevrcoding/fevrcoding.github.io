@@ -1,7 +1,7 @@
 ---
 title: 'Service Objects (solo per oggi in Ruby on Rails)'
 subtitle: Stefano Mancini - 21.11.2018 @ AQuest
-image: img/contents/2018-novembre-bug.jpg
+image: /img/contents/2018-novembre-bug.jpg
 date: 2018-11-21 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 author: bug
@@ -22,7 +22,7 @@ event:
       url: 'http://slides.com/devinterface/service-objects-pattern-and-antipattern'
       id: 'devinterface/service-objects-pattern-and-antipattern'
 
-cover: img/contents/2018-novembre-bug-hero.jpg
+cover: /img/contents/2018-novembre-bug-hero.jpg
 ---
 
 Stefano Mancini ci parlerà di pattern.

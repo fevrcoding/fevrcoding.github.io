@@ -1,7 +1,7 @@
 ---
 title: 'Leveling Up CSS with BEM and Variables'
 subtitle: Alessandro Muraro e Giacomo Zinetti - 26.01.2017 @ Graffiti HUB
-image: img/contents/2017-gennaio.jpg
+image: /img/contents/2017-gennaio.jpg
 date: 2017-01-26 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -25,7 +25,7 @@ event:
       url: 'https://speakerdeck.com/fevr/css-from-the-future'
       id: '742efb267f4e485486dc04c98835dcc6'
 
-cover: img/contents/2017-gennaio-hero.jpg
+cover: /img/contents/2017-gennaio-hero.jpg
 ---
 
 Scopriamo assieme agli amici di Milano Frontenders due aspetti dello sviluppo CSS interessanti:

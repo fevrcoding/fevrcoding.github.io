@@ -1,7 +1,7 @@
 ---
 title: 'Bring your neural networks to the browser with TF.js!'
 subtitle: Simone Scardapane - 27.03.2019 @ 311 Verona
-image: img/contents/2019-fevr-marzo.jpg
+image: /img/contents/2019-fevr-marzo.jpg
 date: 2019-03-27 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -17,7 +17,7 @@ event:
   foto:
   slides:
 
-cover: img/contents/2019-fevr-marzo-hero.jpg
+cover: /img/contents/2019-fevr-marzo-hero.jpg
 ---
 
 TensorFlow.js is a new open-source project by Google allowing you to train and deploy TF/Keras models to the browser (in Javascript). This brings up two questions: how do we use it? and, more importantly, what can we do with it? In this talk I will try to answer both questions, by showing some representative use cases and a live coding session in TF.js. I will also discuss more broadly the growing importance of deep learning for front-end design and human interfaces.

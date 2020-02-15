@@ -1,7 +1,7 @@
 ---
 title: 'Challenge of the GO Bots'
 subtitle: Andrea Manzini - 17.10.2018 @ AQuest
-image: img/contents/2018-ottobre-bug.jpg
+image: /img/contents/2018-ottobre-bug.jpg
 date: 2018-10-17 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 author: bug
@@ -18,7 +18,7 @@ event:
   foto: https://www.facebook.com/media/set/?set=oa.2037615539636943&type=3
   slides:
 
-cover: img/contents/2018-ottobre-bug-hero.jpg
+cover: /img/contents/2018-ottobre-bug-hero.jpg
 ---
 
 I "bot" nelle chat ci sono da quando esistono le chat, sicuramente chi frequentava IRC se li ricorda bene.

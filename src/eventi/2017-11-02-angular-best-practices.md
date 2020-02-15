@@ -1,7 +1,7 @@
 ---
 title: 'Angular Best Practices'
 subtitle: Fabio Biondi e Michele Stieven - 02.11.2017 @ Graffiti HUB
-image: img/contents/2017-novembre.jpg
+image: /img/contents/2017-novembre.jpg
 date: 2017-11-02 16:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -17,7 +17,7 @@ event:
   foto: https://www.facebook.com/media/set/?set=oa.1636754683056366&type=3
   slides:
 
-cover: img/contents/2017-novembre-hero.jpg
+cover: /img/contents/2017-novembre-hero.jpg
 ---
 
 Angular fornisce gli strumenti necessari per la creazione di un’intera Single Page Application.

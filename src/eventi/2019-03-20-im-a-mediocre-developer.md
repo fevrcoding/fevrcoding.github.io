@@ -1,7 +1,7 @@
 ---
 title: "I'm a mediocre developer"
 subtitle: Ferdinando Santacroce - 20.03.2019 @ AQuest
-image: img/contents/2019-bug-marzo.jpg
+image: /img/contents/2019-bug-marzo.jpg
 date: 2019-03-20 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 author: bug
@@ -18,7 +18,7 @@ event:
   foto:
   slides:
 
-cover: img/contents/2019-bug-marzo-hero.jpg
+cover: /img/contents/2019-bug-marzo-hero.jpg
 ---
 
 Ferdinando Santacroce ci spiegherà i problemi dell'essere uno sviluppatore mediocre in un mondo apparentemente in mano alle rockstar

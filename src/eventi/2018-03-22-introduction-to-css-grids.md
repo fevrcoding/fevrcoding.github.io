@@ -1,7 +1,7 @@
 ---
 title: 'Introduction to CSS Grids'
 subtitle: Nicola Zambello - 22.03.2018 @ AQuest
-image: img/contents/2018-marzo-fevr.png
+image: /img/contents/2018-marzo-fevr.png
 date: 2018-03-22 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -17,7 +17,7 @@ event:
   foto: https://www.facebook.com/media/set/?set=oa.1787947871270379&type=3
   slides:
 
-cover: img/contents/2018-marzo-fevr-hero.jpg
+cover: /img/contents/2018-marzo-fevr-hero.jpg
 ---
 
 Introduzione alle CSS Grids, una rivoluzione che semplifica la vita agli sviluppatori front-end. Parleremo dei fondamentali, per poi procedere - codice alla mano - verso concetti avanzati.

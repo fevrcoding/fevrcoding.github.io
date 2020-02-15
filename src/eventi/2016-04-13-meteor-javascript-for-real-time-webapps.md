@@ -1,7 +1,7 @@
 ---
 title: 'Meteor: Full-stack Javascript for real-time apps'
 subtitle: Nicholas Valbusa – 13 Aprile 2016 – Graffiti HUB
-image: img/contents/2016-aprile.jpg
+image: /img/contents/2016-aprile.jpg
 date: 2016-04-13 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -22,7 +22,7 @@ event:
       url: 'https://speakerdeck.com/fevr/meteor-full-stack-javascript-for-real-time-apps-from-idea-to-execution-faster'
       id: '391c45ce88e74f3d9980ba08008c4e4a'
 
-cover: img/contents/2016-aprile-hero.jpg
+cover: /img/contents/2016-aprile-hero.jpg
 ---
 
 Nicholas Valbusa, speaker di diverse conferenze in Italia ed Europa ci racconterà di come Meteor sta

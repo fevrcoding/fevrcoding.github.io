@@ -1,7 +1,7 @@
 ---
 title: 'aVUEsome: why Vue.js is so great'
 subtitle: Lorenzo Girardi - 25.05.2017 @ Graffiti HUB
-image: img/contents/2017-maggio.jpg
+image: /img/contents/2017-maggio.jpg
 date: 2017-05-25 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -21,7 +21,7 @@ event:
       url: 'https://speakerdeck.com/loregirardi/avuesome-why-vue-dot-js-is-so-great'
       id: '115a55c5be6c4a93a1395c52ce2ac6d7'
 
-cover: img/contents/2017-maggio-hero.jpg
+cover: /img/contents/2017-maggio-hero.jpg
 ---
 
 Un viaggio attraverso le principali funzioni di Vue.js, alla scoperta delle ragioni per le quali è diventato uno dei principali framework frontend.

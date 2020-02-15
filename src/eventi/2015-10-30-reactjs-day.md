@@ -1,7 +1,7 @@
 ---
 title: ReactJS Day 2015
 subtitle: Conferenza – 30 Ottobre 2015 – Hotel S. Marco
-image: img/contents/2015-reactjsday.jpg
+image: /img/contents/2015-reactjsday.jpg
 date: 2015-10-30 09:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -19,7 +19,7 @@ event:
   foto: https://www.facebook.com/media/set/?set=oa.977098275688680&type=1
   slides:
 
-cover: img/contents/2015-reactjsday-hero.jpg
+cover: /img/contents/2015-reactjsday-hero.jpg
 ---
 
 React è una libreria JavaScript, creata da Facebook e Instagram (e utilizzata anche nei due social network),

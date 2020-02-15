@@ -1,7 +1,7 @@
 ---
 title: 'Unity: from Gaming to industry'
 subtitle: Roberto Brogi - 11.12.2018 @ AQuest
-image: img/contents/2018-dicembre-fevr.jpg
+image: /img/contents/2018-dicembre-fevr.jpg
 date: 2018-12-11 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -17,7 +17,7 @@ event:
   foto:
   slides:
 
-cover: img/contents/2018-dicembre-fevr-hero.jpg
+cover: /img/contents/2018-dicembre-fevr-hero.jpg
 ---
 
 Al giorno d'oggi Unity 3D di gran lunga la piattaforma più affermata per lo sviluppo di videogiochi indipendenti e non. Rispetto a qualche anno fa la comunità italiana è cresciuta esponenzialmente.

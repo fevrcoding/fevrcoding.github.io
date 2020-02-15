@@ -1,7 +1,7 @@
 ---
 title: Our Digital Experience - Verona for WUD
 subtitle: Conferenza - 9 Novembre 2016 – 311 Verona
-image: img/contents/2016-our-digital-experience.jpg
+image: /img/contents/2016-our-digital-experience.jpg
 date: 2016-10-27 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -18,7 +18,7 @@ event:
   foto: https://www.facebook.com/media/set/?set=oa.1253134231418415&type=3
   slides:
 
-cover: img/contents/2016-our-digital-experience-hero.jpg
+cover: /img/contents/2016-our-digital-experience-hero.jpg
 ---
 
 In occasione del **World Usability Day 2016** [FEVR - Frontenders Verona](https://www.facebook.com/groups/frontendersverona/) e [UX Book Club VERONA VICENZA](https://www.facebook.com/groups/910429565681407/) organizzano

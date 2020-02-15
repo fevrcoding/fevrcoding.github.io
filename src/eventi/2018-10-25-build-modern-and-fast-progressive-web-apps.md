@@ -1,7 +1,7 @@
 ---
 title: 'Build Modern (And Fast) Progressive WebApps'
 subtitle: Michel Murabito - 25.10.2018 @ AQuest
-image: img/contents/2018-ottobre-fevr.jpg
+image: /img/contents/2018-ottobre-fevr.jpg
 date: 2018-10-25 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -21,7 +21,7 @@ event:
       url: 'https://drive.google.com/file/d/1dopPdY7lRN_UXPWSN1GZCfbWGq4MzAQ5/view'
       id: '1dopPdY7lRN_UXPWSN1GZCfbWGq4MzAQ5'
 
-cover: img/contents/2018-ottobre-fevr-hero.jpg
+cover: /img/contents/2018-ottobre-fevr-hero.jpg
 ---
 
 Con Michel Murabito scopriremo la tecnologia delle Progressive Web Apps

@@ -1,7 +1,7 @@
 ---
 title: 'Next Generation Linux live operating systems'
 subtitle: Marco Buratto - 12.02.2019 @ AQuest
-image: img/contents/2019-bug-febbraio.jpg
+image: /img/contents/2019-bug-febbraio.jpg
 date: 2019-02-12 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 author: bug
@@ -18,7 +18,7 @@ event:
   foto:
   slides:
 
-cover: img/contents/2019-bug-febbraio-hero.jpg
+cover: /img/contents/2019-bug-febbraio-hero.jpg
 ---
 
 Marco Buratto ci parlerà di Open Secure-K OS: un sistema operativo live Linux, basato sulla struttura "liveng", che permette il completo aggiornamento di sistema e kernel mantenendo uno schema di partizionamento con partizioni di sistema read-only.

@@ -1,7 +1,7 @@
 ---
 title: 'Identity provider. Do you know who I am?!'
 subtitle: Nicola Ridolfi - 17.01.2018 @ AQuest
-image: img/contents/2018-gennaio-bug.jpg
+image: /img/contents/2018-gennaio-bug.jpg
 date: 2018-01-17 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 author: bug
@@ -22,7 +22,7 @@ event:
       url: 'http://slides.com/nicolaridolfi/id-providers'
       id: 'nicolaridolfi/id-providers'
 
-cover: img/contents/2018-gennaio-bug-hero.jpg
+cover: /img/contents/2018-gennaio-bug-hero.jpg
 ---
 
 Il concetto di identità, dalla vita reale a quella virtuale. Come funzionano gli ID provider ed un approfondimento su best practice e standard di autenticazione.

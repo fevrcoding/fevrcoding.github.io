@@ -1,7 +1,7 @@
 ---
 title: 'Deep dive into vue.js transitions'
 subtitle: Lorenzo Girardi - 23.01.2019 @ AQuest
-image: img/contents/2019-fevr-gennaio.jpg
+image: /img/contents/2019-fevr-gennaio.jpg
 date: 2019-01-23 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -21,7 +21,7 @@ event:
       url: 'https://speakerdeck.com/loregirardi/deep-dive-into-vue-dot-js-transitions'
       id: '9e38094bdce140b0ae728844a0bce58e'
 
-cover: img/contents/2019-fevr-gennaio-hero.jpg
+cover: /img/contents/2019-fevr-gennaio-hero.jpg
 ---
 
 Con Lorenzo Girardi affrontenremo il mondo delle transizioni e animazioni con Vue.js, confronteremo con gli altri framework e poi andremo nel profondo del codice da sviluppare.

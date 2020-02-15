@@ -1,7 +1,7 @@
 ---
 title: 'Why emotional Websites matters'
 subtitle: Margherita Ferri - 22.05.2019 @ AQuest
-image: img/contents/2019-fevr-maggio.jpg
+image: /img/contents/2019-fevr-maggio.jpg
 date: 2019-05-22 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -21,7 +21,7 @@ event:
       url: 'https://speakerdeck.com/meg/why-emotional-websites-matter'
       id: 'df110451e21943bf9fa14b907dc38237'
 
-cover: img/contents/2019-fevr-maggio-hero.jpg
+cover: /img/contents/2019-fevr-maggio-hero.jpg
 ---
 
 Come si è evoluto il web tra il 2018 e il 2019 cavalcando l'onda dell'emotional marketing, quali sono i suoi attuali punti di forza e perché si è sviluppato in questo modo.

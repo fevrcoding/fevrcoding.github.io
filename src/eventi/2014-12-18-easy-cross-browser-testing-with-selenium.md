@@ -1,7 +1,7 @@
 ---
 title: 'Easy Cross-Browser Testing with Selenium'
 subtitle: Marco Picello – 18 Dicembre 2014 – The Fab
-image: img/contents/2014-dicembre.jpg
+image: /img/contents/2014-dicembre.jpg
 date: 2014-12-18 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -22,7 +22,7 @@ event:
       url: 'https://speakerdeck.com/fevr/cross-browser-testing-with-selenium'
       id: '62cf842069ad0132fd490a025a0ea166'
 
-cover: img/contents/2014-dicembre-hero.jpg
+cover: /img/contents/2014-dicembre-hero.jpg
 ---
 
 Dopo l'evento su grunt, torniamo a parlare di automazione nei processi di lavoro, di come "le macchine"

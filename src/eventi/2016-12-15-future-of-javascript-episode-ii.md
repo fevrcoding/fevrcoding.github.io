@@ -1,7 +1,7 @@
 ---
 title: 'Future of Javascript: Episode II'
 subtitle: Marco Munari - 15.12.2016 @ Graffiti HUB
-image: img/contents/2016-dicembre.jpg
+image: /img/contents/2016-dicembre.jpg
 date: 2016-12-15 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -22,7 +22,7 @@ event:
       url: 'https://speakerdeck.com/fevr/the-future-of-javascript-episode-2'
       id: '713d4df07282462cbb96bf4620a3a7ec'
 
-cover: img/contents/2016-dicembre-hero.gif
+cover: /img/contents/2016-dicembre-hero.gif
 ---
 
 L'anno 2016 si è aperto con i ragazzi di [TrevisoJS](https://www.facebook.com/trevisojs/) e l'incontro su

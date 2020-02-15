@@ -1,7 +1,7 @@
 ---
 title: 'FP for front-end development: should you care?'
 subtitle: Gabriele Petronella - 17.04.2019 @ AQuest
-image: img/contents/2019-fevr-aprile.jpg
+image: /img/contents/2019-fevr-aprile.jpg
 date: 2019-04-17 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -20,7 +20,7 @@ event:
       type: pdf
       url: 'https://www.facebook.com/download/382245795959314/fp-ts-fevr.pdf?hash=AcoQsMMstFFIUkDh'
 
-cover: img/contents/2019-fevr-aprile-hero.jpg
+cover: /img/contents/2019-fevr-aprile-hero.jpg
 ---
 
 Functional programming is becoming pervasive in every branch of development, but why should you care? Can we reap the benefits of FP, if our job is to write web UIs? In this presentation, we'll see how FP fits into the front-end development picture and how we can leverage TypeScript to progressively migrate our codebases and start getting the most out of it.

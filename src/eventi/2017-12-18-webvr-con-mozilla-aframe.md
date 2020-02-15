@@ -1,7 +1,7 @@
 ---
 title: 'WebVR con Mozilla A-Frame'
 subtitle: Francesco Strazzullo - 18.12.2017 @ AQuest
-image: img/contents/2017-dicembre.jpg
+image: /img/contents/2017-dicembre.jpg
 date: 2017-12-18 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -21,7 +21,7 @@ event:
       url: 'https://slides.com/francescostrazzullo/webvr-fevr-2017'
       id: 'francescostrazzullo/webvr-fevr-2017'
 
-cover: img/contents/2017-dicembre-hero.jpg
+cover: /img/contents/2017-dicembre-hero.jpg
 ---
 
 WebVR è un standard che permette di creare esperienze VR all'interno dei nostri browser.

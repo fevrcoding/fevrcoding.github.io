@@ -1,7 +1,7 @@
 ---
 title: 'Verona Tech Summit'
 subtitle: Verona Tech Scene - 28.06.2018 @ 311 Verona
-image: img/contents/2018-verona-tech-summit.jpg
+image: /img/contents/2018-verona-tech-summit.jpg
 date: 2018-06-28 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -17,7 +17,7 @@ event:
   foto:
   slides:
 
-cover: img/contents/2018-verona-tech-summit-hero.jpg
+cover: /img/contents/2018-verona-tech-summit-hero.jpg
 ---
 
 **Nasce il primo evento a Verona che riunisce tutte le community tech di Verona.**

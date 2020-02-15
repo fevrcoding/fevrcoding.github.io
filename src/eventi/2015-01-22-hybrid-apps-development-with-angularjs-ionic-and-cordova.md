@@ -1,7 +1,7 @@
 ---
 title: 'Hybrid Apps Development with AngularJS, Ionic and Cordova'
 subtitle: Matteo Ronchi – 22 Gennaio 2015 – The Fab
-image: img/contents/2015-gennaio.jpg
+image: /img/contents/2015-gennaio.jpg
 date: 2015-01-22 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -22,7 +22,7 @@ event:
       url: 'https://speakerdeck.com/fevr/hybrid-apps-development-with-angularjs-ionic-and-cordova'
       id: '4a38b2108531013265c97a8bc92715e4'
 
-cover: img/contents/2015-gennaio-hero.jpg
+cover: /img/contents/2015-gennaio-hero.jpg
 ---
 
 Il 2015 inizia nel segno di Angular e dello sviluppo di app, si perchè quando parliamo di sviluppo di interfacce,
