@@ -101,8 +101,9 @@
 {# <script defer src="/js/min/waypoints.min.js"></script> #}
 {# <script defer src="/js/jquery.counterup.js"></script> #}
 {# <script defer src="/js/main.js"></script> #}
-<script  defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
+{%- if isHome %}
+    <script  defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+{%- endif %}
 <!-- Google Analytics -->
 <script>
     (function (i, s, o, g, r, a, m) {
