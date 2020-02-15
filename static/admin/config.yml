@@ -24,6 +24,10 @@ collections:
         label: Locandina
         allow_multiple: false
         required: true
+      - widget: image
+        name: cover
+        label: Copertina
+        required: true
       - widget: datetime
         name: date
         label: Data Evento
@@ -77,15 +81,4 @@ collections:
               - widget: string
                 name: id
                 label: ID
-      - widget: object
-        name: assets
-        label: assets
-        fields:
-          - widget: image
-            name: cover
-            label: Copertina
-            required: true
-          - widget: image
-            name: img500
-            label: Locandina 500x500
       - { label: 'Body', name: 'body', widget: 'markdown' }
