@@ -1,7 +1,7 @@
 ---
 title: 'Flutter or React Native, a cross-platform dilemma'
 subtitle: Marco Gomiero - 18.09.2019 @ Officina 18
-image: img/2019/09/fevr-settembre.jpg
+image: img/contents/2019-fevr-settembre.jpg
 date: 2019-09-18 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -17,13 +17,7 @@ event:
   foto:
   slides:
 
-assets:
-  cover: img/2019/09/fevr-settembre-hero.jpg
-  img500: img/2019/09/fevr-settembre-500x500.jpg
-  img300: img/2019/09/fevr-settembre-300x300.jpg
-  img250: img/2019/09/fevr-settembre-250x250.jpg
-  img174: img/2019/09/fevr-settembre-174x174.jpg
-  img150: img/2019/09/fevr-settembre-150x150.jpg
+cover: img/contents/2019-fevr-settembre-hero.jpg
 ---
 
 In questo periodo l'hype intorno a Flutter sta crescendo molto. Ma che dire del "buon-vecchio" React Native? In questo talk, vedremo le basi e le differenze tra i due framework. In particolare vedremo come costruire la UI e come funzionano i due framework sotto il cofano. Infine cercheremo di capire quando e perché scegliere un framework cross-platform ma soprattutto quale dei due. Questo viaggio è basato sulla storia vera di uno sviluppatore Android che ha deciso di esplorare la selva oscura del cross-platform sia per lavoro che per divertimento.

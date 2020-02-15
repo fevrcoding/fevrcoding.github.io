@@ -1,7 +1,7 @@
 ---
 title: 'UI testing best practices'
 subtitle: Stefano Magni - 26.06.2019 @ Officina 18
-image: img/2019/06/fevr-giugno.jpg
+image: img/contents/2019-fevr-giugno.jpg
 date: 2019-06-26 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -17,13 +17,7 @@ event:
   foto:
   slides:
 
-assets:
-  cover: img/2019/06/fevr-giugno-hero.jpg
-  img500: img/2019/06/fevr-giugno-500x500.jpg
-  img300: img/2019/06/fevr-giugno-300x300.jpg
-  img250: img/2019/06/fevr-giugno-250x250.jpg
-  img174: img/2019/06/fevr-giugno-174x174.jpg
-  img150: img/2019/06/fevr-giugno-150x150.jpg
+cover: img/contents/2019-fevr-giugno-hero.jpg
 ---
 
 Siete mai risuciti a testare con successo la vostra UI? Sono affidabili i vostri test E2E? Oppure vi trovate spesso con test lenti, che falliscono senza motivo e che vi obbligano a lunghe sessioni di debug per capire dove e perchè non vanno a buon fine?

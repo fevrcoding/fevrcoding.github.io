@@ -1,7 +1,7 @@
 ---
 title: Offline First Application
 subtitle: Mattia Manzati - 24.11.2016 @ Graffiti HUB
-image: img/2016/11/novembre.jpg
+image: img/contents/2016-novembre.jpg
 date: 2016-11-24 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -22,13 +22,7 @@ event:
       url: 'https://slides.com/mattiamanzati/offline-first-application'
       id: 'mattiamanzati/offline-first-application'
 
-assets:
-  cover: img/2016/11/novembre-hero.jpg
-  img500: img/2016/11/novembre-500x500.jpg
-  img300: img/2016/11/novembre-300x300.jpg
-  img250: img/2016/11/novembre-250x250.jpg
-  img174: img/2016/11/novembre-174x174.jpg
-  img150: img/2016/11/novembre-150x150.jpg
+cover: img/contents/2016-novembre-hero.jpg
 ---
 
 Con Mattia Manzati di [FerraraJS](http://ferrarajs.com) scopriremo assieme cosa vuol dire offline first, quali sono i pregi ed i difetti, e vedremo gli approcci da intraprendere per strutturare lo stato delle nostra app e gestire la sincronizzazione dello stato in maniera semplice e scalabile!

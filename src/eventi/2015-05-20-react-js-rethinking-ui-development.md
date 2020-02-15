@@ -1,7 +1,7 @@
 ---
 title: 'REACT JS – Rethinking UI Development'
 subtitle: Stefano Ceschi Berrini – 20 Maggio 2015 – Startup GYM
-image: img/2015/05/maggio.jpg
+image: img/contents/2015-maggio.jpg
 date: 2015-05-20 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -22,13 +22,7 @@ event:
       url: 'https://speakerdeck.com/fevr/react-js-rethinking-ui-development'
       id: 'c1cfadb1f04447a986b58a3797a94b00'
 
-assets:
-  cover: img/2015/05/maggio-hero.jpg
-  img500: img/2015/05/maggio-500x500.jpg
-  img300: img/2015/05/maggio-300x300.jpg
-  img250: img/2015/05/maggio-250x250.jpg
-  img174: img/2015/05/maggio-174x174.jpg
-  img150: img/2015/05/maggio-150x150.jpg
+cover: img/contents/2015-maggio-hero.jpg
 ---
 
 In un periodo in cui i framework JavaScript spuntano come funghi, in cui tante volta la scelta cade su quello

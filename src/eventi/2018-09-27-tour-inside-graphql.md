@@ -1,7 +1,7 @@
 ---
 title: 'Tour Inside GraphQL'
 subtitle: Kalidou Diagne - 27.09.2018 @ AQuest
-image: img/2018/09/settembre-fevr.jpg
+image: img/contents/2018-settembre-fevr.jpg
 date: 2018-09-27 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -21,13 +21,7 @@ event:
       url: 'https://www.facebook.com/groups/frontendersverona/permalink/2010032729061891/'
       id: '2010032729061891'
 
-assets:
-  cover: img/2018/09/settembre-fevr-hero.jpg
-  img500: img/2018/09/settembre-fevr-500x500.jpg
-  img300: img/2018/09/settembre-fevr-300x300.jpg
-  img250: img/2018/09/settembre-fevr-250x250.jpg
-  img174: img/2018/09/settembre-fevr-174x174.jpg
-  img150: img/2018/09/settembre-fevr-150x150.jpg
+cover: img/contents/2018-settembre-fevr-hero.jpg
 ---
 
 GraphQL è un nuovo approccio per lo sviluppo di API, pensato per semplificare la comunicazione tra frontend e backend. Sviluppato e utilizzato internamente da Facebook.Viene, successivamente,reso pubblico nel 2015.

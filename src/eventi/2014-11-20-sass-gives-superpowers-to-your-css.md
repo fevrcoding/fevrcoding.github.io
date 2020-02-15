@@ -1,7 +1,7 @@
 ---
 title: 'SASS gives superpowers to your CSS'
 subtitle: Federico Bonomi – 20 Novembre 2014 – The Fab
-image: img/2014/11/novembre.jpg
+image: img/contents/2014-novembre.jpg
 date: 2014-11-20 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -22,13 +22,7 @@ event:
       url: 'https://speakerdeck.com/fevr/sass-give-superpowers-to-your-css'
       id: '7b9170205576013225de6aa0d7e343a3'
 
-assets:
-  cover: img/2014/11/novembre-hero.jpg
-  img500: img/2014/11/novembre-500x500.jpg
-  img300: img/2014/11/novembre-300x300.jpg
-  img250: img/2014/11/novembre-250x250.jpg
-  img174: img/2014/11/novembre-174x174.jpg
-  img150: img/2014/11/novembre-150x150.jpg
+cover: img/contents/2014-novembre-hero.jpg
 ---
 
 Quante volte abbiamo pensato "se potessi aggiungere una variabile che gestisce il colore del testo..."

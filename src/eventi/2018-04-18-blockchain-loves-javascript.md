@@ -1,7 +1,7 @@
 ---
 title: 'Blockchain loves Javascript'
 subtitle: Simone Da Re - 18.04.2018 @ AQuest
-image: img/2018/04/aprile-fevr.jpg
+image: img/contents/2018-aprile-fevr.jpg
 date: 2018-04-18 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -21,13 +21,7 @@ event:
       url: 'https://github.com/Siimone/FEVR-18-04-18'
       id: 'Siimone/FEVR-18-04-18'
 
-assets:
-  cover: img/2018/04/aprile-fevr-hero.jpg
-  img500: img/2018/04/aprile-fevr-500x500.jpg
-  img300: img/2018/04/aprile-fevr-300x300.jpg
-  img250: img/2018/04/aprile-fevr-250x250.jpg
-  img174: img/2018/04/aprile-fevr-174x174.jpg
-  img150: img/2018/04/aprile-fevr-150x150.jpg
+cover: img/contents/2018-aprile-fevr-hero.jpg
 ---
 
 Un viaggio nel mondo di sviluppo blockchain. Dalla teoria di Ethereum, degli Smart Contracts fino ai tool di sviluppo. Da Web3 fino a Truffle e Metamask, tutti tool di sviluppo basati su JavaScript.

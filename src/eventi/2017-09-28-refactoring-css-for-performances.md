@@ -1,7 +1,7 @@
 ---
 title: 'Refactoring CSS for performances'
 subtitle: Mattia Tommasone - 28.09.2017 @ Graffiti HUB
-image: img/2017/09/settembre.jpg
+image: img/contents/2017-settembre.jpg
 date: 2017-09-28 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -17,13 +17,7 @@ event:
   foto: https://www.facebook.com/media/set/?set=oa.1605632802835221&type=3
   slides:
 
-assets:
-  cover: img/2017/09/settembre-hero.jpg
-  img500: img/2017/09/settembre-500x500.jpg
-  img300: img/2017/09/settembre-300x300.jpg
-  img250: img/2017/09/settembre-250x250.jpg
-  img174: img/2017/09/settembre-174x174.jpg
-  img150: img/2017/09/settembre-150x150.jpg
+cover: img/contents/2017-settembre-hero.jpg
 ---
 
 Ricomincia il FEVR con Mattia Tommasone di Ebay con cui affronteremo un tema molto delicato ovvero il refactoring in ambito CSS.

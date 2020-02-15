@@ -1,7 +1,7 @@
 ---
 title: 'Introduction to Functional Reactive Programming with RxJS'
 subtitle: Giulio Collesei - 23.03.2017 @ Graffiti HUB
-image: img/2017/03/marzo.jpg
+image: img/contents/2017-marzo.jpg
 date: 2017-03-23 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -21,13 +21,7 @@ event:
       url: 'https://slides.com/giulico/functional-reactive-programming'
       id: 'giulico/functional-reactive-programming'
 
-assets:
-  cover: img/2017/03/marzo-hero.jpg
-  img500: img/2017/03/marzo-500x500.jpg
-  img300: img/2017/03/marzo-300x300.jpg
-  img250: img/2017/03/marzo-250x250.jpg
-  img174: img/2017/03/marzo-174x174.jpg
-  img150: img/2017/03/marzo-150x150.jpg
+cover: img/contents/2017-marzo-hero.jpg
 ---
 
 Scopriremo come gestire flussi di eventi asincroni con l'uso di [RxJS](https://github.com/ReactiveX/rxjs)

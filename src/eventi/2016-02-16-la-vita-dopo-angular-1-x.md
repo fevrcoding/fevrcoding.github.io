@@ -1,7 +1,7 @@
 ---
 title: 'La vita dopo Angular 1.x'
 subtitle: Salvatore Laisa – 15 Marzo 2016 – Graffiti HUB
-image: img/2016/02/febbraio.jpg
+image: img/contents/2016-febbraio.jpg
 date: 2016-02-16 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -22,13 +22,7 @@ event:
       url: 'https://speakerdeck.com/fevr/la-vita-dopo-angular-1-dot-x'
       id: 'a80a4dd7125e4175a0d1ec8d3e36f0e4'
 
-assets:
-  cover: img/2016/02/febbraio-hero.jpg
-  img500: img/2016/02/febbraio-500x500.jpg
-  img300: img/2016/02/febbraio-300x300.jpg
-  img250: img/2016/02/febbraio-250x250.jpg
-  img174: img/2016/02/febbraio-174x174.jpg
-  img150: img/2016/02/febbraio-150x150.jpg
+cover: img/contents/2016-febbraio-hero.jpg
 ---
 
 React e Polymer sono i nuovi gioielli splendenti dello sviluppo frontend, ma aspettate...

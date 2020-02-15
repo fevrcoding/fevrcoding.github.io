@@ -1,7 +1,7 @@
 ---
 title: 'Microsoft Unplugged with Pietro Brambati'
 subtitle: Pietro Brambati – 25 Giugno 2015 – The Fab
-image: img/2015/06/giugno.jpg
+image: img/contents/2015-giugno.jpg
 date: 2015-06-25 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -18,13 +18,7 @@ event:
   foto: https://www.facebook.com/media/set/?set=oa.917509131647595&type=1
   slides:
 
-assets:
-  cover: img/2015/06/giugno-hero.jpg
-  img500: img/2015/06/giugno-500x500.jpg
-  img300: img/2015/06/giugno-300x300.jpg
-  img250: img/2015/06/giugno-250x250.jpg
-  img174: img/2015/06/giugno-174x174.jpg
-  img150: img/2015/06/giugno-150x150.jpg
+cover: img/contents/2015-giugno-hero.jpg
 ---
 
 Avete curiosità sul nuovo [Microsot Edge](https://www.microsoft.com/it-it/windows/microsoft-edge) e

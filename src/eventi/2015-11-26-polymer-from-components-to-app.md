@@ -1,7 +1,7 @@
 ---
 title: 'Polymer from Components to App'
 subtitle: Maurizio Mangione – 26 Novembre 2015 – Graffiti HUB
-image: img/2015/11/novembre.jpg
+image: img/contents/2015-novembre.jpg
 date: 2015-11-26 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -22,13 +22,7 @@ event:
       url: 'https://speakerdeck.com/fevr/polymer-from-components-to-app'
       id: '7596a002d30642cdb9a23846b5c99857'
 
-assets:
-  cover: img/2015/11/novembre-hero.jpg
-  img500: img/2015/11/novembre-500x500.jpg
-  img300: img/2015/11/novembre-300x300.jpg
-  img250: img/2015/11/novembre-250x250.jpg
-  img174: img/2015/11/novembre-174x174.jpg
-  img150: img/2015/11/novembre-150x150.jpg
+cover: img/contents/2015-novembre-hero.jpg
 ---
 
 Polymer è una libreria che permette di creare Web Components in maniera semplice e dichiarativa.

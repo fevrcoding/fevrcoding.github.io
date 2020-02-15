@@ -1,7 +1,7 @@
 ---
 title: ReactJS Day 2016
 subtitle: Conferenza – 7 Ottobre 2016 – Hotel S. Marco
-image: img/2016/10/reactjsday.jpg
+image: img/contents/2016-reactjsday.jpg
 date: 2016-10-07 09:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -19,13 +19,7 @@ event:
   foto: https://www.facebook.com/media/set/?set=oa.1210520269013145&type=3
   slides:
 
-assets:
-  cover: img/2016/10/reactjsday-hero.jpg
-  img500: img/2016/10/reactjsday-500x500.jpg
-  img300: img/2016/10/reactjsday-300x300.jpg
-  img250: img/2016/10/reactjsday-250x250.jpg
-  img174: img/2016/10/reactjsday-174x174.jpg
-  img150: img/2016/10/reactjsday-150x150.jpg
+cover: img/contents/2016-reactjsday-hero.jpg
 ---
 
 React is an open-source JavaScript library for creating user interfaces that aims to address challenges encountered

@@ -1,7 +1,7 @@
 ---
 title: 'Component-driven Web Theming'
 subtitle: Massimo Artizzu - 30.05.2018 @ AQuest
-image: img/2018/05/maggio-fevr.jpg
+image: img/contents/2018-maggio-fevr.jpg
 date: 2018-05-30 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -17,13 +17,7 @@ event:
   foto: https://www.facebook.com/media/set/?set=oa.1862586667139832&type=3
   slides:
 
-assets:
-  cover: img/2018/05/maggio-fevr-hero.jpg
-  img500: img/2018/05/maggio-fevr-500x500.jpg
-  img300: img/2018/05/maggio-fevr-300x300.jpg
-  img250: img/2018/05/maggio-fevr-250x250.jpg
-  img174: img/2018/05/maggio-fevr-174x174.jpg
-  img150: img/2018/05/maggio-fevr-150x150.jpg
+cover: img/contents/2018-maggio-fevr-hero.jpg
 ---
 
 Direttamente dall'ultima edizione del CSSDay, Massimo Artizzu al FEVR ospite del meetup di Maggio

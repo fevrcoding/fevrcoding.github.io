@@ -1,9 +1,9 @@
 ---
 title: 'CSS3 Transforms Transitions and Animations'
 subtitle: Alberto Quaglia – 25 Settembre 2014 – The Fab
-image: img/2014/09/settembre.jpg
+image: img/contents/2014-settembre.jpg
 date: 2014-09-25 19:00:00
-permalink: "/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html"
+permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 redirect_from:
   - /css3-transforms-transitions-and-animations
 published: true
@@ -21,13 +21,7 @@ event:
       url: 'https://speakerdeck.com/fevr/css3-transforms-transitions-and-animations'
       id: 'fbaf6fe0277d0132f7b53ac70368d3a6'
 
-assets:
-  cover: img/2014/09/settembre-hero.jpg
-  img500: img/2014/09/settembre-500x500.jpg
-  img300: img/2014/09/settembre-300x300.jpg
-  img250: img/2014/09/settembre-250x250.jpg
-  img174: img/2014/09/settembre-174x174.jpg
-  img150: img/2014/09/settembre-150x150.jpg
+cover: img/contents/2014-settembre-hero.jpg
 ---
 
 Reduci dal From the Front, in questo incontro affronteremo le basi delle animazioni nei Siti Web,

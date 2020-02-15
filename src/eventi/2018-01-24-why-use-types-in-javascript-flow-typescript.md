@@ -1,7 +1,7 @@
 ---
 title: 'Why use types in Javascript: Flow & Typescript'
 subtitle: Matteo Ronchi - 24.01.2018 @ AQuest
-image: img/2018/01/gennaio-fevr.jpg
+image: img/contents/2018-gennaio-fevr.jpg
 date: 2018-01-24 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -21,13 +21,7 @@ event:
       url: 'https://speakerdeck.com/cef62/why-use-types-in-javascript'
       id: '937cc588505c4e95a26860540202c1ea'
 
-assets:
-  cover: img/2018/01/gennaio-fevr-hero.png
-  img500: img/2018/01/gennaio-fevr-500x500.jpg
-  img300: img/2018/01/gennaio-fevr-300x300.jpg
-  img250: img/2018/01/gennaio-fevr-250x250.jpg
-  img174: img/2018/01/gennaio-fevr-174x174.jpg
-  img150: img/2018/01/gennaio-fevr-150x150.jpg
+cover: img/contents/2018-gennaio-fevr-hero.png
 ---
 
 Riscrivere Javascript: Matteo Ronchi ci parlerà della sua esperienza d'uso di Flowtype e Typescript

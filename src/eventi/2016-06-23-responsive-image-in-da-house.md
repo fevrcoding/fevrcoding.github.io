@@ -1,7 +1,7 @@
 ---
 title: 'Responsive images in da house'
 subtitle: Andrea De Carolis – 23 Giugno 2016 – Graffiti HUB
-image: img/2016/06/giugno.jpg
+image: img/contents/2016-giugno.jpg
 date: 2016-06-23 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -22,13 +22,7 @@ event:
       url: 'https://speakerdeck.com/fevr/responsive-images-in-da-house'
       id: '0dab5c52cc3e42ebb44540db924eb941'
 
-assets:
-  cover: img/2016/06/giugno-hero.jpg
-  img500: img/2016/06/giugno-500x500.jpg
-  img300: img/2016/06/giugno-300x300.jpg
-  img250: img/2016/06/giugno-250x250.jpg
-  img174: img/2016/06/giugno-174x174.jpg
-  img150: img/2016/06/giugno-150x150.jpg
+cover: img/contents/2016-giugno-hero.jpg
 ---
 
 Con Andrea De Carolis affronteremo il mondo del responsive attraverso l'uso delle immagini.

@@ -1,7 +1,7 @@
 ---
 title: 'AngularJS Workshop'
 subtitle: Marco Solazzi – 26 Giugno 2014 – Geekville Coworking
-image: img/2014/06/giugno.jpg
+image: img/contents/2014-giugno.jpg
 date: 2014-06-26 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 redirect_from:
@@ -21,13 +21,7 @@ event:
       url: 'https://speakerdeck.com/dwightjack/introducing-angularjs-frontenders-verona'
       id: 'c70d5230e280013146e67681cc07b3ff'
 
-assets:
-  cover: img/2014/06/giugno-hero.jpg
-  img500: img/2014/06/giugno-500x500.jpg
-  img300: img/2014/06/giugno-300x300.jpg
-  img250: img/2014/06/giugno-250x250.jpg
-  img174: img/2014/06/giugno-174x174.jpg
-  img150: img/2014/06/giugno-150x150.jpg
+cover: img/contents/2014-giugno-hero.jpg
 ---
 
 Frontenders Verona organizza un workshop su AngularJS completamente gratuito!

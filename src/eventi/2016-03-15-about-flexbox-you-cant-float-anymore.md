@@ -1,7 +1,7 @@
 ---
 title: 'About Flexbox, you can’t float anymore'
 subtitle: Davide di Pumpo, Giacomo Zanetti e Alessandro Muraro – 15 Marzo 2016 – Graffiti HUB
-image: img/2016/03/marzo.jpg
+image: img/contents/2016-marzo.jpg
 date: 2016-03-15 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -21,13 +21,8 @@ event:
       type: speakerdeck
       url: 'https://speakerdeck.com/fevr/about-flexbox-you-cant-float-anymore'
       id: '83b40cf85a9f4211b0ca6094d700ddbc'
-assets:
-  cover: img/2016/03/marzo-hero.jpg
-  img500: img/2016/03/marzo-500x500.jpg
-  img300: img/2016/03/marzo-300x300.jpg
-  img250: img/2016/03/marzo-250x250.jpg
-  img174: img/2016/03/marzo-174x174.jpg
-  img150: img/2016/03/marzo-150x150.jpg
+
+cover: img/contents/2016-marzo-hero.jpg
 ---
 
 Durante il talk faremo un excursus su come abbiamo gestito i layout CSS ieri, come possiamo farlo oggi

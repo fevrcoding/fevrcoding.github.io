@@ -1,7 +1,7 @@
 ---
 title: 'React Native for Better Apps'
 subtitle: Gian Marco Toso - 23.02.2017 @ BENTOBOX.PRO
-image: img/2017/02/febbraio.jpg
+image: img/contents/2017-febbraio.jpg
 date: 2017-02-23 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -21,13 +21,7 @@ event:
       url: 'https://speakerdeck.com/fevr/react-native-for-better-apps'
       id: '14b794aace0944c1ba2ea9c7c0a3f23f'
 
-assets:
-  cover: img/2017/02/febbraio-hero.jpg
-  img500: img/2017/02/febbraio-500x500.jpg
-  img300: img/2017/02/febbraio-300x300.jpg
-  img250: img/2017/02/febbraio-250x250.jpg
-  img174: img/2017/02/febbraio-174x174.jpg
-  img150: img/2017/02/febbraio-150x150.jpg
+cover: img/contents/2017-febbraio-hero.jpg
 ---
 
 React Native rende possibile utilizzare gli stessi paradigmi di React per scrivere applicazioni mobile per iOS e

@@ -1,7 +1,7 @@
 ---
 title: 'Build your first web app for the Internet of things in 15 minutes'
 subtitle: Andrea Reginato – 19 Marzo 2015 – The Fab
-image: img/2015/03/marzo.jpg
+image: img/contents/2015-marzo.jpg
 date: 2015-03-19 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -22,13 +22,7 @@ event:
       url: 'https://speakerdeck.com/fevr/build-your-first-web-app-for-the-internet-of-things-in-15-minutes'
       id: '480220bcf47f41db9de3c572096243df'
 
-assets:
-  cover: img/2015/03/marzo-hero.jpg
-  img500: img/2015/03/marzo-500x500.jpg
-  img300: img/2015/03/marzo-300x300.jpg
-  img250: img/2015/03/marzo-250x250.jpg
-  img174: img/2015/03/marzo-174x174.jpg
-  img150: img/2015/03/marzo-150x150.jpg
+cover: img/contents/2015-marzo-hero.jpg
 ---
 
 Direttamente dall’evento di Pordenone hostato dalla community italiana di AngularJs Italia,

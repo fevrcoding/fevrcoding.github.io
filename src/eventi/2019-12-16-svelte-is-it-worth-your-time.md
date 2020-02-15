@@ -1,7 +1,7 @@
 ---
 title: 'Svelte Is it worth your time ?'
 subtitle: Anatolie Ghebea - 16.12.2019 @ Officina 18
-image: img/2019/12/fevr-dicembre.jpg
+image: img/contents/2019-fevr-dicembre.jpg
 date: 2019-12-16 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -17,13 +17,7 @@ event:
   foto:
   slides:
 
-assets:
-  cover: img/2019/12/fevr-dicembre-hero.jpg
-  img500: img/2019/12/fevr-dicembre-500x500.jpg
-  img300: img/2019/12/fevr-dicembre-300x300.jpg
-  img250: img/2019/12/fevr-dicembre-250x250.jpg
-  img174: img/2019/12/fevr-dicembre-174x174.jpg
-  img150: img/2019/12/fevr-dicembre-150x150.jpg
+cover: img/contents/2019-fevr-dicembre-hero.jpg
 ---
 
 I framework sono un strumento decisamente utile, in alcuni casi addirittura indispensabili, ma scegliere quello che si adatta meglio alle nostre esigenze può portare via molto tempo, specialmente adesso che ne abbiamo una miriade. La complessità di questo processo sta nel fatto che oltre agli aspetti tecnici, devono essere presi in considerazione anche aspetti come: documentazione, community, tempo necessario per imparare a usare lo strumento stesso, etc.

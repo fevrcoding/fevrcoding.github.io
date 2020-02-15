@@ -1,7 +1,7 @@
 ---
 title: 'Lean Frontend Development'
 subtitle: Matteo Guidotto e Marco Solazzi – 23 Aprile 2015 – Graffiti HUB
-image: img/2015/04/aprile.jpg
+image: img/contents/2015-aprile.jpg
 date: 2015-04-23 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -22,13 +22,7 @@ event:
       url: 'https://speakerdeck.com/fevr/lean-frontend-development-1'
       id: 'e73e9ba2fb4f492ab5b465c599e22709'
 
-assets:
-  cover: img/2015/04/aprile-hero.jpg
-  img500: img/2015/04/aprile-500x500.jpg
-  img300: img/2015/04/aprile-300x300.jpg
-  img250: img/2015/04/aprile-250x250.jpg
-  img174: img/2015/04/aprile-174x174.jpg
-  img150: img/2015/04/aprile-150x150.jpg
+cover: img/contents/2015-aprile-hero.jpg
 ---
 
 Dopo averlo portato a Brescia dagli amici del WebDeBs e a Roma al Codemotion, finalmente anche tra le mura amiche di

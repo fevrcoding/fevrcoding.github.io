@@ -1,7 +1,7 @@
 ---
 title: 'Build your frameworkless Single Page Application'
 subtitle: Antonio Dell'ava - 30.10.2019 @ Officina 18
-image: img/2019/10/fevr-ottobre.jpg
+image: img/contents/2019-fevr-ottobre.jpg
 date: 2019-10-30 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -17,13 +17,7 @@ event:
   foto:
   slides:
 
-assets:
-  cover: img/2019/10/fevr-ottobre-hero.png
-  img500: img/2019/10/fevr-ottobre-500x500.jpg
-  img300: img/2019/10/fevr-ottobre-300x300.jpg
-  img250: img/2019/10/fevr-ottobre-250x250.jpg
-  img174: img/2019/10/fevr-ottobre-174x174.jpg
-  img150: img/2019/10/fevr-ottobre-150x150.jpg
+cover: img/contents/2019-fevr-ottobre-hero.png
 ---
 
 Il talk racconta l'esperienza del [frameworkless movement](https://github.com/frameworkless-movement/manifesto) dal punto di vista dello sviluppatore UI partendo dalle basi: cosa sono i framework e perché li utilizziamo? Quali insidie nascondono? Saranno illustrati gli strumenti utili a scegliere consapevolmente il miglior framework per il nostro contesto, come ad esempio i Design System, valutando anche l'opzione "no-framework".

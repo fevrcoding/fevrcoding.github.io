@@ -1,7 +1,7 @@
 ---
 title: 'High performance WebGL'
 subtitle: Luigi De Rosa - 21.02.2018 @ AQuest
-image: img/2018/02/febbraio-fevr.jpg
+image: img/contents/2018-febbraio-fevr.jpg
 date: 2018-02-21 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -21,13 +21,7 @@ event:
       url: 'https://speakerdeck.com/luruke/high-performance-webgl'
       id: '2115c2b4732e4e828df495bad3836ed6'
 
-assets:
-  cover: img/2018/02/febbraio-fevr-hero.jpg
-  img500: img/2018/02/febbraio-fevr-500x500.jpg
-  img300: img/2018/02/febbraio-fevr-300x300.jpg
-  img250: img/2018/02/febbraio-fevr-250x250.jpg
-  img174: img/2018/02/febbraio-fevr-174x174.jpg
-  img150: img/2018/02/febbraio-fevr-150x150.jpg
+cover: img/contents/2018-febbraio-fevr-hero.jpg
 ---
 
 Come creare siti web immersivi in WebGL? Dove iniziare?

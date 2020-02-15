@@ -1,7 +1,7 @@
 ---
 title: 'Get hyper-excited for web standards'
 subtitle: Jiayi Hu - 29.11.2018 @ AQuest
-image: img/2018/11/novembre-fevr.jpg
+image: img/contents/2018-novembre-fevr.jpg
 date: 2018-11-29 19:00:00
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 
@@ -20,13 +20,7 @@ event:
       type: pdf
       url: 'https://github.com/jiayihu/talks/blob/master/get-hyper-excited-for-web-standards/presentation.pdf'
 
-assets:
-  cover: img/2018/11/novembre-fevr-hero.jpg
-  img500: img/2018/11/novembre-fevr-500x500.jpg
-  img300: img/2018/11/novembre-fevr-300x300.jpg
-  img250: img/2018/11/novembre-fevr-250x250.jpg
-  img174: img/2018/11/novembre-fevr-174x174.jpg
-  img150: img/2018/11/novembre-fevr-150x150.jpg
+cover: img/contents/2018-novembre-fevr-hero.jpg
 ---
 
 Lo sviluppo di applicazioni web usando unicamente lo standard è notoriamente associato a pensieri riguardo DOM lento, API imperative e conflitti CSS ma non è detto che sia ancora così nel 2018.
