@@ -35,7 +35,11 @@ collections:
         default: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
       - widget: boolean
         name: published
-        label: Pubblicato
+        label: Visibile
+        default: false
+      - widget: boolean
+        name: featured
+        label: In Primo Piano (Hero)
         default: false
       - widget: object
         name: event

@@ -3,14 +3,14 @@ layout: default
 isHome: true
 ---
 
-{% set post = collections.eventi | published | last %}
+{% set post = collections.eventi | published | reverse | featuredEvent %}
 <!-- Slider Start -->
 <section id="slider" style="background-image: url({{ post.data.cover }})">
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
         <div class="block">
-          <p class="sr-only">Prossimo evento</p>
+          <p class="sr-only">Evento in primo piano</p>
           <h1 class="animated fadeInUp">{{post.data.title | upper }}</h1>
           <div class="animated fadeInUp buttons">
             <p>

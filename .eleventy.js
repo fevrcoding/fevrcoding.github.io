@@ -33,6 +33,11 @@ module.exports = function(eleventyConfig) {
     return posts.slice(0, num);
   });
 
+  eleventyConfig.addNunjucksFilter('featuredEvent', (posts) => {
+    // return a featured event or the first one
+    return posts.find(({ data }) => data.featured) || posts[0];
+  });
+
   // redirect collection
   eleventyConfig.addCollection('redirects', function(collection) {
     const redirs = collection.getAll().filter(({ data }) => data.redirect_from);
