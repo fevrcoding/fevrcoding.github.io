@@ -6,7 +6,7 @@ image: img/2020/02/fevr-febbraio.jpg
 date: 2020-02-27 19:00:00
 author: fevr
 category: eventi
-published: false
+published: true
 
 event:
   speaker: Mattia Tommasone
@@ -19,7 +19,7 @@ event:
   slides:
 
 assets:
-  cover: img/2020/02/fevr-febbraio-hero.jpg
+  cover: img/2020/02/fevr-febbraio-hero.png
   img500: img/2020/02/fevr-febbraio-500x500.jpg
   img300: img/2020/02/fevr-febbraio-300x300.jpg
   img250: img/2020/02/fevr-febbraio-250x250.jpg
