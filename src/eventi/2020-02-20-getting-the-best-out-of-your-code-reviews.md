@@ -3,7 +3,7 @@ title: Getting the best out of your code reviews
 subtitle: Mattia Tommasone - 27.02.2020 @ Officina 18
 image: /img/contents/fevr-febbraio.jpg
 cover: /img/contents/fevr-febbraio-hero.png
-date: 2020-02-20T00:33:14.458Z
+date: 2020-02-27T20:00:14.458Z
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 published: true
 featured: true
