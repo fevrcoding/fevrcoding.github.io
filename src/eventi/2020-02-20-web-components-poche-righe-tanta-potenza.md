@@ -2,7 +2,7 @@
 title: 'Web Components: poche righe, tanta potenza!'
 image: /img/contents/fevr-marzo.jpg
 cover: /img/contents/fevr-marzo-hero.png
-date: 2020-03-10T18:00:12.751Z
+date: 2020-03-10T18:00:00Z
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 published: true
 featured: true
@@ -11,6 +11,7 @@ event:
   location: Università degli Studi di Verona
   speaker: Francesco Sciuti
 ---
+
 I Web Components sono ormai realtà e sono il next step della realizzazione di componenti ed interfacce web modulari.
 
 Che li si scrivano in Vanilla JS o con uno dei tanti tool ormai sul mercato, i Web Components sono ormai realtà e sono il next step della realizzazione di componenti ed interfacce web modulari.
