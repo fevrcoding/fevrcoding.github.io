@@ -7,6 +7,9 @@
 <title>{{page_title}}</title>
 <meta name="author" content="fevr"/>
 <meta property="og:locale" content="it_IT"/>
+{%- if (tags and 'eventi' in tags and published == false) %}
+    <meta name="robots" content="noindex">
+{%- endif %}
 {%- set autoDescription %}{{ content | default('') | striptags | truncate(196) | trim }}{%- endset %}
 <meta name="description" content="{{ description or autoDescription or site.description }}">
 <link rel="canonical" href="{{ site.url }}{{ page.url | replace('index.html','') }}">
