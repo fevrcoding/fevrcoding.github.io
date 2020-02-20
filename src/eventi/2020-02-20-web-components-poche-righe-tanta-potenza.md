@@ -2,7 +2,7 @@
 title: 'Web Components: poche righe, tanta potenza!'
 image: /img/contents/fevr-marzo.jpg
 cover: /img/contents/fevr-marzo-hero.png
-date: 2020-03-09T19:00:12.751Z
+date: 2020-03-10T18:00:12.751Z
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 published: true
 featured: false
