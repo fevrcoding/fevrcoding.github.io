@@ -17,6 +17,7 @@ collections:
       - widget: string
         name: subtitle
         label: Sottotitolo
+        required: false
       - widget: image
         name: image
         label: Locandina
