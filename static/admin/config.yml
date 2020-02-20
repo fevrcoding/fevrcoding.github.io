@@ -23,7 +23,7 @@ collections:
         allow_multiple: false
       - widget: image
         name: cover
-        label: Copertina
+        label: Copertina (Hero)
       - widget: datetime
         name: date
         label: Data Evento
