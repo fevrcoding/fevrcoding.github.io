@@ -6,7 +6,7 @@ cover: /img/contents/fevr-febbraio-hero.png
 date: 2020-02-27T19:00:14.458Z
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 published: true
-featured: true
+featured: false
 event:
   eventbrite: '93507243683'
   location: Officina 18
