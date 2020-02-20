@@ -2,7 +2,7 @@
 title: 'Web Components: poche righe, tanta potenza!'
 image: /img/contents/fevr-marzo.jpg
 cover: /img/contents/fevr-marzo-hero.png
-date: 2020-03-10T18:00:00Z
+date: 2020-03-10T18:00:00.000Z
 permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
 published: true
 featured: true
@@ -11,7 +11,6 @@ event:
   location: Università degli Studi di Verona
   speaker: Francesco Sciuti
 ---
-
 I Web Components sono ormai realtà e sono il next step della realizzazione di componenti ed interfacce web modulari.
 
 Che li si scrivano in Vanilla JS o con uno dei tanti tool ormai sul mercato, i Web Components sono ormai realtà e sono il next step della realizzazione di componenti ed interfacce web modulari.
@@ -32,4 +31,4 @@ Martedì 10 marzo 2020 dalle 19:00 alle 20:30
 
 ## DOVE
 
-Officina 18 – Via Niccolò Copernico 18, 37135 Verona Università degli Studi di Verona – Dipartimento di Informatica – Cà Vignal 2, Strada le Grazie 15, 37134 Verona
+Università degli Studi di Verona – Dipartimento di Informatica – Cà Vignal 2, Strada le Grazie 15, 37134 Verona
