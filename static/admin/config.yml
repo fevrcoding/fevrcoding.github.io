@@ -68,6 +68,10 @@ collections:
             label: Link Live Facebook
             required: false
           - widget: string
+            name: spotifypodcast
+            label: Link Episodio Podcast Spotify
+            required: false
+          - widget: string
             name: foto
             label: Link Foto
             required: false

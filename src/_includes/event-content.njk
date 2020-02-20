@@ -54,6 +54,13 @@
           >
             </li>
           {% endif %}
+          {% if event.spotifypodcast %}
+            <li>
+              <a href="{{event.spotifypodcast}}" class="btn btn-primary" target="_blank"
+            >Podcast evento</a
+          >
+            </li>
+          {% endif %}
           {% if event.slides %}
             {%- for slide in event.slides %}
               <li>
