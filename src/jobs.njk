@@ -1,0 +1,24 @@
+---
+layout: default
+title: Jobs
+---
+<!-- Slider Start -->
+<section class="hero hero--jobs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Stai cercando lavoro?</h1>
+          <p>Questa è la tua occasione!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% for job in collections.jobs | published | reverse %}
+  <a href="{{ job.url }}" class="post-area">
+    <span role="heading" aria-level="2" class="post-title">{{ job.data.title }}</span>
+    <span class="post-date">{{ job.data.subtitle }}
+    </span>
+  </a>
+{% endfor %}

@@ -1,0 +1,32 @@
+---
+layout: default
+title: Eventi
+---
+<!-- Slider Start -->
+<section class="hero hero--events">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Scopri i nostri eventi.</h1>
+          <p>Ti aspettiamo!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% for post in collections.eventi | published | reverse %}
+  <a href="{{ post.url }}" class="post-area">
+    <span role="heading" aria-level="2" class="post-title">{{ post.data.title }}</span>
+    {% if (post.data.tags and 'eventi' in post.data.tags) %}
+      <span class="post-date">{{ post.data.event.speaker }} - 
+      <time datetime="{{ post.date.toISOString() }}">{{post.date | dateformat('dd/LL/yyyy') }}</time>
+       - {{post.data.event.location}}
+      </span>
+    {% else %}
+      <span class="post-date">{{ post.data.subtitle }}
+      </span>
+    {% endif %}
+  </a>
+{% endfor %}

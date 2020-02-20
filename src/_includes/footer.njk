@@ -1,0 +1,69 @@
+<!-- Call to action Start -->
+<aside id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h3 class="lead">Hai un progetto? Hai bisogno di aiuto nell'organizzazione di corsi, eventi o vuoi proporti come speaker?</h3>
+          <a class="btn btn-default btn-call-to-action" href="mailto:{{site.social.email}}" >SCRIVICI</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</aside>
+<!-- footer Start -->
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <nav class="footer-menu" aria-labelledby="footer-menu-title">
+          <p class="sr-only" id="footer-menu-title">Menu principale</p>
+          <ul>
+            {% for item in nav %}
+              <li>
+                <a 
+                  {{ ('aria-current="page"' | safe) if item.href == page.url }}
+                  href="{{ item.href }}"
+                >{{ item.label }}</a>
+              </li>
+            {% endfor %}
+            <li>
+              <a 
+                {{ ('aria-current="page"' | safe) if '/code-of-conduct' == page.url | safe }}
+                href="/code-of-conduct"
+              >Codice di Condotta</a>
+            </li>
+          </ul>
+        </nav>
+        <section class="social">
+          <h3 class="sr-only">Find us on: </h3>
+          <ul class="list-inline">
+            <li aria-hidden="true">Find us on: </li>
+            {% for id in['facebook', 'slack', 'twitter'] %}
+              {% set social = site.social[id] %}
+              <li>
+                <a href="{{social.url}}" target="_blank" rel="noopener noreferral">
+                  <span aria-hidden="true" class="fa fa-{{ social.icon | default(id) }}"></span>
+                  {{ social.name }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </section>
+        <p>
+          Theme by <a href="http://www.themefisher.com" target="_blank">Themefisher</a>
+          -
+          <a href="/sitemap.xml" target="_blank" aria-label="Mappa del sito">Sitemap</a>
+          -
+          <a href="/feed.xml" target="_blank" aria-label="Feed RSS">
+            <span aria-hidden="true" class="fa fa-rss" style="color: #f26522"></span> Feed</a>
+
+          <br>
+          Copyright &copy; FEVR - Frontenders Verona. All rights reserved.<br>
+          Developed with <span aria-hidden="true">❤️</span>
+          <span class="sr-only">love</span> by <a href="http://github.com/kino90" target="_blank" rel="noopener noreferral">Luca Maroni</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>

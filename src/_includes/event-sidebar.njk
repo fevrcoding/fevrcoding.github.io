@@ -1,0 +1,37 @@
+<nav class="post-sidebar" aria-labelledby="event-sidebar-title">
+
+  <h3 class="post-sidebar__title" id="event-sidebar-title">Gli ultimi eventi</h3>
+  <ul class="post-sidebar__list">
+    {% for post in collections.eventi | published | reverse | limit(8) %}
+      <li class="post-sidebar__list-element">
+        <a href="{{ post.url }}">{{post.data.title}}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
+
+<hr aria-hidden="true"/>
+
+<section class="post-sidebar">
+  <h3 class="post-sidebar__title">Donazione</h3>
+  <div class="text-center">
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input name="cmd" value="_s-xclick" type="hidden">
+      <input name="encrypted" value="-----BEGIN PKCS7-----MIIHJwYJKoZIhvcNAQcEoIIHGDCCBxQCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYCpJX1b60apGC/XWSEAqGD7CzoWgfn9isYLjp5PPQqWS9ZljMWl5CbFHoSAid3Y+W8Nknvb6ReX6VTvqOTejVxyvBA4wpno4IdqO4u2/BJIMrKD/H8BrorMBiWSe3OVGc3ywS9B76bzYGX3rgcllSMLdBpwYACZyfasnnGsNt53SzELMAkGBSsOAwIaBQAwgaQGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIfZnptpZtBySAgYDSD9Jhzjee6Bo+320bPrIMr2H83GFrM0YYz7wRBnwLmIJhfIXCVOxow3CINo4hk23hmL8gqrjikFnKRb1QMCThEl0DZ9qgBWM+m1UWI25EJ9PBgJRKzhKIxYd4utvSlZMDEjOBeD+1Ts6hEtSNl4uPcE567CaWx2pKuHXOYNiJEqCCA4cwggODMIIC7KADAgECAgEAMA0GCSqGSIb3DQEBBQUAMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTAeFw0wNDAyMTMxMDEzMTVaFw0zNTAyMTMxMDEzMTVaMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwUdO3fxEzEtcnI7ZKZL412XvZPugoni7i7D7prCe0AtaHTc97CYgm7NsAtJyxNLixmhLV8pyIEaiHXWAh8fPKW+R017+EmXrr9EaquPmsVvTywAAE1PMNOKqo2kl4Gxiz9zZqIajOm1fZGWcGS0f5JQ2kBqNbvbg2/Za+GJ/qwUCAwEAAaOB7jCB6zAdBgNVHQ4EFgQUlp98u8ZvF71ZP1LXChvsENZklGswgbsGA1UdIwSBszCBsIAUlp98u8ZvF71ZP1LXChvsENZklGuhgZSkgZEwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tggEAMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADgYEAgV86VpqAWuXvX6Oro4qJ1tYVIT5DgWpE692Ag422H7yRIr/9j/iKG4Thia/Oflx4TdL+IFJBAyPK9v6zZNZtBgPBynXb048hsP16l2vi0k5Q2JKiPDsEfBhGI+HnxLXEaUWAcVfCsQFvd2A1sxRr67ip5y2wwBelUecP3AjJ+YcxggGaMIIBlgIBATCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwCQYFKw4DAhoFAKBdMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTE2MDEyODIwMDcyOFowIwYJKoZIhvcNAQkEMRYEFPy3qPQALBfv75gWvGtgHwdjdAGvMA0GCSqGSIb3DQEBAQUABIGATSyekToeOemlhXepvuyU/ekv1xKhgsC6rtmIu8TNg+fOar3GOXfW+6G1hqemnIVgAHHe2EqftEbKuDiFAsjKT7VQ+2YPKcTEcjWjAbxOp/l18eMZsoHQGT5bfn4qJ2E69CQYxesX0ycrYEEpxQVgnXD5w94JcEDO95/3uxokfcw=-----END PKCS7-----
+" type="hidden">
+      <input src="https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif" name="submit" aria-label="Fai una donazione" alt="PayPal è il metodo rapido e sicuro per pagare e farsi pagare online." border="0" type="image">
+      <img alt="" src="https://www.paypalobjects.com/it_IT/i/scr/pixel.gif" border="0" width="1" height="1">
+    </form>
+  </div>
+
+</section>
+
+<hr aria-hidden="true"/>
+
+<div class="post-sidebar">
+  <h3>Twitter Feed</h3>
+  <div>
+    <a class="twitter-timeline" data-width="300" data-height="500" href="https://twitter.com/__fevr">Tweets by __fevr</a>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+</div>
