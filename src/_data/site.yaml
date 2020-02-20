@@ -7,7 +7,7 @@ logo: '/img/logo2016.png'
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 # baseurl: "/" # the subpath of your site
-url: 'http://www.fevr.it' # the base hostname & protocol for your site
+url: 'https://www.fevr.it' # the base hostname & protocol for your site
 
 # Google analytics
 ga_tracking_id: 'UA-3216603-10'
