@@ -8,7 +8,7 @@ published: true
 featured: true
 event:
   eventbrite: '93896219119'
-  location: Università degli Studi di Verona
+  location: Facebook live streaming
   speaker: Francesco Sciuti
 ---
 I Web Components sono ormai realtà e sono il next step della realizzazione di componenti ed interfacce web modulari.
@@ -31,4 +31,4 @@ Martedì 10 marzo 2020 dalle 19:00 alle 20:30
 
 ## DOVE
 
-Università degli Studi di Verona – Dipartimento di Informatica – Cà Vignal 2, Strada le Grazie 15, 37134 Verona
+Diretta live streaming su https://www.facebook.com/groups/frontendersverona/
