@@ -31,5 +31,5 @@ Giovedì 22 aprile 2020 dalle 19:00 alle 20:30
 
 ## DOVE
 
-Diretta live streaming su https://www.facebook.com/groups/frontendersverona/
+Diretta live streaming su [https://www.facebook.com/groups/frontendersverona/](https://www.facebook.com/groups/frontendersverona/)
 
