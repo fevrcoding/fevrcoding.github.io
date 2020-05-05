@@ -14,12 +14,20 @@ The principles of Atomic Design have transformed (probably forever) the way we l
 No doubts, these are cool tools and approaches, and we have all fallen in love with them. But...\
 In this talk, I'll share not only the learnings but also all the "buts" that we have found in our exciting journey developing (in React, of course) a Design System for Badoo.
 
-**Bio:**
+## SPEAKER
+
+**Cristiano Rastelli**
 
 Passionate web designer & developer, currently Design System Lead at MagicLab. In love with Atomic Design, Style Guides and CSS architecture.\
 Likes to work at the intersection of business, design and development.\
 Attendee/speaker/organiser of technical conferences and meetups.
 
-
-
 **Twitter**:<https://twitter.com/areaweb>
+
+## QUANDO
+
+Mercoledì 20 maggio 2020 dalle 19:00 alle 20:30
+
+## DOVE
+
+Diretta live streaming su [https://www.facebook.com/groups/frontendersverona/](https://www.facebook.com/groups/frontendersverona/)
