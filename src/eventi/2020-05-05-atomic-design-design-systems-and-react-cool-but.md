@@ -2,7 +2,7 @@
 title: Atomic Design, Design Systems and React. Cool, but...
 image: /img/contents/maggio.jpg
 cover: /img/contents/33235048-d083dca6-d217-11e7-9aea-9a5ef5ae6fe7.png
-date: 2020-05-05T08:40:14.265Z
+date: 2020-05-20T17:00:14.265Z
 permalink: /eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html
 published: true
 featured: true
