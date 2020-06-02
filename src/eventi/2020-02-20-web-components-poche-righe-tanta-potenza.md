@@ -1,15 +1,17 @@
 ---
-title: 'Web Components: poche righe, tanta potenza!'
+title: "Web Components: poche righe, tanta potenza!"
 image: /img/contents/fevr-marzo.jpg
 cover: /img/contents/fevr-marzo-hero.png
 date: 2020-03-10T18:00:00.000Z
-permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
+permalink: /eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html
 published: true
 featured: true
 event:
-  eventbrite: '93896219119'
+  eventbrite: "93896219119"
   location: Facebook live streaming
   speaker: Francesco Sciuti
+  facebooklive: https://www.facebook.com/matteoguidotto/videos/10222393723935826
+  spotifypodcast: https://open.spotify.com/episode/2aM5ShaIJdXaeOVUnPJXLf
 ---
 I Web Components sono ormai realtà e sono il next step della realizzazione di componenti ed interfacce web modulari.
 
