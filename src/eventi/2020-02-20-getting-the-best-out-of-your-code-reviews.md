@@ -12,6 +12,8 @@ event:
   location: Live Streaming
   speaker: Mattia Tommasone
   facebooklive: https://www.facebook.com/matteoguidotto/videos/10222275795027677
+  slides:
+    - url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fmgtfgj0y8cs7jgy%2FAtomic%2520Design%2520and%2520React%2520-%25202020%2520-%2520FEVR%2520%2528Verona%2529.pdf%3Fdl%3D0%26fbclid%3DIwAR3xIXkYt9lCtWeKb-NHVD7BO5EcIXLcFLHHa51xFFLNRJUcD1uthnqvs3I&h=AT2a0MUrgUDyWvrcFHaU4594-rVnKLkvVonSTSgPzaLGr0LCqCxPwxpDKELbTyLSFQrYBU0mMbvfLSNgqYzXQEwJ7uiwdSZrHGYJKYc5JKoMMxMtPckBHKwG0J-h--PeRQ&__tn__=R]-R&c[0]=AT1MVmJ8HJczq0nWOHoNYIT2nyhkFh-vAwMk5pn0_hECrtM6-Bnh-cQ_C6ZH8LiDvdah6bbF7YIx95ns9P8wVSR8bwl9cWWs4Q4IPpuu9t3fZB-qKbsTnt4JPdLKBai2aPe6VbmuR6qJNpxuZi-5Rz2yQ1RTbMzcv1s3ySmC7dz40ydyx0WXqH8D0ufqY8NNrMA
 ---
 Questo talk spiega perché dovreste introdurle nel vostro team e alcuni modi per ottenere il massimo valore da questa pratica.
 
