@@ -9,6 +9,7 @@ featured: true
 event:
   location: Facebook Live
   speaker: Cristiano Rastelli
+  facebooklive: https://www.facebook.com/matteoguidotto/videos/10223240936835619
 ---
 The principles of Atomic Design have transformed (probably forever) the way we look at UI components and code modularization. Pattern Libraries and Design Systems – predominantly built in React – have become widespread across many companies.\
 No doubts, these are cool tools and approaches, and we have all fallen in love with them. But...\
