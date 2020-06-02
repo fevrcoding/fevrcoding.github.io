@@ -3,7 +3,7 @@ title: " Micro FrontEnd: The Micro service Development Architecture on the
   Front-end side."
 image: /img/contents/giugno.jpg
 cover: /img/contents/hero.jpg
-date: 2020-06-23T17:00:18.381Z
+date: 2020-06-24T17:00:18.381Z
 permalink: /eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html
 published: true
 featured: true
