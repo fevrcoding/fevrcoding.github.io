@@ -10,6 +10,9 @@ event:
   location: Facebook Live
   speaker: Cristiano Rastelli
   facebooklive: https://www.facebook.com/matteoguidotto/videos/10223240936835619
+  slides:
+    - author: Cristiano Rastelli
+      url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fmgtfgj0y8cs7jgy%2FAtomic%2520Design%2520and%2520React%2520-%25202020%2520-%2520FEVR%2520%2528Verona%2529.pdf%3Fdl%3D0%26fbclid%3DIwAR3xIXkYt9lCtWeKb-NHVD7BO5EcIXLcFLHHa51xFFLNRJUcD1uthnqvs3I&h=AT2a0MUrgUDyWvrcFHaU4594-rVnKLkvVonSTSgPzaLGr0LCqCxPwxpDKELbTyLSFQrYBU0mMbvfLSNgqYzXQEwJ7uiwdSZrHGYJKYc5JKoMMxMtPckBHKwG0J-h--PeRQ&__tn__=R]-R&c[0]=AT1MVmJ8HJczq0nWOHoNYIT2nyhkFh-vAwMk5pn0_hECrtM6-Bnh-cQ_C6ZH8LiDvdah6bbF7YIx95ns9P8wVSR8bwl9cWWs4Q4IPpuu9t3fZB-qKbsTnt4JPdLKBai2aPe6VbmuR6qJNpxuZi-5Rz2yQ1RTbMzcv1s3ySmC7dz40ydyx0WXqH8D0ufqY8NNrMA
 ---
 The principles of Atomic Design have transformed (probably forever) the way we look at UI components and code modularization. Pattern Libraries and Design Systems – predominantly built in React – have become widespread across many companies.\
 No doubts, these are cool tools and approaches, and we have all fallen in love with them. But...\
