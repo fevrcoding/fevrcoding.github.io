@@ -4,13 +4,14 @@ subtitle: Mattia Tommasone - 27.02.2020 @ Officina 18
 image: /img/contents/fevr-febbraio.jpg
 cover: /img/contents/fevr-febbraio-hero.png
 date: 2020-02-27T19:00:14.458Z
-permalink: '/eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html'
+permalink: /eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html
 published: true
 featured: false
 event:
-  eventbrite: '93507243683'
-  location: Officina 18
+  eventbrite: "93507243683"
+  location: Live Streaming
   speaker: Mattia Tommasone
+  facebooklive: https://www.facebook.com/matteoguidotto/videos/10222275795027677
 ---
 Questo talk spiega perché dovreste introdurle nel vostro team e alcuni modi per ottenere il massimo valore da questa pratica.
 
