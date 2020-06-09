@@ -11,7 +11,10 @@ event:
   location: Facebook Live
   speaker: Miki Lombardi
   eventbrite: "107699668608"
-  speaker_bio: Questa è una **prova!**
+  speaker_bio: |-
+    Questa è una **prova!**
+
+    **su** piu righe**!**
   location_url: http://www.test.it
 ---
 I Micro FrontEnd riportano l'architettura dei Micro services e l'utilizzo del DDD per gestire la complessa UI/UX di una applicazione Web, rendendo ogni team indipendente, con un processo di sviluppo lineare (end-to-end) e responsabile solo per un'area specifica del business
