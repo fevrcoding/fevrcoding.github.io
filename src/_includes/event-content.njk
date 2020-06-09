@@ -76,6 +76,39 @@
       </footer>
 
       {{ content | safe }}
+
+      {% if event.auto_meta %}
+        {% if event.speaker %}
+          <h2>SPEAKER</h2>
+
+          <p><b>{{ event.speaker }}</b></p>
+
+          {% if event.speaker_bio %}
+            {% markdown event.speaker_bio %}
+          {% endif %}
+          
+
+        {% endif %}
+
+
+        <h2>QUANDO</h2>
+        <p>
+          <time datetime="{{ date.toISOString() }}">{{date | date_human(date_end) }}</time>
+        </p>
+
+        {% if event.location %}
+          <h2>DOVE</h2>
+
+          <p>
+            {{ event.location }}
+            {% if event.location_url %}
+              : <a href="{{event.location_url}}">{{ event.location_url }}</a>  
+            {% endif %}
+          </p> 
+
+        {% endif %}
+
+      {% endif %}
     </div>
   </div>
 </div>
@@ -106,19 +139,6 @@
     <li>
       <a class="btn btn-info" href="{{ site.url }}{{ page.url }}">
         <span aria-hidden="true" class="fa fa-link"></span> Permalink
-      </a>
-    </li>
-  </ul>
-</footer>
-<hr aria-hidden="true"/>
-
-<footer class="support list-inline">
-  <h2 class="sr-only">Supportaci su:</h2>
-  <ul class="list-inline">
-    <li aria-hidden="true">Supportaci su:</li>
-    <li>
-      <a class="btn red-btn" target="_blank" href="{{site.social.patreon.url}}">
-        <span aria-hidden="true" class="fa fa-link"></span> Patreon
       </a>
     </li>
   </ul>

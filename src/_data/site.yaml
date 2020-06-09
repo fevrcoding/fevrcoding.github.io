@@ -76,10 +76,6 @@ social:
     name: Speakerdeck
     icon: list-alt
     url: 'https://speakerdeck.com/fevr'
-  patreon:
-    name: Patreon
-    icon: eur
-    url: 'https://www.patreon.com/fevr'
   spotify:
     name: Spotify
     url: https://open.spotify.com/show/24e51pmI7X0UXfIgRQiyMX

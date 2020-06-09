@@ -27,7 +27,10 @@ collections:
         label: Copertina (Hero)
       - widget: datetime
         name: date
-        label: Data Evento
+        label: Data Inizio Evento
+      - widget: datetime
+        name: date_end
+        label: Data Fine Evento
       - widget: hidden
         name: redirect_from
         required: false
@@ -46,14 +49,35 @@ collections:
         name: event
         label: Dettagli
         fields:
+          - widget: boolean
+            name: auto_meta
+            label: Dettagli evento automatici
+            default: false
+            hint: Se attivato, bio dello speaker e dettagli dell'evento saranno generati in automatico nella pagina di dettaglio.
           - widget: string
             name: speaker
             label: Speaker
             required: false
+          - widget: 'markdown'
+            label: 'Biografia'
+            name: 'speaker_bio'
+            buttons:
+              - bold
+              - italic
+              - code
+              - link
+              - quote
+              - bulleted-list
+              - numbered-list
           - widget: string
             name: location
             label: Location
             default: Officina 18
+            required: false
+          - widget: string
+            name: location_url
+            label: URL Location
+            default:
             required: false
           - widget: string
             name: eventbrite
