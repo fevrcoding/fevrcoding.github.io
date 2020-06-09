@@ -61,6 +61,7 @@ collections:
           - widget: 'markdown'
             label: 'Biografia'
             name: 'speaker_bio'
+            required: false
             buttons:
               - bold
               - italic
