@@ -9,7 +9,7 @@ published: true
 featured: true
 event:
   auto_meta: true
-  location: Live Streaming
+  location: Facebook Live
   speaker: Michele Stieven
   eventbrite: "118491066971"
 ---
