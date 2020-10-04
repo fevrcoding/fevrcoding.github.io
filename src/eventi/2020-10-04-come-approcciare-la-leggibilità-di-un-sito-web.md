@@ -16,5 +16,6 @@ event:
     tipografia, leggibilità e accessibilità. Si impegna quotidianamente nel
     promuovere e migliorare la sinergia tra progettisti, sviluppatori e
     strumenti.
+  eventbrite: "124005727469"
 ---
 Leggere è un’attività molto complessa che sempre più spesso si svolge davanti a schermi di smartphone, tablet e computer. Quando trattiamo la tipografia o il layout di un sito web ci sono molte variabili di cui dobbiamo tenere conto, sia come designer che come sviluppatori. In questo intervento faremo un’incursione nel campo della leggibilità*, esplorando studi, metodologie, pratiche e tecniche che possono aiutarci a rendere il nostro sito più confortevole per gli utenti.
