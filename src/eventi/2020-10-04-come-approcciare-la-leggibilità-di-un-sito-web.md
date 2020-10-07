@@ -8,7 +8,7 @@ permalink: /eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.h
 published: true
 featured: true
 event:
-  auto_meta: false
+  auto_meta: true
   location: Facebook Live Streaming
   speaker: Edoardo Cavazza
   speaker_bio: Edoardo lavora in Chialab come sviluppatore Web. Lavorando a siti
