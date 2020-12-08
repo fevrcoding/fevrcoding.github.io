@@ -2,11 +2,11 @@
 title: Building design systems with Stitches
 image: /img/contents/dicembre.jpg
 cover: /img/contents/cover.png
-date: 2020-12-08T14:45:30.053Z
-date_end: 2020-12-08T14:45:30.085Z
+date: 2020-12-16T18:00:30.053Z
+date_end: 2020-12-16T19:30:30.085Z
 permalink: /eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html
-published: false
-featured: false
+published: true
+featured: true
 event:
   auto_meta: false
   location: Facebook Live
