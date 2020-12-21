@@ -25,6 +25,6 @@ event:
     Sono stato uno sviluppatore web dal 2000 al 2016, iniziando a occupare una fetta importante del mio tempo come project manager dal 2014; a partire dal 2017 ho "saltato la barricata" e in WorkWave ho iniziato ad occuparmi di people management, restando sempre in ambito tecnico; queste attività mi hanno portato a ricoprire il ruolo di hiring manager per molte posizioni, visionando centinaia di curriculum e facendo colloqui a decine di sviluppatori; da queste esperienze nasce la voglia di condividere un po' di quello che ho imparato negli ultimi anni.
   location_url: https://www.facebook.com/groups/frontendersverona/
   eventbrite: "128469723401"
-  facebooklive: https://www.facebook.com/groups/frontendersverona/permalink/3646245182107296/
+  facebooklive: https://www.facebook.com/matteoguidotto/videos/10224807625681861
 ---
 Sviluppi applicazioni? Ti occupi di web o UX design, o - più in generale - lavori nel digitale? Hai esperienza, passione, voglia di imparare, mente pronta, fame di crescere? Impara come far emergere queste doti, che le aziende per cui vorresti lavorare cercano come fossero il Graal, invece di concentrarti sulle tecnologie usate nelle precedenti esperienze lavorative. Se pensi di essere un buon candidato, dopo questo talk avrai qualche strumento in più per rendere più facile la vita di chi sta cercando proprio te.
