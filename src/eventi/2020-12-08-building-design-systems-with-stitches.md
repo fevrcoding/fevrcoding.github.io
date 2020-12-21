@@ -22,5 +22,6 @@ event:
     Twitter: https://twitter.com/peduarte
   speaker: Pedro Duarte
   eventbrite: "132084948637"
+  facebooklive: https://www.facebook.com/groups/frontendersverona/permalink/3721928661205614/
 ---
 Stitches is a modern styling library. Built with developer experience in mind, it introduces first-class tokens, variants, themes and other features to improve the creation of design systems.
