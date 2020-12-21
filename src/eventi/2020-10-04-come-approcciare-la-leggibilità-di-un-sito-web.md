@@ -17,6 +17,6 @@ event:
     promuovere e migliorare la sinergia tra progettisti, sviluppatori e
     strumenti.
   eventbrite: "124005727469"
-  facebooklive: https://www.facebook.com/groups/frontendersverona/permalink/3561263323938816/
+  facebooklive: https://www.facebook.com/matteoguidotto/videos/10224596763650442
 ---
 Leggere è un’attività molto complessa che sempre più spesso si svolge davanti a schermi di smartphone, tablet e computer. Quando trattiamo la tipografia o il layout di un sito web ci sono molte variabili di cui dobbiamo tenere conto, sia come designer che come sviluppatori. In questo intervento faremo un’incursione nel campo della leggibilità*, esplorando studi, metodologie, pratiche e tecniche che possono aiutarci a rendere il nostro sito più confortevole per gli utenti.
