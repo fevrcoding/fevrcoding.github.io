@@ -15,6 +15,6 @@ event:
   speaker_bio: ""
   location_url: https://www.facebook.com/groups/frontendersverona
   auto_meta: true
-  facebooklive: https://www.facebook.com/groups/frontendersverona/permalink/3205998852798600/
+  facebooklive: https://www.facebook.com/matteoguidotto/videos/10223595118089929
 ---
 I Micro FrontEnd riportano l'architettura dei Micro services e l'utilizzo del DDD per gestire la complessa UI/UX di una applicazione Web, rendendo ogni team indipendente, con un processo di sviluppo lineare (end-to-end) e responsabile solo per un'area specifica del business
