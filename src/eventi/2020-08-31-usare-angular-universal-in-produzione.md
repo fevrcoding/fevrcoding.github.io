@@ -12,6 +12,6 @@ event:
   location: Facebook Live
   speaker: Michele Stieven
   eventbrite: "118491066971"
-  facebooklive: https://www.facebook.com/groups/frontendersverona/permalink/3475252792539870/
+  facebooklive: https://www.facebook.com/matteoguidotto/videos/10224386672278289
 ---
 SEO, Social Sharing e First Contentful Paint in Angular: dovrebbero interessarvi? Forse! Vediamo come prendere il meglio da Universal per usarlo oggi in produzione: si parlerà nello specifico di Server-side Rendering e di Pre-rendering, esaminando le possibili problematiche (e relativi workaround) di questi approcci.
