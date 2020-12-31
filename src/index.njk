@@ -50,7 +50,7 @@ isHome: true
                 <li class="col-sm-3 col-xs-12 evento-item-wrapper">
                   <a class="evento-item slide-down-hover" href="{{ post.url }}">
                     <span class="evento-img">
-                      <img class="img-rounded img-responsive center-block" src="{{ post.data.image }}" alt="">
+                      <img class="img-rounded img-responsive center-block" src="{{ post.data.image }}" alt="" loading="lazy">
                     </span>
                     <span role="heading" aria-level="3" class="evento-title line">{{post.data.title | upper }}</span>
                     <span class="evento-description">{{ post.data.event.speaker }} - 
@@ -86,7 +86,7 @@ isHome: true
                 <div class="col-lg-3 col-sm-3 col-xs-12 team-box">
                   <div class="team-member">
                     <figure class="profile-pic">
-                      <img class="img-responsive center-block img-circle" src="/{{member.img | url }}" alt="Foto di {{member.name}}">
+                      <img class="img-responsive center-block img-circle" src="/{{member.img | url }}" alt="Foto di {{member.name}}" loading="lazy">
                     </figure>
                     <div class="member-details">
                       <h3 class="dark-text red-border-bottom">{{member.name | upper }}</h3>
@@ -153,7 +153,7 @@ isHome: true
         <div class="col-sm-6 col-md-3">
           <a class="sponsor-item slide-down-hover" href="{{sp.url}}" target="_blank">
             <span class="sr-only">{{ sp.name }}</span>
-            <img src="/{{sp.img}}" class="img-circle img-responsive center-block" alt="">
+            <img src="/{{sp.img}}" class="img-circle img-responsive center-block" alt="" loading="lazy">
           </a>
         </div>
       {% endfor %}

@@ -86,24 +86,18 @@
 <!--<meta name="msapplication-TileImage" content="/favicon270.png">-->
 
 <!-- CSS -->
-{# <link rel="stylesheet" href="/css/owl.carousel.css"/> #}
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&family=Volkhov:ital@1&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/bootstrap.min.css"/>
-<link rel="stylesheet" href="/css/font-awesome.min.css"/>
 <link rel="stylesheet" href="/css/airspace.css"/>
 <link rel="stylesheet" href="/css/style.css"/>
-{# <link rel="stylesheet" href="/css/ionicons.min.css"/> #}
-<link rel="stylesheet" href="/css/animate.css"/>
-<link rel="stylesheet" href="/css/responsive.css"/>
-{# <link rel="stylesheet" href="/css/syntax.css"/> #}
-
+{% for stylesheet in ['font-awesome.min.css', 'animate.css', 'responsive.css' ] %}
+    <link rel="preload" href="/css/{{stylesheet}}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/{{stylesheet}}"></noscript>
+{% endfor %}
 <!-- Js -->
 <script defer src="/js/vendor/jquery-1.10.2.min.js"></script>
 <script defer src="/js/bootstrap.min.js"></script>
-{# <script defer src="/js/owl.carousel.min.js"></script> #}
-{# <script defer src="/js/plugins.js"></script> #}
-{# <script defer src="/js/min/waypoints.min.js"></script> #}
-{# <script defer src="/js/jquery.counterup.js"></script> #}
-{# <script defer src="/js/main.js"></script> #}
 {%- if isHome %}
     <script  defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 {%- endif %}
