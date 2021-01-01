@@ -86,7 +86,7 @@ isHome: true
                 <div class="col-lg-3 col-sm-3 col-xs-12 team-box">
                   <div class="team-member">
                     <figure class="profile-pic">
-                      {% image member.img, 'Foto di {{member.name}}', 'img-responsive center-block img-circle' %}
+                      {% image member.img, 'Foto di ' + member.name, 'img-responsive center-block img-circle' %}
                     </figure>
                     <div class="member-details">
                       <h3 class="dark-text red-border-bottom">{{member.name | upper }}</h3>
