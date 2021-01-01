@@ -91,7 +91,7 @@
 <link rel="stylesheet" href="/css/bootstrap.min.css"/>
 <link rel="stylesheet" href="/css/airspace.css"/>
 <link rel="stylesheet" href="/css/style.css"/>
-{% for stylesheet in ['font-awesome.min.css', 'animate.css', 'responsive.css' ] %}
+{% for stylesheet in ['font-awesome.min.css', 'responsive.css' ] %}
     <link rel="preload" href="/css/{{stylesheet}}" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/css/{{stylesheet}}"></noscript>
 {% endfor %}
