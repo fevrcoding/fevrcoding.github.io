@@ -16,6 +16,7 @@
   "homepage": "https://github.com/fevrcoding/fevrcoding.github.io",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy-img": "^0.6.0",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
     "eslint": "^7.16.0",
     "eslint-config-prettier": "^7.1.0",
