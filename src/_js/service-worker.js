@@ -1,22 +1,18 @@
 /* eslint-disable no-undef */
 const cacheName = 'fevr-v2-cache';
-
-// import workbox
-importScripts(
-  'https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js',
-);
-const { routing, strategies } = workbox;
+import { registerRoute } from 'workbox-routing';
+import { StaleWhileRevalidate, NetworkFirst } from 'workbox-strategies';
 
 const listRegExp = /^\/(index\.html|eventi\/index\.html)/;
 
-routing.registerRoute(
+registerRoute(
   ({ url }) => !listRegExp.test(url.pathname),
-  new strategies.StaleWhileRevalidate({ cacheName }),
+  new StaleWhileRevalidate({ cacheName }),
 );
 
-routing.registerRoute(
+registerRoute(
   ({ url }) => listRegExp.test(url.pathname),
-  new strategies.NetworkFirst({ cacheName: cacheName + '-list' }),
+  new NetworkFirst({ cacheName: cacheName + '-list' }),
 );
 
 // removes all caches not named <cacheName>
