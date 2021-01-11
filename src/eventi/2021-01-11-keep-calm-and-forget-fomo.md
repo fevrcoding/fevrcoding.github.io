@@ -2,8 +2,8 @@
 title: Keep calm and forget FOMO
 image: /img/contents/gennaio21.jpg
 cover: /img/contents/660.jpg
-date: 2021-01-11T12:47:57.505Z
-date_end: 2021-01-11T12:47:57.535Z
+date: 2021-01-27T18:00:57.505Z
+date_end: 2021-01-27T19:30:57.535Z
 permalink: /eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html
 published: true
 featured: true
