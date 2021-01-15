@@ -8,7 +8,7 @@ permalink: /eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.h
 published: true
 featured: true
 event:
-  auto_meta: false
+  auto_meta: true
   location: Facebook Live
   speaker: Stefano Magni
   location_url: https://www.facebook.com/groups/frontendersverona/
