@@ -51,11 +51,11 @@
           </ul>
         </section>
         <p>
-          Theme by <a href="http://www.themefisher.com" target="_blank">Themefisher</a>
+          Theme by <a href="http://www.themefisher.com" rel="noopener" target="_blank">Themefisher</a>
           -
-          <a href="/sitemap.xml" target="_blank" aria-label="Mappa del sito">Sitemap</a>
+          <a href="/sitemap.xml" aria-label="Mappa del sito">Sitemap</a>
           -
-          <a href="/feed.xml" target="_blank" aria-label="Feed RSS">
+          <a href="/feed.xml" aria-label="Feed RSS">
             <span aria-hidden="true" class="fa fa-rss" style="color: #f26522"></span> Feed</a>
 
           <br>
@@ -67,3 +67,22 @@
     </div>
   </div>
 </footer>
+<script type="module">
+  const toggler = document.querySelector('.navbar-toggle');
+  if (toggler) {
+    const target = document.querySelector(toggler.dataset.target)
+    toggler.addEventListener('click', (e) => {
+      e.preventDefault();
+      const opened = !toggler.classList.contains('collapsed')
+      toggler.classList[opened ? 'add' : 'remove']('collapsed')
+      toggler.setAttribute('aria-expanded', String(!opened))
+      target.classList[opened ? 'remove' : 'add']('in')
+      if (opened) {
+      }
+    })
+  }
+
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js');
+  }
+</script>

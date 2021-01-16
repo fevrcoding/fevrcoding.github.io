@@ -1,6 +1,8 @@
 const yaml = require('js-yaml');
+const { join } = require('path');
 const rss = require('@11ty/eleventy-plugin-rss');
 const { DateTime } = require('luxon');
+const Image = require('@11ty/eleventy-img');
 const markdown = require('markdown-it')({
   html: true,
 });
@@ -30,12 +32,40 @@ const MONTHS = [
   'Dicembre',
 ];
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
   const assets = ['js', 'css', 'fonts', 'img', 'odx-assets', 'admin'];
 
   for (const folder of assets) {
     eleventyConfig.addPassthroughCopy({ [`static/${folder}`]: folder });
   }
+
+  eleventyConfig.addNunjucksAsyncShortcode(
+    'image',
+    async function (
+      src,
+      alt,
+      imgClass = 'img-rounded img-responsive center-block',
+    ) {
+      if (alt === undefined) {
+        // You bet we throw an error on missing alt (alt="" works okay)
+        throw new Error(`Missing \`alt\` on myImage from: ${src}`);
+      }
+
+      const image = await Image(join('static', src), {
+        widths: [null],
+        formats: ['webp', 'jpeg'],
+        urlPath: '/img/',
+        outputDir: './_site/img/',
+      });
+
+      const { url, width, height } = image.jpeg[0];
+
+      return `<picture>
+      <source srcset="${image.webp[0].url}" type="image/webp" />
+      <img class="${imgClass}" src="${url}" width="${width}" height="${height}" alt="${alt}" loading="lazy" />
+    </picture>`;
+    },
+  );
 
   eleventyConfig.addPlugin(rss);
 
@@ -94,7 +124,7 @@ module.exports = function(eleventyConfig) {
   });
 
   // redirect collection
-  eleventyConfig.addCollection('redirects', function(collection) {
+  eleventyConfig.addCollection('redirects', function (collection) {
     const redirs = collection.getAll().filter(({ data }) => data.redirect_from);
     const redirects = new Map();
     for (item of redirs) {

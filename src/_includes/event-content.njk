@@ -12,6 +12,7 @@
               <a
             href="https://www.eventbrite.it/e/{{event.eventbrite}}"
             class="btn btn-warning"
+            rel="noopener"
             target="_blank"
             >Eventbrite</a
           >
@@ -23,6 +24,7 @@
             href="{{event.youtube}}"
             class="btn btn-danger"
             target="_blank"
+            rel="noopener"
             >Video</a
           >
             </li>
@@ -33,6 +35,7 @@
             href="{{event.facebooklive}}"
             class="btn btn-danger"
             target="_blank"
+            rel="noopener"
             >Video</a
           >
             </li>
@@ -43,20 +46,21 @@
             href="https://vimeo.com/album/{{event.videogallery}}"
             class="btn btn-danger"
             target="_blank"
+            rel="noopener"
             >Video</a
           >
             </li>
           {% endif %}
           {% if event.foto %}
             <li>
-              <a href="{{event.foto}}" class="btn btn-primary" target="_blank"
+              <a href="{{event.foto}}" class="btn btn-primary" rel="noopener" target="_blank"
             >Foto</a
           >
             </li>
           {% endif %}
           {% if event.spotifypodcast %}
             <li>
-              <a href="{{event.spotifypodcast}}" class="btn btn-primary" target="_blank"
+              <a href="{{event.spotifypodcast}}" class="btn btn-primary" rel="noopener" target="_blank"
             >Podcast evento</a
           >
             </li>
@@ -64,7 +68,7 @@
           {% if event.slides %}
             {%- for slide in event.slides %}
               <li>
-                <a href="{{slide.url}}" class="btn btn-success" target="_blank">
+                <a href="{{slide.url}}" class="btn btn-success" rel="noopener" target="_blank">
                   {% if event.slides.length == 1 %} Slides {% else%} Slides
             {{slide.author}}
                   {% endif %}
@@ -122,6 +126,7 @@
     <li>
       <a
         class="btn btn-info"
+        rel="noopener"
         target="_blank"
         href="http://www.facebook.com/sharer/sharer.php?u={{ site.url + page.url | urlencode }}"
       >

@@ -4,26 +4,31 @@
   "description": "Fevr static website",
   "main": "index.js",
   "scripts": {
-    "frontend": "gulp",
     "serve": "eleventy --serve",
-    "build": "eleventy"
+    "build": "ELEVENTY_ENV=production eleventy"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com:fevrcoding/fevrcoding.github.io.git"
   },
-  "author": "Luca 'Kino' Maroni",
+  "author": "FEVR",
   "license": "ISC",
   "homepage": "https://github.com/fevrcoding/fevrcoding.github.io",
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy-img": "^0.6.0",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.0",
+    "esbuild": "^0.8.28",
+    "eslint": "^7.16.0",
+    "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-prettier": "^3.1.2",
     "js-yaml": "^3.13.1",
     "luxon": "^1.22.0",
-    "prettier": "^1.19.1"
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "workbox-routing": "^6.0.2",
+    "workbox-strategies": "^6.0.2"
   }
 }
