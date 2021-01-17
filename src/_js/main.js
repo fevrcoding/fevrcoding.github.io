@@ -27,10 +27,10 @@ OneSignal.push([
   (permission) => {
     const isPushSupported = OneSignal.isPushNotificationsSupported();
     if (isPushSupported && permission === 'default') {
-      document.getElementById('notification-bar').hidden = false;
+      // document.getElementById('notification-bar').hidden = false;
     }
     OneSignal.on('notificationPermissionChange', () => {
-      document.getElementById('notification-bar').hidden = true;
+      // document.getElementById('notification-bar').hidden = true;
     });
   },
 ]);
