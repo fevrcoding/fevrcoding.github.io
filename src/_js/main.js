@@ -26,8 +26,8 @@ OneSignal.push([
   'getNotificationPermission',
   (permission) => {
     const isPushSupported = OneSignal.isPushNotificationsSupported();
-    if (isPushSupported && permission === 'default') {
-      document.getElementById('notification-bar').hidden = false;
+    if (!isPushSupported || permission !== 'default') {
+      document.getElementById('notification-bar').hidden = true;
     }
     OneSignal.on('notificationPermissionChange', () => {
       document.getElementById('notification-bar').hidden = true;
