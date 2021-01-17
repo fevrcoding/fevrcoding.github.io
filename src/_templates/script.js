@@ -24,6 +24,9 @@ module.exports = class Scripts {
         'process.env.NODE_ENV': JSON.stringify(
           process.env.ELEVENTY_ENV || 'development',
         ),
+        'process.env.ELEVENTY_ENV': JSON.stringify(
+          process.env.ELEVENTY_ENV || 'development',
+        ),
       },
     });
     return outputFiles[0].contents;

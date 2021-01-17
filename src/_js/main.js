@@ -1,6 +1,4 @@
-/* global firebase */
-import { FIREBASE_CONFIG, VAPID_KEY } from './modules/constants';
-
+/* global OneSignal */
 const toggler = document.querySelector('.navbar-toggle');
 
 if (toggler) {
@@ -14,83 +12,50 @@ if (toggler) {
   });
 }
 
-async function subscribe(sw) {
-  const result = await Notification.requestPermission();
-
-  if (result !== 'granted' || !window.firebase) {
-    return;
-  }
-  // Initialize Firebase
-
-  firebase.initializeApp(FIREBASE_CONFIG);
-
-  const messaging = firebase.messaging();
-
-  try {
-    const token = await messaging.getToken({
-      serviceWorkerRegistration: sw,
-      vapidKey: VAPID_KEY,
-    });
-    if (!token) {
-      return;
-    }
-
-    console.log(token);
-    document.getElementById('token').textContent = token;
-  } catch (err) {
-    console.error('An error occurred while retrieving token. ', err);
-  }
-
-  messaging.onMessage((payload) => {
-    console.log('Message received. ', payload);
+window.OneSignal = window.OneSignal || [];
+OneSignal.push(function () {
+  OneSignal.init({
+    appId:
+      process.env.ELEVENTY_ENV !== 'production'
+        ? '7fd49bb1-4042-42fe-acbc-d75e77584ada'
+        : '3a8c18f3-02ec-469c-ae86-11d0eed8f39c',
   });
-}
+});
 
-// async function notify() {
-//   const result = await Notification.requestPermission();
-//   if (result !== 'granted') {
-//     return;
+OneSignal.push([
+  'getNotificationPermission',
+  (permission) => {
+    const isPushSupported = OneSignal.isPushNotificationsSupported();
+    if (isPushSupported && permission === 'default') {
+      document.getElementById('notification-bar').hidden = false;
+    }
+    OneSignal.on('notificationPermissionChange', () => {
+      document.getElementById('notification-bar').hidden = true;
+    });
+  },
+]);
+
+// function registerNotifier() {
+//   const hideNotificationBar =
+//     localStorage.getItem('notificationBar') === 'hide';
+//   if (!hideNotificationBar) {
+//     const bar = document.getElementById('notification-bar');
+
+//     const closeBar = () => {
+//       bar.hidden = true;
+//       localStorage.setItem('notificationBar', 'hide');
+//     };
+
+//     bar.hidden = false;
+//     bar.querySelector('button.close').addEventListener('click', closeBar);
+
+//     bar.querySelector('.btn.btn-link').addEventListener('click', async () => {
+//       await Notification.requestPermission();
+//       closeBar();
+//     });
 //   }
-//   const body = 'hello';
-//   const icon = '/apple-touch-icon.png';
-//   new Notification('Hello!', {
-//     body,
-//     icon,
-//   });
 // }
 
-function registerNotifier(sw) {
-  const hideNotificationBar =
-    localStorage.getItem('notificationBar') === 'hide';
-  if (!hideNotificationBar) {
-    const bar = document.getElementById('notification-bar');
-
-    const closeBar = () => {
-      bar.hidden = true;
-      localStorage.setItem('notificationBar', 'hide');
-    };
-
-    bar.hidden = false;
-    bar.querySelector('button.close').addEventListener('click', closeBar);
-
-    bar.querySelector('.btn.btn-link').addEventListener('click', async () => {
-      const result = await Notification.requestPermission();
-      closeBar();
-      if (result === 'granted') {
-        subscribe(sw);
-      }
-    });
-  } else {
-    subscribe(sw);
-  }
-}
-
-if (process.env.NODE_ENV === 'production') {
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker
-      .register('/service-worker.js')
-      .then(registerNotifier);
-  }
-} else {
-  registerNotifier();
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/OneSignalSDKWorker.js');
 }
