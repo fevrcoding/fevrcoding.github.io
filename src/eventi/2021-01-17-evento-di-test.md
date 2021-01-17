@@ -5,7 +5,7 @@ cover: /img/contents/2015-aprile-hero.jpg
 date: 2015-01-17T08:50:00.000Z
 date_end: 2015-01-17T08:50:00.000Z
 permalink: /eventi/{{ page.date | dateslug }}/{{ page.fileSlug | slug }}/index.html
-published: true
+published: false
 featured: false
 event:
   auto_meta: false
