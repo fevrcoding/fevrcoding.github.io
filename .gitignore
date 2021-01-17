@@ -13,3 +13,4 @@ convert
 
 # Local Netlify folder
 .netlify
+/netlify_functions

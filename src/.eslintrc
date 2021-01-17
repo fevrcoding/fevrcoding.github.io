@@ -25,6 +25,12 @@
       "env": {
         "serviceworker": true
       }
+    },
+    {
+      "files": ["**/netlify_functions/**/*.js"],
+      "env": {
+        "node": true
+      }
     }
   ]
 }
