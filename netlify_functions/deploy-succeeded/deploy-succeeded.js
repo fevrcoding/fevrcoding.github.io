@@ -46,23 +46,27 @@ exports.handler = async function ({ body = '{}' }) {
   if (!eventTitle) {
     return response(eventTxt);
   }
+  try {
+    await axios.post(
+      'https://onesignal.com/api/v1/notifications',
+      {
+        included_segments: ['Active Users'],
+        app_id: ONE_SIGNAL_APP_ID,
+        headings: {
+          en: 'Nuovo evento!',
+        },
+        contents: {
+          en: eventTitle,
+        },
+        web_url: 'https://www.fevr.it/',
+      },
+      {
+        headers: { Authorization: `Basic ${ONE_SIGNAL_API_KEY}` },
+      },
+    );
+  } catch (err) {
+    return response(err.toString());
+  }
 
-  axios.post(
-    'https://onesignal.com/api/v1/notifications',
-    {
-      included_segments: ['Active Users'],
-      app_id: ONE_SIGNAL_APP_ID,
-      headings: {
-        en: 'Nuovo evento!',
-      },
-      contents: {
-        en: eventTitle,
-      },
-      web_url: 'https://www.fevr.it/',
-    },
-    {
-      headers: { Authorization: `Basic ${ONE_SIGNAL_API_KEY}` },
-    },
-  );
-  return response();
+  return response('completed!');
 };
