@@ -10,3 +10,6 @@ img/uploads
 # TODO: Import ignores from:  https://www.gitignore.io/api/jekyll,node,windows,linux,macos,ruby,webstorm
 
 convert
+
+# Local Netlify folder
+.netlify
