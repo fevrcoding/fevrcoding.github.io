@@ -25,6 +25,7 @@
     font-weight: bold !important;
     color: inherit !important;
     text-decoration: underline;
+    display: inline-block !important;
 }
 
 #slider{
