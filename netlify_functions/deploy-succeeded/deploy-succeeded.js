@@ -2,15 +2,18 @@ const axios = require('axios');
 
 const { ONE_SIGNAL_API_KEY, ONE_SIGNAL_APP_ID } = process.env;
 
+function response(body = '') {
+  return {
+    statusCode: 200,
+    body,
+  };
+}
+
 exports.handler = async function ({ body = '{}' }) {
   const { payload = {} } = JSON.parse(body);
 
-  const ret = {
-    statusCode: 200,
-  };
-
   if (payload.branch !== 'master') {
-    return ret;
+    return response('Nothing to do. Branch' + payload.branch);
   }
 
   const { data } = await axios.get(
@@ -21,7 +24,7 @@ exports.handler = async function ({ body = '{}' }) {
     data.commit.message.match(/fevrcoding\/cms\/event\/(.+?)\n/) || [];
 
   if (!eventPath) {
-    return ret;
+    return response(data.commit.message);
   }
 
   const eventFile = data.files.find(
@@ -30,7 +33,7 @@ exports.handler = async function ({ body = '{}' }) {
   );
 
   if (!eventFile) {
-    return ret;
+    return response(data.files.map(({ filename }) => filename));
   }
 
   const { data: eventTxt } = await axios.get(eventFile.raw_url, {
@@ -40,7 +43,7 @@ exports.handler = async function ({ body = '{}' }) {
   const [, eventTitle] = eventTxt.match(/title:(.+?)\n/) || [];
 
   if (!eventTitle) {
-    return ret;
+    return response(eventTxt);
   }
 
   axios.post(
@@ -60,5 +63,5 @@ exports.handler = async function ({ body = '{}' }) {
       headers: { Authorization: `Basic ${ONE_SIGNAL_API_KEY}` },
     },
   );
-  return ret;
+  return response();
 };
