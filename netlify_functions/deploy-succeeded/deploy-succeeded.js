@@ -3,6 +3,7 @@ const axios = require('axios');
 const { ONE_SIGNAL_API_KEY, ONE_SIGNAL_APP_ID } = process.env;
 
 function response(body = '') {
+  console.log(body);
   return {
     statusCode: 200,
     body,
