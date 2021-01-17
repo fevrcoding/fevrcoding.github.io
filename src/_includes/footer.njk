@@ -67,22 +67,3 @@
     </div>
   </div>
 </footer>
-<script type="module">
-  const toggler = document.querySelector('.navbar-toggle');
-  if (toggler) {
-    const target = document.querySelector(toggler.dataset.target)
-    toggler.addEventListener('click', (e) => {
-      e.preventDefault();
-      const opened = !toggler.classList.contains('collapsed')
-      toggler.classList[opened ? 'add' : 'remove']('collapsed')
-      toggler.setAttribute('aria-expanded', String(!opened))
-      target.classList[opened ? 'remove' : 'add']('in')
-      if (opened) {
-      }
-    })
-  }
-
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/service-worker.js');
-  }
-</script>

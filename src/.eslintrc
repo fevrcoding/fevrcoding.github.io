@@ -2,7 +2,11 @@
   "root": true,
   "extends": ["eslint:recommended", "plugin:prettier/recommended"],
   "env": {
-    "browser": true
+    "browser": true,
+    "es6": true
+  },
+  "globals": {
+    "process": true
   },
   "parserOptions": {
     "ecmaVersion": 2020,
@@ -14,5 +18,13 @@
     "block-scoped-var": "error",
     "consistent-return": "error",
     "eqeqeq": "error"
-  }
+  },
+  "overrides": [
+    {
+      "files": ["**/*-worker.js"],
+      "env": {
+        "serviceworker": true
+      }
+    }
+  ]
 }

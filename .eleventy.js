@@ -71,6 +71,8 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({ 'static/*.*': '.' });
 
+  eleventyConfig.addWatchTarget('./src/_js/');
+
   eleventyConfig.addDataExtension('yaml', (contents) =>
     yaml.safeLoad(contents),
   );
