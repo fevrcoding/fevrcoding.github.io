@@ -16,6 +16,19 @@
     text-align: center;
 }
 
+#notification-bar {
+    margin-top: -20px;
+    margin-bottom: 0;
+}
+
+#notification-bar .btn {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-weight: bold;
+    color: inherit;
+    text-decoration: underline;
+}
+
 #slider{
     background-position: 50% 50%;
     text-shadow: 1px 1px 1px rgba(0,0,0,.6);
@@ -97,7 +110,7 @@
 
 .post-area {
 padding: 40px;
-width: 100%;
+width: 100%;getbootstrap.com/docs/5.0/getting-started/introduction/
     min-height: 150px;
     background-color: white;
     border-bottom: 1px dotted #ddd;

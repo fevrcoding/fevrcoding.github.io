@@ -1,8 +1,8 @@
-/* eslint-disable no-undef */
-const cacheName = 'fevr-v2-cache';
 import { registerRoute } from 'workbox-routing';
 import { StaleWhileRevalidate, NetworkFirst } from 'workbox-strategies';
+import './modules/message-worker';
 
+const cacheName = 'fevr-v2-cache';
 const listRegExp = /^\/(index\.html|eventi\/index\.html)/;
 
 registerRoute(
