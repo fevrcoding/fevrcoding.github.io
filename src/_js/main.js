@@ -22,40 +22,19 @@ OneSignal.push(function () {
   });
 });
 
-OneSignal.push([
-  'getNotificationPermission',
-  (permission) => {
-    const isPushSupported = OneSignal.isPushNotificationsSupported();
-    if (isPushSupported && permission === 'default') {
-      // document.getElementById('notification-bar').hidden = false;
-    }
-    OneSignal.on('notificationPermissionChange', () => {
-      // document.getElementById('notification-bar').hidden = true;
-    });
-  },
-]);
-
-// function registerNotifier() {
-//   const hideNotificationBar =
-//     localStorage.getItem('notificationBar') === 'hide';
-//   if (!hideNotificationBar) {
-//     const bar = document.getElementById('notification-bar');
-
-//     const closeBar = () => {
-//       bar.hidden = true;
-//       localStorage.setItem('notificationBar', 'hide');
-//     };
-
-//     bar.hidden = false;
-//     bar.querySelector('button.close').addEventListener('click', closeBar);
-
-//     bar.querySelector('.btn.btn-link').addEventListener('click', async () => {
-//       await Notification.requestPermission();
-//       closeBar();
-//     });
-//   }
-// }
-
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/OneSignalSDKWorker.js');
+  navigator.serviceWorker.register('/OneSignalSDKWorker.js').then(() => {
+    OneSignal.push([
+      'getNotificationPermission',
+      (permission) => {
+        const isPushSupported = OneSignal.isPushNotificationsSupported();
+        if (isPushSupported && permission === 'default') {
+          document.getElementById('notification-bar').hidden = false;
+        }
+        OneSignal.on('notificationPermissionChange', () => {
+          document.getElementById('notification-bar').hidden = true;
+        });
+      },
+    ]);
+  });
 }

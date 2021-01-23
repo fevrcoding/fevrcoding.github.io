@@ -53,10 +53,10 @@ exports.handler = async function ({ body = '{}' }) {
         included_segments: ['Active Users'],
         app_id: ONE_SIGNAL_APP_ID,
         headings: {
-          en: 'Nuovo evento!',
+          en: 'Pubblicato un nuovo evento!',
         },
         contents: {
-          en: eventTitle,
+          en: `"${eventTitle}"`,
         },
         web_url: 'https://www.fevr.it/',
       },
