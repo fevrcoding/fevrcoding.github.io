@@ -11,6 +11,7 @@ event:
   auto_meta: true
   location: Facebook live
   speaker: Andrea Campaci
+  eventbrite: "140759715097"
 ---
 Ci sono diversi approcci al pattern micro-frontend, uno dei più complessi ma a mio avviso anche dei più interessanti è quello basato sui web component. 
 Nella serata vedremo i pro e contro, come impostare il nostro progetto e come far comunicare, testare, assemblare i nostri pezzi in un'unica applicazione.
