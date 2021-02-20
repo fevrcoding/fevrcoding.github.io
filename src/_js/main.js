@@ -23,16 +23,28 @@ OneSignal.push(function () {
 });
 
 if ('serviceWorker' in navigator) {
+  const bar = document.getElementById('notification-bar');
+
+  const barDismiss = localStorage.getItem('barDismiss');
+
   navigator.serviceWorker.register('/OneSignalSDKWorker.js').then(() => {
     OneSignal.push([
       'getNotificationPermission',
       (permission) => {
         const isPushSupported = OneSignal.isPushNotificationsSupported();
-        if (isPushSupported && permission === 'default') {
-          document.getElementById('notification-bar').hidden = false;
+        if (
+          isPushSupported &&
+          permission === 'default' &&
+          barDismiss !== 'dismissed'
+        ) {
+          bar.querySelector('button.close').addEventListener('click', () => {
+            bar.hidden = true;
+            localStorage.setItem('barDismiss', 'dismissed');
+          });
+          bar.hidden = false;
         }
         OneSignal.on('notificationPermissionChange', () => {
-          document.getElementById('notification-bar').hidden = true;
+          bar.hidden = true;
         });
       },
     ]);
