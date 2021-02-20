@@ -52,7 +52,7 @@ collections:
           - widget: boolean
             name: auto_meta
             label: Dettagli evento automatici
-            default: false
+            default: true
             hint: Se attivato, bio dello speaker e dettagli dell'evento saranno generati in automatico nella pagina di dettaglio.
           - widget: string
             name: speaker
