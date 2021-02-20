@@ -3,7 +3,7 @@ title: 'Sviluppatore Web App'
 subtitle: Verona e/o Padova
 date: 2017-11-29 00:00:00
 
-permalink: '/jobs/{{ page.fileSlug | slug }}/index.html'
+permalink: false #'/jobs/{{ page.fileSlug | slug }}/index.html'
 published: true
 ---
 

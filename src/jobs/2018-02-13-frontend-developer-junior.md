@@ -3,7 +3,7 @@ title: 'Frontend Developer Junior'
 subtitle: Verona
 date: 2017-02-13 00:00:00
 
-permalink: '/jobs/{{ page.fileSlug | slug }}/index.html'
+permalink: false #'/jobs/{{ page.fileSlug | slug }}/index.html'
 published: true
 ---
 
